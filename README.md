@@ -1,0 +1,37 @@
+# Forge Motion
+
+3D human workout loops for the [Forge gym app](https://github.com/Dante3750/forge-gym), rendered from code with free tools.
+
+Every movement (squat, bench press, pull-up, plank, stretches and more — 91 in total) is written as a few key poses in
+[`render/patterns.py`](render/patterns.py). A male and a female body are generated with MakeHuman, posed by a small
+joint-target solver ([`render/poser.py`](render/poser.py), [`render/body.py`](render/body.py)), dressed and lit in
+[`render/scene.py`](render/scene.py), and rendered with Blender Cycles. Every one of the 876 exercises in the app maps to
+the closest movement in [`render/map.json`](render/map.json) (built by [`render/mapper.py`](render/mapper.py)).
+
+## How it runs
+
+The **Render movements** GitHub Action renders everything in 20 parallel jobs and publishes the results to the
+`media` branch:
+
+- `v1/<movement>_<m|f>.webp` — sprite sheet, 32 frames, 8 columns, 400×400 each
+- `v1/<movement>_<m|f>.preview.webp` — small animated preview
+- `v1/index.json` — frame layout for every loop
+- `v1/map.json` — exercise id → movement
+
+Run it again from the Actions tab (optionally for just a few movements) after changing a pose.
+
+## Run locally
+
+```bash
+./setup.sh                                                  # Blender as a Python module + MPFB
+python3 render/render_one.py squat_bb m out/squat 32 400 28 # one loop
+python3 render/pack.py out/squat sheets squat_bb_m          # sprite sheet + preview
+```
+
+## Credits
+
+- Human bodies, rig and eyes: [MakeHuman](http://www.makehumancommunity.org/) assets, CC0.
+- Body generation: [MPFB](https://github.com/makehumancommunity/mpfb2), used as a build tool (GPL, not redistributed here).
+- Renderer: [Blender](https://www.blender.org/) (`bpy` from PyPI).
+
+The rendered images are released under CC0.

@@ -1,0 +1,94 @@
+name: Render movements
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated movement names (empty = all)"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths: ["render/**", "assets/**", ".github/workflows/render.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    env:
+      SHARDS: 20
+      ONLY: ${{ github.event.inputs.only }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Set up Blender + MakeHuman
+        run: ./setup.sh
+      - name: Render shard
+        run: |
+          mkdir -p frames sheets logs
+          python3 render/jobs.py ${{ matrix.shard }} $SHARDS > jobs.txt
+          cat jobs.txt
+          while read p g; do
+            [ -z "$p" ] && continue
+            echo "::group::$p $g"
+            python3 render/render_one.py "$p" "$g" "frames/${p}_${g}" 32 400 28 > "logs/${p}_${g}.log" 2>&1 || { echo "FAILED $p $g"; tail -30 "logs/${p}_${g}.log"; }
+            if ls frames/${p}_${g}/*.png >/dev/null 2>&1; then python3 render/pack.py "frames/${p}_${g}" sheets "${p}_${g}"; fi
+            echo "::endgroup::"
+          done < jobs.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sheets-${{ matrix.shard }}
+          path: sheets/
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logs-${{ matrix.shard }}
+          path: logs/
+
+  publish:
+    needs: render
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: sheets-*
+          merge-multiple: true
+          path: new
+      - name: Publish to the media branch
+        run: |
+          git fetch origin media || true
+          mkdir -p site
+          if git rev-parse --verify origin/media >/dev/null 2>&1; then git --work-tree=site checkout origin/media -- . ; fi
+          mkdir -p site/v1
+          cp -f new/* site/v1/ 2>/dev/null || true
+          cp render/map.json site/v1/map.json
+          python3 - <<'PY'
+          import glob, json, os
+          idx = {}
+          for f in sorted(glob.glob("site/v1/*.json")):
+              b = os.path.basename(f)[:-5]
+              if b in ("map", "index"): continue
+              idx[b] = json.load(open(f))
+          json.dump({"version": 1, "items": idx}, open("site/v1/index.json", "w"))
+          print(len(idx), "loops")
+          PY
+          cd site
+          git init -q -b media
+          git config user.name "forge-bot"; git config user.email "forge-bot@users.noreply.github.com"
+          git add -A && git commit -qm "Render $GITHUB_SHA"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" media

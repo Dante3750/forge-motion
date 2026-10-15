@@ -1,0 +1,6 @@
+.mpfb2/
+frames/
+sheets/
+logs/
+__pycache__/
+*.blend1
