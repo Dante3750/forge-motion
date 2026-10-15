@@ -39,12 +39,16 @@ jobs:
         run: |
           mkdir -p frames sheets logs
           python3 render/jobs.py ${{ matrix.shard }} $SHARDS > jobs.txt
+          python3 -c "import bpy, PIL; print(bpy.app.version_string)" > logs/env_${{ matrix.shard }}.txt 2>&1 || true
+          ls -la ~/.config/blender/*/extensions/user_default/ ~/.config/blender/*/extensions/.user/user_default/mpfb/data/ >> logs/env_${{ matrix.shard }}.txt 2>&1 || true
           cat jobs.txt
           while read p g; do
             [ -z "$p" ] && continue
             echo "::group::$p $g"
-            python3 render/render_one.py "$p" "$g" "frames/${p}_${g}" 32 400 28 > "logs/${p}_${g}.log" 2>&1 || { echo "FAILED $p $g"; tail -30 "logs/${p}_${g}.log"; }
-            if ls frames/${p}_${g}/*.png >/dev/null 2>&1; then python3 render/pack.py "frames/${p}_${g}" sheets "${p}_${g}"; fi
+            python3 render/render_one.py "$p" "$g" "frames/${p}_${g}" 32 400 24 > "logs/${p}_${g}.log" 2>&1 || { echo "FAILED $p $g"; tail -30 "logs/${p}_${g}.log"; }
+            if ls frames/${p}_${g}/a/*.png >/dev/null 2>&1; then python3 render/pack.py "frames/${p}_${g}/a" sheets "${p}_${g}"; fi
+            if ls frames/${p}_${g}/b/*.png >/dev/null 2>&1; then python3 render/pack.py "frames/${p}_${g}/b" sheets "${p}_${g}_b"; fi
+            ls -R frames/${p}_${g} | head -5 >> "logs/${p}_${g}.log" 2>&1 || true
             echo "::endgroup::"
           done < jobs.txt
       - uses: actions/upload-artifact@v4
@@ -69,23 +73,39 @@ jobs:
           pattern: sheets-*
           merge-multiple: true
           path: new
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: logs-*
+          merge-multiple: true
+          path: logs
+      - name: Publish logs
+        if: always()
+        run: |
+          mkdir -p L && cp -r logs/* L/ 2>/dev/null || true
+          ls new > L/sheets.txt 2>/dev/null || true
+          cd L
+          git init -q -b ci-logs
+          git config user.name "forge-bot"; git config user.email "forge-bot@users.noreply.github.com"
+          git add -A && git commit -qm "logs $GITHUB_SHA" && git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" ci-logs || true
       - name: Publish to the media branch
         run: |
           git fetch origin media || true
           mkdir -p site
           if git rev-parse --verify origin/media >/dev/null 2>&1; then git --work-tree=site checkout origin/media -- . ; fi
-          mkdir -p site/v1
-          cp -f new/* site/v1/ 2>/dev/null || true
-          cp render/map.json site/v1/map.json
+          mkdir -p site/v2
+          cp -f new/* site/v2/ 2>/dev/null || true
+          cp render/map.json site/v2/map.json
           python3 - <<'PY'
           import glob, json, os
-          idx = {}
-          for f in sorted(glob.glob("site/v1/*.json")):
-              b = os.path.basename(f)[:-5]
-              if b in ("map", "index"): continue
-              idx[b] = json.load(open(f))
-          json.dump({"version": 1, "items": idx}, open("site/v1/index.json", "w"))
-          print(len(idx), "loops")
+          for v in ("v1", "v2"):
+              if not os.path.isdir(f"site/{v}"): continue
+              idx = {}
+              for f in sorted(glob.glob(f"site/{v}/*.json")):
+                  b = os.path.basename(f)[:-5]
+                  if b in ("map", "index"): continue
+                  idx[b] = json.load(open(f))
+              json.dump({"items": idx}, open(f"site/{v}/index.json", "w"))
+              print(v, len(idx), "loops")
           PY
           cd site
           git init -q -b media

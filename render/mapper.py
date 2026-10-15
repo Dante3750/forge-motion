@@ -49,6 +49,7 @@ def classify(e):
     if has(n, "plank", "hollow", "dead bug", "bird dog"): return "plank"
     if has(n, "hyperextension", "back extension", "superman", "reverse hyper"): return "back_ext"
     if has(n, "hip thrust", "hip lift"): return "hip_thrust_bb"
+    if has(n, "single leg", "one leg", "one legged", "single legged") and has(n, "bridge", "hip raise", "butt lift"): return "glute_bridge_single"
     if has(n, "glute bridge", "bridge", "butt lift", "hip raise", "glute kickback", "donkey", "fire hydrant", "clam"): return "glute_bridge"
     if has(n, "good morning"): return "good_morning"
     if has(n, "romanian", "stiff leg", "stiff legged", " rdl", "single leg deadlift"): return "rdl_db" if (db or not bb) else "rdl_bb"
@@ -61,8 +62,11 @@ def classify(e):
     if has(n, "leg curl", "hamstring curl", "glute ham", "nordic"): return "leg_curl"
     if has(n, "calf", "calves", "heel raise", "toe raise"): return "calf_raise_seated" if has(n, "seated") else "calf_raise"
     if has(n, "step up", "stepup"): return "step_up"
+    if has(n, "wall sit", "wall squat", "chair pose"): return "wall_sit"
     if has(n, "split squat", "bulgarian"): return "split_squat"
-    if has(n, "lunge"): return "lunge_bb" if bb else "lunge_db" if (db or kb) else "lunge"
+    if has(n, "lunge"):
+        if has(n, "goblet"): return "goblet_lunge"
+        return "lunge_bb" if bb else "lunge_db" if (db or kb) else "lunge"
     if has(n, "jump squat", "squat jump", "tuck jump", "frog jump", "jump", "hop", "bound", "split jump", "lateral jump", "plyo"): return "jump_squat"
     if has(n, "front squat", "zercher"): return "squat_front_bb"
     if has(n, "goblet"): return "squat_goblet"
@@ -74,23 +78,32 @@ def classify(e):
     if has(n, "fly", "flye", "pec deck", "crossover", "butterfly"):
         if has(n, "reverse", "rear"): return "rear_fly"
         return "cable_fly" if (cable or eq == "machine") else "fly_db"
-    if has(n, "push up", "pushup", "push ups", "pushups", "press up"): return "pushup"
+    if has(n, "push up", "pushup", "push ups", "pushups", "press up"):
+        if has(n, "incline"): return "pushup_incline"
+        if has(n, "pike", "handstand"): return "pike_pushup"
+        if has(n, "close", "diamond", "triangle"): return "diamond_pushup"
+        if has(n, "knee", "kneeling", "modified"): return "pushup_knee"
+        return "pushup"
     if has(n, "dip"): return "bench_dip" if has(n, "bench") else "dips"
     if has(n, "skull", "lying triceps", "french press", "tate press", "jm press", "lying close grip triceps"): return "skullcrusher"
     if has(n, "pushdown", "push down", "pressdown"): return "pushdown"
     if has(n, "kickback", "kick back"): return "kickback"
     if pm == "triceps" and has(n, "extension", "overhead"): return "oh_ext"
+    if has(n, "floor press") and db and not bb: return "floor_press_db"
     if has(n, "bench press", "floor press", "chest press", "board press", "pin press", "close grip bench", "close grip press"):
         inc = has(n, "incline")
         if db and not bb: return "incline_db" if inc else "bench_db"
         return "incline_bb" if inc else "bench_bb"
-    if has(n, "lateral raise", "side raise", "side lateral", "lateral delt", "y raise", "lu raise"): return "lateral_raise" if not has(n, "rear", "bent over") else "rear_fly"
+    if has(n, "lateral raise", "side raise", "side lateral", "lateral delt", "y raise", "lu raise"):
+        if has(n, "rear", "bent over"): return "rear_fly"
+        return "cable_lateral" if cable else "lateral_raise"
     if has(n, "front raise", "front plate raise") or (has(n, "front", "incline shoulder", "deltoid", "scaption", "straight raises") and has(n, "raise")): return "front_raise"
     if has(n, "rotation") and pm == "shoulders": return "lateral_raise"
     if has(n, "rear delt", "reverse fly", "rear lateral", "bent over lateral", "reverse flye"): return "rear_fly"
     if has(n, "upright row"): return "upright_row"
     if has(n, "face pull"): return "face_pull"
     if has(n, "shrug"): return "shrug"
+    if has(n, " row", "rows") and has(n, "one arm", "single arm", "one-arm") and (db or kb): return "row_db_single"
     if has(n, " row", "rows"):
         if cable or has(n, "seated"): return "row_cable"
         return "row_bb" if (bb or has(n, "t bar", "inverted", "pendlay")) else "row_db"
@@ -122,8 +135,8 @@ if __name__ == "__main__":
         r = classify(e)
         if r.endswith("|fb"): r = r[:-3]; fbs.append((e["name"], e.get("equipment"), r))
         m[e["id"]] = r
+    json.dump(m, open(sys.argv[2], "w"), indent=0, sort_keys=True)
     c = collections.Counter(m.values())
     print(len(c), c.most_common())
     print("fallbacks", len(fbs))
     for f in fbs: print("  ", f)
-    json.dump(m, open(sys.argv[2], "w"), indent=0, sort_keys=True)

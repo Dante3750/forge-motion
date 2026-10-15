@@ -18,14 +18,25 @@ def lerp(a, b, t):
 
 def ease(t): return 0.5 - 0.5 * math.cos(math.pi * t)
 
-def pose_at(keys, t):
-    """keys: list of poses visited in order and back to the first (loop). t in [0,1)."""
+def pose_at(keys, t, tempo=None, hold=0.06):
+    """keys: poses visited in order and back to the first (loop). t in [0,1).
+    tempo: relative duration of each segment (e.g. slow lowering, faster lifting). A short hold sits at each key."""
     n = len(keys)
     if n == 1: return keys[0]
     seq = keys + [keys[0]] if n > 2 else [keys[0], keys[1], keys[0]]
     segs = len(seq) - 1
-    x = t * segs; i = min(int(x), segs - 1); f = ease(x - i)
-    return lerp(seq[i], seq[i + 1], f)
+    w = list(tempo) if tempo and len(tempo) == segs else [1.0] * segs
+    tot = sum(w); acc = 0.0
+    for i in range(segs):
+        d = w[i] / tot
+        if t < acc + d or i == segs - 1:
+            x = min(max((t - acc) / d, 0.0), 1.0)
+            # hold briefly at the start of each segment, then a smooth, slightly front-loaded move
+            x = min(max((x - hold) / (1 - 2 * hold), 0.0), 1.0)
+            f = x * x * x * (x * (6 * x - 15) + 10)
+            return lerp(seq[i], seq[i + 1], f)
+        acc += d
+    return seq[-1]
 
 # ---------- props ----------
 def pmat(name, col, rough=0.35, metal=0.0):
@@ -169,13 +180,19 @@ CAMS = {
     "front": ((0.6, -3.6, 1.2), (0, 0, 0.9), 50),
     "lying": ((2.6, -2.2, 1.5), (0, 0.15, 0.45), 45),
     "hang": ((2.5, -3.1, 1.75), (0, 0, 1.30), 40),
+    "side_hang": ((3.6, -1.1, 1.6), (0, 0.05, 1.30), 40),
+    "front34_low": ((1.9, -2.9, 0.95), (0, 0.10, 0.38), 45),
+    "lying_b": ((2.3, 2.3, 1.7), (0, 0.15, 0.62), 45),
     "bar34": ((2.4, -2.7, 1.25), (0, 0.05, 0.85), 48),
     "floor": ((3.0, -1.6, 1.1), (0, 0.15, 0.3), 45),
     "front_low": ((1.0, -3.4, 0.9), (0, 0, 0.7), 48),
     "back34": ((2.4, 2.6, 1.3), (0, 0.0, 0.9), 48),
 }
 
-def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, only=None):
+ALT = {"side": "front34", "front34": "side", "bar34": "side", "lying": "lying_b", "floor": "front34_low", "front": "side",
+       "hang": "side_hang", "side_low": "front34", "front_low": "side", "back34": "side"}
+
+def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, only=None, angles=("a",)):
     h, rig = make_human(female)
     cam = stage(female)
     sc = bpy.context.scene
@@ -188,6 +205,7 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
         for o in make_pullbar(spec.get("pullbar_z", 2.15)): pass
     ez = make_barbell(False) if "ezbar" in props else None
     dbs = [make_dumbbell(), make_dumbbell()] if "dumbbells" in props else []
+    if "dumbbells_R" in props: dbs = [None, make_dumbbell()]
     if "bench" in props: make_bench(**spec.get("bench", {}))
     if "mat" in props: make_mat()
     if "box" in props: make_box(**spec.get("box", {}))
@@ -204,12 +222,15 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
     for fd in spec.get("follow", []):
         o = box(fd["size"], (0, 0, 0), pmat(fd.get("mat", "frame"), (0.08, 0.085, 0.09) if fd.get("mat", "frame") == "frame" else (0.015, 0.016, 0.018), 0.4, 0.6 if fd.get("mat", "frame") == "frame" else 0.0))
         follows.append((o, fd))
-    cl, ct, lens = CAMS[spec.get("cam", "side")]
-    cam.data.lens = lens; aim(cam, cl, ct)
-    os.makedirs(outdir, exist_ok=True)
+    cam_names = {"a": spec.get("cam", "side")}
+    cam_names["b"] = spec.get("cam_b", ALT.get(cam_names["a"], "front34"))
+    for ang in angles: os.makedirs(os.path.join(outdir, ang) if len(angles) > 1 else outdir, exist_ok=True)
     for f in range(frames):
         if only is not None and f not in only: continue
-        P = pose_at(spec["keys"], f / frames)
+        P = dict(pose_at(spec["keys"], f / frames, spec.get("tempo")))
+        br = math.sin(2 * math.pi * f / frames)
+        P["torso"] = P.get("torso", 0.0) + 0.8 * br
+        P["head"] = P.get("head", 0.0) + 1.2 * math.sin(2 * math.pi * f / frames + 1.0)
         pose_body(poser, P)
         gl, gr = grip_point(poser, "L"), grip_point(poser, "R")
         for o in (bar, ez):
@@ -218,6 +239,7 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
             o.matrix_world = Matrix.Translation(c) @ Vector((1, 0, 0)).rotation_difference(ax).to_matrix().to_4x4()
         dbax = P.get("db_axis")
         for o, s in zip(dbs, ("L", "R")):
+            if o is None: continue
             M = poser.posed["wrist." + s]
             ax = Vector(dbax).normalized() if dbax else (M.to_3x3() @ Vector((1, 0, 0))).normalized()
             o.matrix_world = Matrix.Translation(grip_point(poser, s)) @ Vector((1, 0, 0)).rotation_difference(ax).to_matrix().to_4x4()
@@ -239,5 +261,8 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
         if mball is not None: mball.location = (gl + gr) / 2 + Vector(P.get("ball_off", (0, -0.06, 0)))
         if sball is not None: sball.location = Vector(P.get("sball", (0, 0.0, 0.32)))
         if roller is not None: roller.location = Vector(P.get("roller", (0, 0.4, 0.075)))
-        sc.render.filepath = os.path.join(outdir, "%02d.png" % f)
-        bpy.ops.render.render(write_still=True)
+        for ang in angles:
+            cl, ct, lens = CAMS[cam_names[ang]]
+            cam.data.lens = lens; aim(cam, cl, ct)
+            sc.render.filepath = os.path.join(outdir, ang, "%02d.png" % f) if len(angles) > 1 else os.path.join(outdir, "%02d.png" % f)
+            bpy.ops.render.render(write_still=True)

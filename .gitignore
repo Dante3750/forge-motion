@@ -4,3 +4,4 @@ sheets/
 logs/
 __pycache__/
 *.blend1
+.mhassets/

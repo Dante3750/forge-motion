@@ -7,4 +7,5 @@ frames = int(args[3]) if len(args) > 3 else 32
 res = int(args[4]) if len(args) > 4 else 400
 samples = int(args[5]) if len(args) > 5 else 28
 exec(open("scene.py").read()); exec(open("body.py").read()); exec(open("anim.py").read()); exec(open("patterns.py").read())
-render_pattern(name, P[name], g == "f", out, frames=frames, res=res, samples=samples)
+angles = tuple(os.environ.get("ANGLES", "a,b").split(","))
+render_pattern(name, P[name], g == "f", out, frames=frames, res=res, samples=samples, angles=angles)

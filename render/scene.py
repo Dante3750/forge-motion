@@ -2,6 +2,9 @@ import os
 import bpy, math, mathutils
 from mathutils import Vector, Matrix
 exec(open("boot.py").read())
+exec(open("look.py").read())
+REALISTIC = _asset("skins", "young_caucasian_male", ".mhmat") is not None and os.environ.get("FORGE_LOOK", "real") == "real"
+print("REALISTIC", REALISTIC)
 
 def rest_coords(h):
     states = [(m, m.show_viewport) for m in h.modifiers]
@@ -36,6 +39,15 @@ def make_human(female):
     HOP.set_value("height", 0.5, entity_reference=h)
     TargetService.reapply_macro_details(h)
     rig = HumanService.add_builtin_rig(h, "default")
+    if REALISTIC:
+        try:
+            eyes = HumanService.add_mhclo_asset(EYES, h, asset_type="Eyes", material_type="MAKESKIN")
+        except Exception as e:
+            print("EYES FAIL", repr(e))
+        dress(h, rig, female, os.environ.get("FORGE_TONE", "medium"))
+        for p in h.data.polygons: p.use_smooth = True
+        sub = h.modifiers.new("sub", "SUBSURF"); sub.levels = 1; sub.render_levels = 1
+        return h, rig
     co = rest_coords(h)
     me = h.data
     def ss(e0, e1, x):
@@ -166,7 +178,7 @@ def stage(female=False):
         d = Vector(rot_to) - Vector(loc); o.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
     light("key", (-2.2, -2.6, 3.0), 420, (1, 0.98, 0.95), 2.0)
     light("fill", (2.8, -1.8, 1.2), 120, (0.85, 0.9, 1.0), 3.0)
-    light("rim", (1.6, 2.6, 2.4), 500, (0.85, 1.0, 0.45), 1.0)
+    light("rim", (1.6, 2.6, 2.4), 520, (0.95, 1.0, 0.88), 1.0)
     light("rim2", (-2.0, 2.4, 1.6), 400, (0.9, 0.95, 1.0), 1.0)
     cam = bpy.data.cameras.new("cam"); cam.lens = 55
     co = bpy.data.objects.new("cam", cam); sc.collection.objects.link(co); sc.camera = co

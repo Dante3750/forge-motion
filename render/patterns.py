@@ -24,7 +24,7 @@ bb = dict(hands=BACKBAR, elbow=LR((0.5, 0.8, -1)), grip=LR(0.8))
 P["squat_bb"] = dict(cam="bar34", props=["barbell"], keys=[mk(sq_top, **bb), mk(sq_bot, **bb)])
 fr = dict(hands=tor(0.19, -0.17, -0.10), elbow=LR((0.15, -1, 0.35)), grip=LR(0.5))
 P["squat_front_bb"] = dict(cam="bar34", props=["barbell"], keys=[mk(sq_top, **fr), mk(sq_bot, torso=24, pelvis_tilt=20, pelvis=(0, 0.18, 0.50), **{k: v for k, v in sq_bot.items() if k not in ("torso", "pelvis_tilt", "pelvis")}, **fr)])
-gb = dict(hands=tor(0.06, -0.17, -0.28), elbow=LR((0.3, 0.2, -1)), grip=LR(0.8), db_axis=(0, 0, 1))
+gb = dict(hands=tor(0.07, -0.13, -0.30), elbow=LR((0.3, 0.2, -1)), grip=LR(0.8), db_axis=(0, 0, 1), db_off=(0, 0.05, 0.02))
 P["squat_goblet"] = dict(cam="side", props=["dumbbell"], keys=[mk(sq_top, **gb), mk(sq_bot, torso=30, **{k: v for k, v in sq_bot.items() if k != "torso"}, **gb)])
 P["squat_bw"] = dict(cam="side", props=[], keys=[
     mk(sq_top, hands=LR((0.17, -0.58, 1.30)), elbow=LR((0.4, 0.3, -1)), grip=LR(0.2)),
@@ -117,7 +117,7 @@ P["incline_bb"] = dict(cam="lying", props=["barbell"], benches=INCB, keys=[
 P["incline_db"] = dict(cam="lying", props=["dumbbells"], benches=INCB, keys=[
     mk(INC, hands=LR((0.17, 0.30, 1.42)), elbow=LR((1, 0.3, -0.4)), db_axis=(1, 0, 0)), mk(INC, hands=LR((0.34, 0.24, 1.06)), elbow=LR((1, 0.3, -0.4)), db_axis=(1, 0, 0))])
 P["pushup"] = dict(cam="side", props=["mat"], keys=[
-    dict(pelvis=(0, 0.30, 0.47), pelvis_tilt=78, torso=74, head=8, feet=LR((0.12, 1.12, 0.10)), toes=LR(0),
+    dict(pelvis=(0, 0.30, 0.43), pelvis_tilt=78, torso=76, head=8, feet=LR((0.12, 1.12, 0.10)), toes=LR(0),
          foot_pitch=LR(95), knee=LR((0, 0, -1)), hands=LR((0.24, -0.38, 0.06)), elbow=LR((0.6, 0.6, 0.6)), grip=LR(0.05)),
     dict(pelvis=(0, 0.30, 0.25), pelvis_tilt=88, torso=88, head=10, feet=LR((0.12, 1.15, 0.10)), toes=LR(0),
          foot_pitch=LR(95), knee=LR((0, 0, -1)), hands=LR((0.24, -0.38, 0.06)), elbow=LR((0.8, 0.6, 0.6)), grip=LR(0.05))])
@@ -318,3 +318,45 @@ P["foam_roll"] = dict(cam="floor", props=["roller"], keys=[FR, mk(FR, pelvis=(0,
 P["curl_db"] = dict(cam="front34", props=["dumbbells"], keys=[
     mk(OH, hands=tor(0.2, -0.02, -0.55), elbow=LR((0.0, 0.4, -1)), grip=LR(0.85), db_axis=(1, 0, 0)),
     mk(OH, hands=tor(0.19, -0.30, -0.12), elbow=LR((0.0, 0.4, -1)), grip=LR(0.85), db_axis=(1, 0, 0))])
+
+# ---------------- home-friendly variants ----------------
+P["floor_press_db"] = dict(cam="floor", props=["mat", "dumbbells"], keys=[
+    mk(SUP, hands=LR((0.18, 0.40, 0.72)), elbow=LR((1, 0, -0.5)), grip=LR(0.85), db_axis=(1, 0, 0)),
+    mk(SUP, hands=LR((0.30, 0.36, 0.34)), elbow=LR((1, 0, -0.6)), grip=LR(0.85), db_axis=(1, 0, 0))])
+PI = dict(pelvis=(0, 0.32, 0.70), pelvis_tilt=58, torso=56, head=8, feet=LR((0.12, 0.98, 0.10)), toes=LR(0), foot_pitch=LR(70),
+          knee=LR((0, 0, -1)), hands=LR((0.25, -0.46, 0.48)), elbow=LR((0.6, 0.6, 0.4)), grip=LR(0.05), wrist_dir=LR((0, -1, 0.2)))
+P["pushup_incline"] = dict(cam="side", props=[], benches=[dict(y0=-0.55, length=0.42, height=0.45)], keys=[PI, mk(PI, pelvis=(0, 0.30, 0.55), pelvis_tilt=66, torso=66, elbow=LR((0.8, 0.6, 0.6)))])
+PK = dict(pelvis=(0, 0.20, 0.98), pelvis_tilt=110, torso=140, head=10, feet=LR((0.14, 0.62, 0.10)), toes=LR(0), foot_pitch=LR(60),
+          knee=LR((0, -1, 0)), hands=LR((0.22, -0.38, 0.06)), elbow=LR((0.6, 0.6, 0.4)), grip=LR(0.05), wrist_dir=LR((0, -1, 0)))
+P["pike_pushup"] = dict(cam="side", props=["mat"], keys=[PK, mk(PK, pelvis=(0, 0.16, 0.86), torso=152, elbow=LR((0.8, 0.6, 0.3)))])
+PU = P["pushup"]["keys"]
+P["diamond_pushup"] = dict(cam="front34", props=["mat"], keys=[mk(PU[0], pelvis=(0, 0.30, 0.42), hands=LR((0.06, -0.36, 0.06)), elbow=LR((0.3, 1, 0.4))),
+    mk(PU[1], hands=LR((0.06, -0.36, 0.06)), elbow=LR((0.3, 1, 0.5)))])
+P["pushup_knee"] = dict(cam="side", props=["mat"], keys=[
+    dict(pelvis=(0, 0.20, 0.42), pelvis_tilt=60, torso=66, head=8, feet=LR((0.12, 0.55, 0.06)), foot_pitch=LR(165), knee=LR((0, 0, -1)),
+         hands=LR((0.25, -0.38, 0.06)), elbow=LR((0.6, 0.6, 0.6)), grip=LR(0.05)),
+    dict(pelvis=(0, 0.20, 0.26), pelvis_tilt=75, torso=84, head=10, feet=LR((0.12, 0.58, 0.06)), foot_pitch=LR(165), knee=LR((0, 0, -1)),
+         hands=LR((0.25, -0.38, 0.06)), elbow=LR((0.8, 0.6, 0.6)), grip=LR(0.05))])
+R1 = dict(pelvis=(0, 0.28, 0.86), pelvis_tilt=86, torso=90, head=-10, feet={"L": (0.10, 0.62, 0.50), "R": (-0.26, 0.20, 0.075)},
+          foot_pitch={"L": 170, "R": 30}, knee={"L": (0, 0, -1), "R": (-0.2, -1, 0)}, grip=LR(0.85))
+P["row_db_single"] = dict(cam="side", props=["dumbbells_R"], benches=[dict(y0=0.15, length=1.0, height=0.45)], keys=[
+    mk(R1, hands={"L": (0.14, -0.36, 0.47), "R": ("neckw", (-0.20, 0.0, -0.56))}, elbow={"L": (0.3, 0.3, 0), "R": (-0.2, 1, 0)}, db_axis=(0, 1, 0)),
+    mk(R1, hands={"L": (0.14, -0.36, 0.47), "R": ("neckw", (-0.21, 0.24, -0.30))}, elbow={"L": (0.3, 0.3, 0), "R": (-0.2, 1, 0.6)}, db_axis=(0, 1, 0))])
+WS = dict(pelvis=(0, 0.14, 0.50), pelvis_tilt=0, torso=-3, head=0, feet=LR((0.15, -0.38, 0.075)), foot_pitch=LR(30), knee=LR((0.1, -1, 0)),
+          hands=LR((0.14, -0.30, 0.56)), elbow=LR((1, 0.3, 0)), grip=LR(0.3))
+P["wall_sit"] = dict(cam="side", props=[], follow=[dict(size=(1.4, 0.1, 2.2), at="none", off=(0, 0.33, 1.1), mat="pad")], keys=[WS, mk(WS, pelvis=(0, 0.14, 0.49))])
+P["cable_lateral"] = dict(cam="front34", props=["cable"], pulley={"L": (-0.55, 0.05, 0.25), "R": (0.55, 0.05, 0.25)}, keys=[
+    mk(OH, hands=tor(0.20, -0.06, -0.56), elbow=LR((0.3, 0.6, 0)), grip=LR(0.85)), mk(OH, hands=tor(0.68, -0.05, -0.10), elbow=LR((0, 0.6, 1)), grip=LR(0.85))])
+P["goblet_lunge"] = dict(cam="side", props=["dumbbell"], keys=[mk(lg_top, **gb), mk(lg_bot, **gb)])
+P["glute_bridge_single"] = dict(cam="floor", props=["mat"], keys=[
+    mk(gbr_bot, feet={"L": (0.12, -0.32, 0.075), "R": (-0.12, -0.70, 0.40)}, foot_pitch={"L": 30, "R": -20}, knee={"L": (0.2, -0.3, 1), "R": (0, 0, 1)}),
+    mk(gbr_top, feet={"L": (0.12, -0.32, 0.075), "R": (-0.12, -0.80, 0.62)}, foot_pitch={"L": 30, "R": -20}, knee={"L": (0.2, -0.3, 1), "R": (0, 0, 1)})])
+
+# lifting first (start at the bottom): quicker up, slower down. Everything else lowers first.
+LIFT_FIRST = {"curl_bb", "curl_db", "hammer_curl", "cable_curl", "preacher_curl", "wrist_curl", "row_bb", "row_db", "row_db_single", "row_cable",
+              "pullup", "pulldown", "lateral_raise", "cable_lateral", "front_raise", "rear_fly", "shrug", "upright_row", "face_pull",
+              "hip_thrust_bb", "glute_bridge", "glute_bridge_single", "leg_extension", "leg_curl", "calf_raise", "calf_raise_seated",
+              "crunch", "situp", "leg_raise", "hanging_leg_raise", "kickback", "pushdown", "back_ext", "cable_fly", "kb_swing"}
+for _n, _s in P.items():
+    if len(_s["keys"]) == 2 and "tempo" not in _s and not _n.startswith("stretch") and _n not in ("plank", "wall_sit", "foam_roll", "jump_rope", "jumping_jack", "mountain_climber", "russian_twist"):
+        _s["tempo"] = [0.42, 0.58] if _n in LIFT_FIRST else [0.58, 0.42]

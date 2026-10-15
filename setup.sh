@@ -11,3 +11,11 @@ EXT=$(python3 -c "import bpy;print(bpy.utils.user_resource('EXTENSIONS', path='u
 mkdir -p "$EXT"
 ln -sfn "$PWD/.mpfb2/src/mpfb" "$EXT/mpfb"
 echo "MPFB linked into $EXT"
+# MakeHuman CC0 skins, hair, brows, lashes and clothes (published to the mhassets branch by the fetch workflow)
+if [ ! -d .mhassets ]; then
+  git clone --quiet --depth 1 -b mhassets "$(git config --get remote.origin.url || echo https://github.com/Dante3750/forge-motion)" .mhassets || echo "no mhassets branch, using painted look"
+fi
+DATA=$(python3 -c "import bpy;print(bpy.utils.extension_path_user('bl_ext.user_default.mpfb', create=True))" 2>/dev/null | tail -1)/data
+mkdir -p "$DATA"
+if [ -d .mhassets ]; then for d in skins hair eyebrows eyelashes clothes eyes teeth tongue; do [ -d ".mhassets/$d" ] && ln -sfn "$PWD/.mhassets/$d" "$DATA/$d"; done; fi
+ls -la "$DATA"
