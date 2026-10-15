@@ -1,0 +1,36 @@
+name: Showcase
+
+on:
+  workflow_run:
+    workflows: ["Render movements"]
+    types: [completed]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/showcase.py", ".github/workflows/showcase.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: showcase
+  cancel-in-progress: true
+
+jobs:
+  showcase:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media
+      - run: pip install pillow
+      - run: python3 tools/showcase.py media
+      - name: Push to media
+        run: |
+          cd media
+          git config user.name "forge-bot"; git config user.email "forge-bot@users.noreply.github.com"
+          git add -A showcase
+          git commit -qm "Showcase" || exit 0
+          git push origin HEAD:media

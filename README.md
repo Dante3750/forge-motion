@@ -1,12 +1,26 @@
 # Forge Motion
 
+| Gym | Home · dumbbells | No equipment |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/Dante3750/forge-motion/media/showcase/hero_gym.gif" width="100%"> | <img src="https://raw.githubusercontent.com/Dante3750/forge-motion/media/showcase/hero_home.gif" width="100%"> | <img src="https://raw.githubusercontent.com/Dante3750/forge-motion/media/showcase/hero_bodyweight.gif" width="100%"> |
+
+Two camera angles for every movement:
+
+<img src="https://raw.githubusercontent.com/Dante3750/forge-motion/media/showcase/hero_angles.gif" width="420">
+
 3D human workout loops for the [Forge gym app](https://github.com/Dante3750/forge-gym), rendered from code with free tools.
 
-Every movement (squat, bench press, pull-up, plank, stretches and more — 91 in total) is written as a few key poses in
+Every movement (squat, bench press, pull-up, plank, stretches and more — 101 in total, with gym, home-dumbbell and bodyweight versions) is written as a few key poses in
 [`render/patterns.py`](render/patterns.py). A male and a female body are generated with MakeHuman, posed by a small
 joint-target solver ([`render/poser.py`](render/poser.py), [`render/body.py`](render/body.py)), dressed and lit in
 [`render/scene.py`](render/scene.py), and rendered with Blender Cycles. Every one of the 876 exercises in the app maps to
 the closest movement in [`render/map.json`](render/map.json) (built by [`render/mapper.py`](render/mapper.py)).
+
+## Every movement
+
+<img src="https://raw.githubusercontent.com/Dante3750/forge-motion/media/showcase/gallery.jpg" width="100%">
+
+The previews and gallery are rebuilt by the **Showcase** workflow after every render.
 
 ## How it runs
 
