@@ -27,10 +27,11 @@ The previews and gallery are rebuilt by the **Showcase** workflow after every re
 The **Render movements** GitHub Action renders everything in 20 parallel jobs and publishes the results to the
 `media` branch:
 
-- `v1/<movement>_<m|f>.webp` — sprite sheet, 32 frames, 8 columns, 400×400 each
-- `v1/<movement>_<m|f>.preview.webp` — small animated preview
-- `v1/index.json` — frame layout for every loop
-- `v1/map.json` — exercise id → movement
+- `v3/<movement>_<m|f>[_b]_0.webp`, `_1.webp` — HD sprite sheets, 32 frames of 640×640 (4×4 per sheet), auto-framed
+- `v3/<movement>_<m|f>[_b]_s.webp` — small sheet (200px frames) for thumbnails
+- `v3/<movement>_<m|f>.preview.webp` — small animated preview
+- `v3/index.json` — frame layout for every loop
+- `v3/map.json` — exercise id → movement
 
 Run it again from the Actions tab (optionally for just a few movements) after changing a pose.
 

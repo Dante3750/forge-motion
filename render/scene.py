@@ -46,7 +46,7 @@ def make_human(female):
             print("EYES FAIL", repr(e))
         dress(h, rig, female, os.environ.get("FORGE_TONE", "medium"))
         for p in h.data.polygons: p.use_smooth = True
-        sub = h.modifiers.new("sub", "SUBSURF"); sub.levels = 1; sub.render_levels = 1
+        sub = h.modifiers.new("sub", "SUBSURF"); sub.levels = 1; sub.render_levels = 2
         return h, rig
     co = rest_coords(h)
     me = h.data

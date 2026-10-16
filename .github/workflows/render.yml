@@ -21,6 +21,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
+    timeout-minutes: 340
     strategy:
       fail-fast: false
       matrix:
@@ -45,7 +46,7 @@ jobs:
           while read p g; do
             [ -z "$p" ] && continue
             echo "::group::$p $g"
-            python3 render/render_one.py "$p" "$g" "frames/${p}_${g}" 32 400 24 > "logs/${p}_${g}.log" 2>&1 || { echo "FAILED $p $g"; tail -30 "logs/${p}_${g}.log"; }
+            python3 render/render_one.py "$p" "$g" "frames/${p}_${g}" 32 640 40 > "logs/${p}_${g}.log" 2>&1 || { echo "FAILED $p $g"; tail -30 "logs/${p}_${g}.log"; }
             if ls frames/${p}_${g}/a/*.png >/dev/null 2>&1; then python3 render/pack.py "frames/${p}_${g}/a" sheets "${p}_${g}"; fi
             if ls frames/${p}_${g}/b/*.png >/dev/null 2>&1; then python3 render/pack.py "frames/${p}_${g}/b" sheets "${p}_${g}_b"; fi
             ls -R frames/${p}_${g} | head -5 >> "logs/${p}_${g}.log" 2>&1 || true
@@ -92,12 +93,12 @@ jobs:
           git fetch origin media || true
           mkdir -p site
           if git rev-parse --verify origin/media >/dev/null 2>&1; then git --work-tree=site checkout origin/media -- . ; fi
-          mkdir -p site/v2
-          cp -f new/* site/v2/ 2>/dev/null || true
-          cp render/map.json site/v2/map.json
+          mkdir -p site/v3
+          cp -f new/* site/v3/ 2>/dev/null || true
+          cp render/map.json site/v3/map.json
           python3 - <<'PY'
           import glob, json, os
-          for v in ("v1", "v2"):
+          for v in ("v1", "v2", "v3"):
               if not os.path.isdir(f"site/{v}"): continue
               idx = {}
               for f in sorted(glob.glob(f"site/{v}/*.json")):

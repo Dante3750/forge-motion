@@ -4,11 +4,19 @@ import glob, json, os, sys
 from PIL import Image, ImageDraw, ImageFont
 
 media = sys.argv[1]
-ver = "v2" if glob.glob(os.path.join(media, "v2", "*_m.webp")) else "v1"
+ver = "v3" if glob.glob(os.path.join(media, "v3", "*_m_0.webp")) else "v2" if glob.glob(os.path.join(media, "v2", "*_m.webp")) else "v1"
 src = os.path.join(media, ver)
 out = os.path.join(media, "showcase"); os.makedirs(out, exist_ok=True)
 
 def frames(name):
+    if ver == "v3":
+        out_f = []
+        for k in range(2):
+            p = os.path.join(src, "%s_%d.webp" % (name, k))
+            if not os.path.exists(p): return out_f or None
+            sh = Image.open(p).convert("RGB"); w = sh.width // 4
+            for i in range((sh.height // w) * 4): out_f.append(sh.crop(((i % 4) * w, (i // 4) * w, (i % 4 + 1) * w, (i // 4 + 1) * w)))
+        return out_f
     p = os.path.join(src, name + ".webp")
     if not os.path.exists(p): return None
     sheet = Image.open(p).convert("RGB")
@@ -16,7 +24,7 @@ def frames(name):
     w, h, c = meta["w"], meta["h"], meta["cols"]
     return [sheet.crop(((i % c) * w, (i // c) * h, (i % c + 1) * w, (i // c + 1) * h)) for i in range(meta["frames"])]
 
-def gif(names, path, size=300):
+def gif(names, path, size=360):
     seqs = [frames(n) for n in names]
     seqs = [s for s in seqs if s]
     if not seqs: return False
@@ -36,7 +44,7 @@ HERO = [("hero_gym", ["squat_bb_m", "deadlift_bb_f", "bench_bb_m"]),
 made = [n for n, ns in HERO if gif(ns, os.path.join(out, n + ".gif"))]
 
 # gallery: one mid-rep frame of every movement (men's), labelled
-names = sorted({os.path.basename(p)[:-7] for p in glob.glob(os.path.join(src, "*_m.webp"))})
+names = sorted({os.path.basename(p)[:-9] for p in glob.glob(os.path.join(src, "*_m_0.webp"))}) if ver == "v3" else sorted({os.path.basename(p)[:-7] for p in glob.glob(os.path.join(src, "*_m.webp"))})
 cols, cell = 6, 200
 rows = (len(names) + cols - 1) // cols
 G = Image.new("RGB", (cols * cell, rows * (cell + 22)), (10, 11, 13))

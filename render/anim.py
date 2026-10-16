@@ -192,6 +192,27 @@ CAMS = {
 ALT = {"side": "front34", "front34": "side", "bar34": "side", "lying": "lying_b", "floor": "front34_low", "front": "side",
        "hang": "side_hang", "side_low": "front34", "front_low": "side", "back34": "side"}
 
+FRAME_BONES = ("root", "spine03", "spine01", "neck01", "head", "upperarm01.L", "upperarm01.R", "lowerarm01.L", "lowerarm01.R",
+               "wrist.L", "wrist.R", "upperleg01.L", "upperleg01.R", "lowerleg01.L", "lowerleg01.R", "foot.L", "foot.R")
+
+def fit_camera(cam, preset, pts, margin=0.84):
+    """Keep the preset's viewing direction and lens, but move/aim the camera so every point fills the frame."""
+    cl, ct, lens = preset
+    d = (Vector(cl) - Vector(ct)).normalized()
+    lo = Vector((min(p.x for p in pts), min(p.y for p in pts), min(p.z for p in pts)))
+    hi = Vector((max(p.x for p in pts), max(p.y for p in pts), max(p.z for p in pts)))
+    t = (lo + hi) / 2
+    up0 = Vector((0, 0, 1))
+    R = d.cross(up0).normalized(); U = R.cross(d).normalized()
+    R = -R
+    k = math.tan(math.atan(18.0 / lens)) * margin
+    need = 0.5
+    for p in pts:
+        r = p - t
+        need = max(need, abs(r.dot(R)) / k + r.dot(d), abs(r.dot(U)) / k + r.dot(d))
+    cam.data.lens = lens
+    aim(cam, tuple(t + d * need), tuple(t))
+
 def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, only=None, angles=("a",)):
     h, rig = make_human(female)
     cam = stage(female)
@@ -225,6 +246,28 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
     cam_names = {"a": spec.get("cam", "side")}
     cam_names["b"] = spec.get("cam_b", ALT.get(cam_names["a"], "front34"))
     for ang in angles: os.makedirs(os.path.join(outdir, ang) if len(angles) > 1 else outdir, exist_ok=True)
+    # sample the whole loop to frame it tightly
+    pts = []
+    for f in range(0, frames, 2):
+        Pf = dict(pose_at(spec["keys"], f / frames, spec.get("tempo")))
+        pose_body(poser, Pf)
+        for b in FRAME_BONES:
+            M = poser.posed[b]; pts.append(M.translation.copy())
+        hb = poser.posed["head"]; pts.append(hb.translation + (hb.to_3x3() @ Vector((0, 1, 0))).normalized() * 0.26)
+        for s in ("L", "R"):
+            g = grip_point(poser, s); pts.append(g)
+            fb = poser.posed["foot." + s]; pts.append(fb.translation + Vector((0, 0, -0.08)))
+        if bar is not None or ez is not None:
+            gl, gr = grip_point(poser, "L"), grip_point(poser, "R"); c = (gl + gr) / 2; ax = (gl - gr).normalized()
+            half = 1.0 if spec.get("plates", True) else 0.62
+            for sgn in (-1, 1):
+                for dz in (-0.23, 0.23):
+                    pts.append(c + ax * half * sgn + Vector((0, 0, dz if spec.get("plates", True) else 0)))
+    for o in bpy.context.scene.objects:
+        if o.type == "MESH" and o.name not in ("Plane",) and not o.name.startswith(("Human", "cablem")) and o.dimensions.length < 4:
+            if o.parent is None and o.data.name.startswith(("Cube",)):
+                pts.extend(o.matrix_world @ Vector(c) for c in o.bound_box)
+    pts = [p for p in pts if p.length < 6]
     for f in range(frames):
         if only is not None and f not in only: continue
         P = dict(pose_at(spec["keys"], f / frames, spec.get("tempo")))
@@ -262,7 +305,6 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
         if sball is not None: sball.location = Vector(P.get("sball", (0, 0.0, 0.32)))
         if roller is not None: roller.location = Vector(P.get("roller", (0, 0.4, 0.075)))
         for ang in angles:
-            cl, ct, lens = CAMS[cam_names[ang]]
-            cam.data.lens = lens; aim(cam, cl, ct)
+            fit_camera(cam, CAMS[cam_names[ang]], pts)
             sc.render.filepath = os.path.join(outdir, ang, "%02d.png" % f) if len(angles) > 1 else os.path.join(outdir, "%02d.png" % f)
             bpy.ops.render.render(write_still=True)

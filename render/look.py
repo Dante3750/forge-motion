@@ -72,7 +72,7 @@ def skin_mat(h, female, tone):
     h.data.materials.clear(); h.data.materials.append(m)
     return m
 
-TONES = {"medium": (0.5, 1.22, 0.47), "light": (0.5, 1.0, 0.92), "deep": (0.5, 1.15, 0.42)}
+TONES = {"medium": (0.5, 1.08, 0.47), "light": (0.5, 1.0, 0.92), "deep": (0.5, 1.15, 0.42)}
 
 def dress(h, rig, female, tone="medium"):
     skin_mat(h, female, TONES[tone])
@@ -83,6 +83,6 @@ def dress(h, rig, female, tone="medium"):
         add_item(h, "female_sportsuit01", "Clothes", col=(0.018, 0.02, 0.024), keep=0.0, rough=0.72, sheen=0.2)
     else:
         add_item(h, "short02", "Hair", col=(0.03, 0.022, 0.018), keep=0.2, rough=0.6, sheen=0.3)
-        add_item(h, "elvs_crude_t-shirt_male", "Clothes", col=(0.016, 0.018, 0.021), keep=0.0, rough=0.8, sheen=0.2)
-        add_item(h, "cortu_jeans_shorts", "Clothes", col=(0.03, 0.033, 0.038), keep=0.0, rough=0.8, sheen=0.2)
+        add_item(h, "elvs_crude_t-shirt_male", "Clothes", col=(0.16, 0.17, 0.19), keep=0.0, rough=0.8, sheen=0.2)
+        add_item(h, "cortu_jeans_shorts", "Clothes", col=(0.012, 0.013, 0.015), keep=0.0, rough=0.8, sheen=0.2)
     add_item(h, "shoes06", "Clothes", col=(0.75, 0.78, 0.8), keep=0.15, rough=0.6, sheen=0.2)
