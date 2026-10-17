@@ -27,10 +27,14 @@ jobs:
           path: media
       - run: pip install pillow
       - run: python3 tools/showcase.py media
+      - name: Stamp the render revision (apps use it to refresh cached loops)
+        run: |
+          for v in v2 v3; do [ -d media/$v ] && date -u +%Y%m%d%H%M%S > media/$v/rev.txt; done
+          cat media/v3/rev.txt || true
       - name: Push to media
         run: |
           cd media
           git config user.name "forge-bot"; git config user.email "forge-bot@users.noreply.github.com"
-          git add -A showcase
+          git add -A showcase v2/rev.txt v3/rev.txt
           git commit -qm "Showcase" || exit 0
           git push origin HEAD:media
