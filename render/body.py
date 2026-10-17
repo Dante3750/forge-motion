@@ -9,9 +9,14 @@ def pitch_dir(deg, yaw=0.0):
     t = math.radians(deg); y = math.radians(yaw)
     return Vector((math.sin(y) * math.sin(t), -math.cos(y) * math.sin(t), math.cos(t)))
 
-def resolve(v, posed, P):
+def resolve(v, posed, P, anchor=None):
     if isinstance(v, tuple) and len(v) == 4 and v[0] == "mix":
-        return resolve(v[1], posed, P).lerp(resolve(v[2], posed, P), v[3])
+        pa, pb, t = resolve(v[1], posed, P), resolve(v[2], posed, P), v[3]
+        if anchor is None: return pa.lerp(pb, t)
+        ra, rb = pa - anchor, pb - anchor
+        if ra.length < 1e-4 or rb.length < 1e-4: return pa.lerp(pb, t)
+        dn = ra.normalized().slerp(rb.normalized(), t, ra.normalized().orthogonal())
+        return anchor + dn * (ra.length + (rb.length - ra.length) * t)
     if isinstance(v, tuple) and len(v) == 2 and isinstance(v[0], str):
         kind, off = v
         off = Vector(off)
@@ -59,6 +64,10 @@ def pose_body(poser, P):
     hd = torso + P.get("head", 0.0) - 8
     for s in NECK: dirs[s] = pitch_dir(torso * 0.7 + hd * 0.3)
     dirs["head"] = pitch_dir(hd)
+    if P.get("head_side"):
+        hs = math.sin(math.radians(P["head_side"]))
+        for s in NECK[1:]: dirs[s] = dirs[s] + Vector((hs * 0.5, 0, 0))
+        dirs["head"] = dirs["head"] + Vector((hs, 0, 0))
     if "shrug" in P:
         qt = Quaternion((1, 0, 0), math.radians(-torso))
         for s, sx in (("L", 1), ("R", -1)):
@@ -66,10 +75,22 @@ def pose_body(poser, P):
     root_loc = pel - root_rest
     lie = P.get("lie")
     posed = poser.apply(root_loc, dirs, root_rot=rr)
+    if P.get("plant") and "hands" in P:
+        # hands must reach their target (floor, bench): lower the body until the arms are long enough
+        for _ in range(4):
+            worst = 0.0
+            for s in ("L", "R"):
+                shp = posed["upperarm01." + s].translation
+                tgt = resolve(P["hands"][s], posed, P, shp)
+                reach = (poser.L["uarm" + s] + poser.L["farm" + s]) * 0.97
+                worst = max(worst, (tgt - shp).length - reach)
+            if worst < 0.004: break
+            root_loc = root_loc + Vector((0, 0, -worst * 1.15))
+            posed = poser.apply(root_loc, dirs, root_rot=rr)
     tw = {}
     for s, sx in (("L", 1), ("R", -1)):
         hip = posed["upperleg01." + s].translation
-        ank = resolve(P["feet"][s], posed, P) if "feet" in P else poser.rest["foot." + s][0] + root_loc * Vector((1, 1, 0))
+        ank = resolve(P["feet"][s], posed, P, hip) if "feet" in P else poser.rest["foot." + s][0] + root_loc * Vector((1, 1, 0))
         hint = Vector(P.get("knee", {}).get(s, (sx * 0.15, -1, 0)))
         knee, ank = two_bone(hip, ank, poser.L["thigh" + s], poser.L["shin" + s], hint)
         dirs["upperleg01." + s] = dirs["upperleg02." + s] = knee - hip
@@ -79,7 +100,7 @@ def pose_body(poser, P):
         fd = Vector((math.sin(toe), -math.cos(toe), 0)) * math.cos(math.radians(fp)) + Vector((0, 0, -math.sin(math.radians(fp))))
         dirs["foot." + s] = fd
         sh = posed["upperarm01." + s].translation
-        wr = resolve(P["hands"][s], posed, P) if "hands" in P else None
+        wr = resolve(P["hands"][s], posed, P, sh) if "hands" in P else None
         if wr is not None:
             eh = Vector(P.get("elbow", {}).get(s, (sx * 0.3, 0.3, -1)))
             el, wr = two_bone(sh, wr, poser.L["uarm" + s], poser.L["farm" + s], eh)

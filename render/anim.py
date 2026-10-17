@@ -1,7 +1,19 @@
 import math, os, sys, time, json
 from mathutils import Vector, Matrix, Quaternion
 
-def lerp(a, b, t):
+LIMB_KEYS = ("hands", "feet")
+
+def lerp(a, b, t, key=None):
+    if isinstance(a, dict) and key in LIMB_KEYS:
+        # hands/feet swing around the shoulder/hip instead of travelling in a straight line
+        return {s: (a[s] if a[s] == b.get(s, a[s]) else ("mix", a[s], b.get(s, a[s]), t)) for s in a}
+    if isinstance(a, dict) and key is None:
+        out = {}
+        for k in a:
+            out[k] = lerp(a[k], b[k], t, k if k in LIMB_KEYS else "_") if k in b else a[k]
+        for k in b:
+            if k not in a: out[k] = b[k]
+        return out
     if isinstance(a, dict):
         return {k: lerp(a[k], b.get(k, a[k]), t) if k in b else a[k] for k in a} | {k: b[k] for k in b if k not in a}
     ta = isinstance(a, tuple) and len(a) >= 2 and isinstance(a[0], str)
