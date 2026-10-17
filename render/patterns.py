@@ -368,3 +368,37 @@ for _n, _s in P.items():
 
 for _n in ("pushup", "diamond_pushup", "pushup_knee", "pushup_incline", "pike_pushup", "plank", "mountain_climber", "bench_dip", "ab_rollout", "stretch_child"):
     for _k in P[_n]["keys"]: _k["plant"] = True
+
+# ---------------- added after the mapping review ----------------
+_FLR = mk(STAND, hands=HIPS, elbow=LR((1, 0.3, 0)), grip=LR(0.4))
+P["front_leg_raise"] = dict(cam="side", props=[], tempo=[0.45, 0.55], keys=[
+    mk(_FLR, feet={"L": (0.11, 0.0, 0.075), "R": (-0.12, -0.02, 0.075)}),
+    mk(_FLR, feet={"L": (0.11, 0.0, 0.075), "R": (-0.12, -0.80, 0.55)}, foot_pitch={"L": 30, "R": -20}, knee={"L": (0.1, -1, 0), "R": (0, 0, 1)})])
+P["side_leg_raise"] = dict(cam="front", props=[], tempo=[0.45, 0.55], keys=[
+    mk(_FLR, feet={"L": (0.11, 0.0, 0.075), "R": (-0.13, 0.0, 0.075)}),
+    mk(_FLR, torso_side=6, feet={"L": (0.11, 0.0, 0.075), "R": (-0.62, 0.0, 0.40)}, knee={"L": (0.1, -1, 0), "R": (0, -1, 0)})])
+_GK = dict(pelvis=(0, 0.25, 0.60), pelvis_tilt=85, torso=88, head=10, hands=LR((0.20, -0.36, 0.05)), elbow=LR((0.2, 0.3, -1)), grip=LR(0.1),
+           wrist_dir=LR((0, -1, 0)), knee={"L": (0, 0, -1), "R": (0, 0, -1)}, plant=True)
+P["glute_kickback"] = dict(cam="side", props=["mat"], tempo=[0.42, 0.58], keys=[
+    mk(_GK, feet={"L": (0.12, 0.62, 0.06), "R": (-0.12, 0.55, 0.12)}, foot_pitch={"L": 165, "R": 150}, knee={"L": (0, 0, -1), "R": (0, -1, -0.6)}),
+    mk(_GK, feet={"L": (0.12, 0.62, 0.06), "R": (-0.12, 1.02, 0.78)}, foot_pitch={"L": 165, "R": -60}, knee={"L": (0, 0, -1), "R": (0, 0.3, -1)})])
+_FK = mk(LRB, head=14)
+P["flutter_kick"] = dict(cam="floor", props=["mat"], keys=[
+    mk(_FK, feet={"L": (0.08, -0.86, 0.42), "R": (-0.08, -0.90, 0.20)}, foot_pitch=LR(-50)),
+    mk(_FK, feet={"L": (0.08, -0.90, 0.20), "R": (-0.08, -0.86, 0.42)}, foot_pitch=LR(-50))])
+_RC = dict(pelvis=(0, 0.05, 0.11), pelvis_tilt=-90, torso=-92, head=10, hands=LR((0.26, 0.05, 0.035)), elbow=LR((1, 0, 0.2)), grip=LR(0.1),
+           wrist_dir=LR((0, -1, 0)), knee=LR((0.05, -0.5, 1)))
+P["reverse_crunch"] = dict(cam="floor", props=["mat"], tempo=[0.42, 0.58], keys=[
+    mk(_RC, feet=LR((0.10, -0.55, 0.40)), foot_pitch=LR(-10)),
+    mk(_RC, pelvis=(0, 0.08, 0.16), pelvis_tilt=-120, feet=LR((0.10, -0.05, 0.62)), foot_pitch=LR(-40))])
+_SP = dict(pelvis=(0, 0.0, 0.42), pelvis_tilt=0, torso=0, torso_side=-62, head=0, lie=None,
+           feet={"L": (0.62, 0.0, 0.13), "R": (0.70, -0.06, 0.08)}, foot_pitch=LR(10), knee=LR((0, -1, 0)),
+           hands={"L": ("torso", (0.10, -0.05, -0.30)), "R": (-0.50, -0.05, 0.05)}, elbow={"L": (0.3, 0.3, -1), "R": (-0.3, 0, -1)}, grip=LR(0.2))
+P["superman"] = dict(cam="side", props=["mat"], tempo=[0.45, 0.55], keys=[
+    dict(pelvis=(0, 0.20, 0.13), pelvis_tilt=90, torso=92, head=10, feet=LR((0.12, 1.02, 0.07)), foot_pitch=LR(170), knee=LR((0, 0, -1)),
+         hands=LR((0.22, -0.92, 0.05)), elbow=LR((0.3, 0, -1)), grip=LR(0.1), wrist_dir=LR((0, -1, 0))),
+    dict(pelvis=(0, 0.20, 0.13), pelvis_tilt=90, torso=80, head=-6, feet=LR((0.12, 1.00, 0.26)), foot_pitch=LR(150), knee=LR((0, 0, -1)),
+         hands=LR((0.22, -0.88, 0.32)), elbow=LR((0.3, 0, -1)), grip=LR(0.1), wrist_dir=LR((0, -1, 0)))])
+P["side_bend"] = dict(cam="front", props=["dumbbells_R"], keys=[
+    mk(OH, torso_side=0, hands={"L": ("torso", (0.10, 0.05, 0.16)), "R": ("torso", (-0.22, -0.02, -0.58))}, elbow={"L": (1, 0, 0.5), "R": (-0.3, 0.3, -1)}, db_axis=(0, 1, 0), grip=LR(0.85)),
+    mk(OH, torso_side=-45, hands={"L": ("torso", (0.10, 0.05, 0.16)), "R": ("torso", (-0.22, -0.02, -0.58))}, elbow={"L": (1, 0, 0.5), "R": (-0.3, 0.3, -1)}, db_axis=(0, 1, 0), grip=LR(0.85))])
