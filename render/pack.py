@@ -18,12 +18,14 @@ for p in range(parts):
     sheet = Image.new("RGB", (hc * w, rows * h))
     for i, im in enumerate(chunk): sheet.paste(im, ((i % hc) * w, (i // hc) * h))
     sheet.save(os.path.join(out, "%s_%d.webp" % (name, p)), quality=86, method=6)
-sw = 200; sc = 8
+sw = 360; sc = 8
 small = [im.resize((sw, sw), Image.LANCZOS) for im in ims]
 srows = (n + sc - 1) // sc
 ss = Image.new("RGB", (sc * sw, srows * sw))
 for i, im in enumerate(small): ss.paste(im, ((i % sc) * sw, (i // sc) * sw))
 ss.save(os.path.join(out, name + "_s.webp"), quality=80, method=6)
+if not name.endswith("_b"): ims[n // 3].resize((480, 480), Image.LANCZOS).save(os.path.join(out, name + "_t.webp"), quality=86, method=6)
+small = [im.resize((200, 200), Image.LANCZOS) for im in ims]
 small[0].save(os.path.join(out, name + ".preview.webp"), save_all=True, append_images=small[1:], duration=75, loop=0, quality=72)
 json.dump({"frames": n, "hd": {"size": w, "cols": hc, "perSheet": per, "sheets": parts}, "small": {"size": sw, "cols": sc}},
           open(os.path.join(out, name + ".json"), "w"))

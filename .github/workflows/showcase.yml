@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["tools/showcase.py", ".github/workflows/showcase.yml"]
+    paths: ["tools/**", ".github/workflows/showcase.yml"]
 
 permissions:
   contents: write
@@ -26,6 +26,7 @@ jobs:
           ref: media
           path: media
       - run: pip install pillow
+      - run: python3 tools/derive.py media
       - run: python3 tools/showcase.py media
       - name: Stamp the render revision (apps use it to refresh cached loops)
         run: |
@@ -35,6 +36,6 @@ jobs:
         run: |
           cd media
           git config user.name "forge-bot"; git config user.email "forge-bot@users.noreply.github.com"
-          git add -A showcase v2/rev.txt v3/rev.txt
+          git add -A showcase v2/rev.txt v3
           git commit -qm "Showcase" || exit 0
           git push origin HEAD:media
