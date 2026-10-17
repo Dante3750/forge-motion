@@ -2,6 +2,7 @@ import math, os, sys, time, json
 from mathutils import Vector, Matrix, Quaternion
 
 LIMB_KEYS = ("hands", "feet")
+KEYFRAME_HOOK = None  # export mode: called per frame instead of rendering
 
 def lerp(a, b, t, key=None):
     if isinstance(a, dict) and key in LIMB_KEYS:
@@ -316,6 +317,9 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
         if mball is not None: mball.location = (gl + gr) / 2 + Vector(P.get("ball_off", (0, -0.06, 0)))
         if sball is not None: sball.location = Vector(P.get("sball", (0, 0.0, 0.32)))
         if roller is not None: roller.location = Vector(P.get("roller", (0, 0.4, 0.075)))
+        if KEYFRAME_HOOK is not None:
+            KEYFRAME_HOOK(f, rig)
+            continue
         for ang in angles:
             fit_camera(cam, CAMS[cam_names[ang]], pts)
             sc.render.filepath = os.path.join(outdir, ang, "%02d.png" % f) if len(angles) > 1 else os.path.join(outdir, "%02d.png" % f)

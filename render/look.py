@@ -24,6 +24,8 @@ def fabric(name, col, tex=None, normal=None, rough=0.75, sheen=0.5, keep_tex=0.0
         if "Alpha" in ti.outputs: L.new(ti.outputs["Alpha"], p.inputs["Alpha"])
     else:
         p.inputs["Base Color"].default_value = (*col, 1)
+    import json as _j
+    m["fx"] = _j.dumps({"kind": "fabric", "tex": tex, "normal": normal, "col": list(col), "keep": keep_tex, "rough": rough})
     if normal and os.path.exists(normal):
         tn = N.new("ShaderNodeTexImage"); tn.image = bpy.data.images.load(normal, check_existing=True); tn.image.colorspace_settings.name = "Non-Color"
         nm = N.new("ShaderNodeNormalMap"); nm.inputs["Strength"].default_value = 0.8
@@ -69,6 +71,8 @@ def skin_mat(h, female, tone):
     bump = N.new("ShaderNodeBump"); bump.inputs["Strength"].default_value = 0.06; bump.inputs["Distance"].default_value = 0.001
     nz = N.new("ShaderNodeTexNoise"); nz.inputs["Scale"].default_value = 1400; nz.inputs["Detail"].default_value = 4
     L.new(nz.outputs["Fac"], bump.inputs["Height"]); L.new(bump.outputs["Normal"], p.inputs["Normal"])
+    import json as _j
+    m["fx"] = _j.dumps({"kind": "skin", "tex": tex, "hsv": list(tone)})
     h.data.materials.clear(); h.data.materials.append(m)
     return m
 

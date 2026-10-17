@@ -1,0 +1,1 @@
+front_leg_raise,side_leg_raise,glute_kickback,flutter_kick,reverse_crunch,superman,side_bend

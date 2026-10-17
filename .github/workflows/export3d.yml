@@ -1,0 +1,67 @@
+name: Export 3D models
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["render/export.py", "render/patterns.py", "render/body.py", "render/look.py", ".github/workflows/export3d.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: export3d
+  cancel-in-progress: true
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Set up Blender + MakeHuman
+        run: ./setup.sh && pip install numpy
+      - name: Export
+        run: |
+          mkdir -p out3d logs
+          G=$([ "${{ matrix.shard }}" = "0" ] && echo m || echo f)
+          EXPORT_MODE=model python3 render/export.py squat_bw $G out3d/model_$G.glb 2 > logs/model_$G.log 2>&1 || tail -40 logs/model_$G.log
+          for p in $(python3 -c "import os;os.chdir('render');exec(open('patterns.py').read());print(' '.join(sorted(P)))"); do
+            EXPORT_MODE=anim python3 render/export.py $p $G out3d/${p}_$G.glb 40 > logs/${p}_$G.log 2>&1 || { echo "FAILED $p"; tail -20 logs/${p}_$G.log; }
+          done
+          rm -rf out3d/_tex_*
+          ls -la out3d | head -20; du -sh out3d
+      - uses: actions/upload-artifact@v4
+        with:
+          name: out3d-${{ matrix.shard }}
+          path: out3d/
+
+  publish:
+    needs: export
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: out3d-*
+          merge-multiple: true
+          path: new3d
+      - name: Publish to media/v3d
+        run: |
+          mkdir -p media/v3d
+          cp -f new3d/*.glb media/v3d/
+          date -u +%Y%m%d%H%M%S > media/v3d/rev.txt
+          ls media/v3d | wc -l
+          cd media
+          git config user.name "forge-bot"; git config user.email "forge-bot@users.noreply.github.com"
+          git add -A v3d && git commit -qm "3D models" && git push origin HEAD:media

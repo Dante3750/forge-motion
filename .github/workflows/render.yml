@@ -39,6 +39,8 @@ jobs:
       - name: Render shard
         run: |
           mkdir -p frames sheets logs
+          if [ -z "$ONLY" ] && [ -f render/only.txt ]; then export ONLY=$(tr -d ' \n' < render/only.txt); fi
+          echo "ONLY=$ONLY"
           python3 render/jobs.py ${{ matrix.shard }} $SHARDS > jobs.txt
           python3 -c "import bpy, PIL; print(bpy.app.version_string)" > logs/env_${{ matrix.shard }}.txt 2>&1 || true
           ls -la ~/.config/blender/*/extensions/user_default/ ~/.config/blender/*/extensions/.user/user_default/mpfb/data/ >> logs/env_${{ matrix.shard }}.txt 2>&1 || true
