@@ -1,0 +1,92 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:15.073  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/00.png'
+00:26.666  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/00.png'
+00:38.727  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/01.png'
+00:50.219  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/01.png'
+01:02.357  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/02.png'
+01:14.202  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/02.png'
+01:25.887  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/03.png'
+01:37.442  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/03.png'
+01:49.422  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/04.png'
+02:01.040  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/04.png'
+02:13.147  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/05.png'
+02:24.921  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/05.png'
+02:37.065  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/06.png'
+02:48.977  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/06.png'
+03:00.951  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/07.png'
+03:12.814  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/07.png'
+03:25.053  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/08.png'
+03:37.000  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/08.png'
+03:49.380  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/09.png'
+04:01.466  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/09.png'
+04:13.622  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/10.png'
+04:25.158  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/10.png'
+04:36.937  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/11.png'
+04:48.471  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/11.png'
+05:00.130  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/12.png'
+05:11.258  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/12.png'
+05:22.819  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/13.png'
+05:34.238  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/13.png'
+05:46.250  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/14.png'
+05:57.944  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/14.png'
+06:09.885  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/15.png'
+06:21.721  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/15.png'
+06:33.897  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/16.png'
+06:45.447  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/16.png'
+06:57.688  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/17.png'
+07:09.664  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/17.png'
+07:21.931  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/18.png'
+07:33.659  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/18.png'
+07:45.713  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/19.png'
+07:57.454  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/19.png'
+08:09.619  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/20.png'
+08:21.467  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/20.png'
+08:33.700  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/21.png'
+08:45.566  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/21.png'
+08:57.732  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/22.png'
+09:09.504  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/22.png'
+09:21.620  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/23.png'
+09:33.497  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/23.png'
+09:45.735  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/24.png'
+09:57.748  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/24.png'
+10:10.038  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/25.png'
+10:21.998  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/25.png'
+10:34.208  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/26.png'
+10:46.236  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/26.png'
+10:58.494  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/27.png'
+11:10.550  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/27.png'
+11:22.919  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/28.png'
+11:34.888  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/28.png'
+11:47.149  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/29.png'
+11:59.174  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/29.png'
+12:11.504  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/30.png'
+12:23.530  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/30.png'
+12:35.915  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/a/31.png'
+12:48.049  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/side_leg_raise_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+Log config does not exist. Creating empty template.
+Will rewrite log config /home/runner/.config/blender/5.2/mpfb/config/log_levels.json
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] services.locationservice ...............: Creating relevant directory: /home/runner/.config/blender/5.2/extensions/.user/user_default/mpfb/config
+[INFO ] services.locationservice ...............: Creating relevant directory: /home/runner/.config/blender/5.2/extensions/.user/user_default/mpfb/cache
+[INFO ] services.locationservice ...............: Creating relevant directory: /home/runner/.config/blender/5.2/extensions/.user/user_default/mpfb/logs
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 13.91 ms
+OBJ import of 'high-poly.obj' took 1.67 ms
+OBJ import of 'eyebrow010.obj' took 0.30 ms
+OBJ import of 'eyelashes02.obj' took 0.41 ms
+OBJ import of 'ponytail01.obj' took 2.27 ms
+OBJ import of 'female_sportsuit01.obj' took 1.74 ms
+OBJ import of 'shoes06.obj' took 1.55 ms
+frames/side_leg_raise_f:
+a
+b
+
+frames/side_leg_raise_f/a:

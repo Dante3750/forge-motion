@@ -1,0 +1,19 @@
+5.2.2 LTS
+/home/runner/.config/blender/5.2/extensions/.user/user_default/mpfb/data/:
+total 24
+drwxr-xr-x 2 runner runner 4096 Oct 17 16:48 .
+drwxr-xr-x 3 runner runner 4096 Oct 17 16:48 ..
+lrwxrwxrwx 1 runner runner   61 Oct 17 16:48 clothes -> /home/runner/work/forge-motion/forge-motion/.mhassets/clothes
+lrwxrwxrwx 1 runner runner   62 Oct 17 16:48 eyebrows -> /home/runner/work/forge-motion/forge-motion/.mhassets/eyebrows
+lrwxrwxrwx 1 runner runner   63 Oct 17 16:48 eyelashes -> /home/runner/work/forge-motion/forge-motion/.mhassets/eyelashes
+lrwxrwxrwx 1 runner runner   58 Oct 17 16:48 eyes -> /home/runner/work/forge-motion/forge-motion/.mhassets/eyes
+lrwxrwxrwx 1 runner runner   58 Oct 17 16:48 hair -> /home/runner/work/forge-motion/forge-motion/.mhassets/hair
+lrwxrwxrwx 1 runner runner   59 Oct 17 16:48 skins -> /home/runner/work/forge-motion/forge-motion/.mhassets/skins
+lrwxrwxrwx 1 runner runner   59 Oct 17 16:48 teeth -> /home/runner/work/forge-motion/forge-motion/.mhassets/teeth
+lrwxrwxrwx 1 runner runner   60 Oct 17 16:48 tongue -> /home/runner/work/forge-motion/forge-motion/.mhassets/tongue
+
+/home/runner/.config/blender/5.2/extensions/user_default/:
+total 8
+drwxr-xr-x 2 runner runner 4096 Oct 17 16:48 .
+drwxr-xr-x 4 runner runner 4096 Oct 17 16:48 ..
+lrwxrwxrwx 1 runner runner   59 Oct 17 16:48 mpfb -> /home/runner/work/forge-motion/forge-motion/.mpfb2/src/mpfb
