@@ -99,6 +99,9 @@ def convert_materials(human_objs):
 human_set = set()
 def hook(f, rig):
     for pb in rig.pose.bones:
+        # the rig's bones are Euler-mode: switch to quaternions (keeping the pose) so the rotation is what gets keyed
+        if pb.rotation_mode != "QUATERNION":
+            mb = pb.matrix_basis.copy(); pb.rotation_mode = "QUATERNION"; pb.matrix_basis = mb
         pb.keyframe_insert("location", frame=f + 1); pb.keyframe_insert("rotation_quaternion", frame=f + 1)
     for o in bpy.context.scene.objects:
         if o.type != "MESH" or o.name in human_set or o.parent is not None: continue
