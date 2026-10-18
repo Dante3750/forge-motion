@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:09.788  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/00.png'
+00:18.004  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/00.png'
+00:26.301  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/01.png'
+00:34.502  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/01.png'
+00:42.757  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/02.png'
+00:50.956  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/02.png'
+00:59.219  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/03.png'
+01:07.411  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/03.png'
+01:15.678  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/04.png'
+01:23.871  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/04.png'
+01:32.146  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/05.png'
+01:40.324  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/05.png'
+01:48.601  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/06.png'
+01:56.774  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/06.png'
+02:05.053  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/07.png'
+02:13.237  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/07.png'
+02:21.519  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/08.png'
+02:29.723  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/08.png'
+02:38.036  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/09.png'
+02:46.259  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/09.png'
+02:54.566  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/10.png'
+03:02.800  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/10.png'
+03:11.137  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/11.png'
+03:19.381  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/11.png'
+03:27.717  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/12.png'
+03:35.962  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/12.png'
+03:44.269  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/13.png'
+03:52.518  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/13.png'
+04:00.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/14.png'
+04:09.058  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/14.png'
+04:17.381  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/15.png'
+04:25.613  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/15.png'
+04:33.922  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/16.png'
+04:42.172  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/16.png'
+04:50.486  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/17.png'
+04:58.741  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/17.png'
+05:07.035  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/18.png'
+05:15.293  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/18.png'
+05:23.599  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/19.png'
+05:31.830  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/19.png'
+05:40.129  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/20.png'
+05:48.351  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/20.png'
+05:56.696  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/21.png'
+06:04.930  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/21.png'
+06:13.262  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/22.png'
+06:21.509  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/22.png'
+06:29.816  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/23.png'
+06:38.086  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/23.png'
+06:46.378  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/24.png'
+06:54.603  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/24.png'
+07:02.894  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/25.png'
+07:11.130  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/25.png'
+07:19.397  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/26.png'
+07:27.612  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/26.png'
+07:35.899  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/27.png'
+07:44.121  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/27.png'
+07:52.404  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/28.png'
+08:00.620  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/28.png'
+08:08.893  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/29.png'
+08:17.086  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/29.png'
+08:25.349  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/30.png'
+08:33.544  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/30.png'
+08:41.818  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/a/31.png'
+08:50.008  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/plank_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 8.80 ms
+OBJ import of 'high-poly.obj' took 1.10 ms
+OBJ import of 'eyebrow010.obj' took 0.18 ms
+OBJ import of 'eyelashes02.obj' took 0.24 ms
+OBJ import of 'ponytail01.obj' took 1.55 ms
+OBJ import of 'female_sportsuit01.obj' took 0.97 ms
+OBJ import of 'shoes06.obj' took 0.97 ms
+frames/plank_f:
+a
+b
+
+frames/plank_f/a:

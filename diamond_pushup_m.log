@@ -1,0 +1,89 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:19.316  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/00.png'
+00:36.245  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/00.png'
+00:53.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/01.png'
+01:10.214  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/01.png'
+01:27.309  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/02.png'
+01:44.213  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/02.png'
+02:01.282  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/03.png'
+02:18.205  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/03.png'
+02:35.221  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/04.png'
+02:52.185  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/04.png'
+03:09.244  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/05.png'
+03:26.131  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/05.png'
+03:43.186  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/06.png'
+04:00.114  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/06.png'
+04:17.196  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/07.png'
+04:34.086  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/07.png'
+04:51.156  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/08.png'
+05:08.012  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/08.png'
+05:25.040  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/09.png'
+05:41.839  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/09.png'
+05:58.769  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/10.png'
+06:15.616  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/10.png'
+06:32.536  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/11.png'
+06:49.318  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/11.png'
+07:06.153  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/12.png'
+07:22.803  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/12.png'
+07:39.462  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/13.png'
+07:56.089  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/13.png'
+08:12.637  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/14.png'
+08:29.149  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/14.png'
+08:45.667  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/15.png'
+09:02.188  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/15.png'
+09:18.776  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/16.png'
+09:35.290  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/16.png'
+09:51.805  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/17.png'
+10:08.380  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/17.png'
+10:24.858  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/18.png'
+10:41.391  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/18.png'
+10:57.820  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/19.png'
+11:14.327  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/19.png'
+11:30.825  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/20.png'
+11:47.340  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/20.png'
+12:03.943  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/21.png'
+12:20.451  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/21.png'
+12:37.068  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/22.png'
+12:53.676  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/22.png'
+13:10.503  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/23.png'
+13:27.254  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/23.png'
+13:44.146  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/24.png'
+14:00.883  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/24.png'
+14:17.875  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/25.png'
+14:34.646  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/25.png'
+14:51.645  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/26.png'
+15:08.571  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/26.png'
+15:25.541  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/27.png'
+15:42.360  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/27.png'
+15:59.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/28.png'
+16:16.143  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/28.png'
+16:33.056  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/29.png'
+16:49.838  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/29.png'
+17:06.722  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/30.png'
+17:23.499  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/30.png'
+17:40.362  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/a/31.png'
+17:57.158  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/diamond_pushup_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.54 ms
+OBJ import of 'high-poly.obj' took 1.83 ms
+OBJ import of 'eyebrow001.obj' took 0.30 ms
+OBJ import of 'eyelashes01.obj' took 0.37 ms
+OBJ import of 'short02.obj' took 1.70 ms
+OBJ import of 'crude_male_shirt.obj' took 1.10 ms
+OBJ import of 'jean_shorts.obj' took 0.49 ms
+OBJ import of 'shoes06.obj' took 1.58 ms
+frames/diamond_pushup_m:
+a
+b
+
+frames/diamond_pushup_m/a:

@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:20.333  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/00.png'
+00:36.891  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/00.png'
+00:54.303  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/01.png'
+01:10.794  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/01.png'
+01:28.274  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/02.png'
+01:44.783  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/02.png'
+02:02.202  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/03.png'
+02:18.719  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/03.png'
+02:36.237  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/04.png'
+02:52.674  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/04.png'
+03:10.138  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/05.png'
+03:26.708  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/05.png'
+03:44.214  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/06.png'
+04:00.764  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/06.png'
+04:18.281  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/07.png'
+04:34.855  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/07.png'
+04:52.305  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/08.png'
+05:08.894  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/08.png'
+05:26.361  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/09.png'
+05:42.970  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/09.png'
+06:00.464  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/10.png'
+06:17.037  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/10.png'
+06:34.501  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/11.png'
+06:51.146  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/11.png'
+07:08.696  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/12.png'
+07:25.382  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/12.png'
+07:42.967  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/13.png'
+07:59.693  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/13.png'
+08:17.242  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/14.png'
+08:33.941  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/14.png'
+08:51.505  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/15.png'
+09:08.212  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/15.png'
+09:25.685  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/16.png'
+09:42.388  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/16.png'
+09:59.867  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/17.png'
+10:16.497  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/17.png'
+10:33.988  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/18.png'
+10:50.582  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/18.png'
+11:08.075  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/19.png'
+11:24.686  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/19.png'
+11:42.240  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/20.png'
+11:58.781  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/20.png'
+12:16.261  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/21.png'
+12:32.812  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/21.png'
+12:50.230  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/22.png'
+13:06.746  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/22.png'
+13:24.115  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/23.png'
+13:40.596  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/23.png'
+13:57.982  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/24.png'
+14:14.469  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/24.png'
+14:31.897  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/25.png'
+14:48.338  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/25.png'
+15:05.748  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/26.png'
+15:22.203  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/26.png'
+15:39.608  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/27.png'
+15:56.035  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/27.png'
+16:13.369  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/28.png'
+16:29.799  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/28.png'
+16:47.161  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/29.png'
+17:03.595  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/29.png'
+17:20.949  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/30.png'
+17:37.458  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/30.png'
+17:54.807  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/a/31.png'
+18:11.306  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/shrug_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.05 ms
+OBJ import of 'high-poly.obj' took 1.98 ms
+OBJ import of 'eyebrow010.obj' took 0.41 ms
+OBJ import of 'eyelashes02.obj' took 0.41 ms
+OBJ import of 'ponytail01.obj' took 2.49 ms
+OBJ import of 'female_sportsuit01.obj' took 1.81 ms
+OBJ import of 'shoes06.obj' took 1.70 ms
+frames/shrug_f:
+a
+b
+
+frames/shrug_f/a:

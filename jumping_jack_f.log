@@ -1,0 +1,87 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:19.090  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/00.png'
+00:34.645  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/00.png'
+00:50.840  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/01.png'
+01:06.332  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/01.png'
+01:22.522  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/02.png'
+01:37.947  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/02.png'
+01:54.108  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/03.png'
+02:09.653  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/03.png'
+02:25.883  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/04.png'
+02:41.452  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/04.png'
+02:57.663  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/05.png'
+03:13.315  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/05.png'
+03:29.553  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/06.png'
+03:45.149  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/06.png'
+04:01.383  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/07.png'
+04:16.919  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/07.png'
+04:33.206  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/08.png'
+04:48.731  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/08.png'
+05:04.959  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/09.png'
+05:20.523  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/09.png'
+05:36.839  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/10.png'
+05:52.441  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/10.png'
+06:08.766  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/11.png'
+06:24.484  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/11.png'
+06:40.760  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/12.png'
+06:56.396  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/12.png'
+07:12.575  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/13.png'
+07:28.216  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/13.png'
+07:44.397  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/14.png'
+08:00.064  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/14.png'
+08:16.286  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/15.png'
+08:31.933  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/15.png'
+08:48.104  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/16.png'
+09:03.714  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/16.png'
+09:19.812  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/17.png'
+09:35.451  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/17.png'
+09:51.559  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/18.png'
+10:07.155  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/18.png'
+10:23.333  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/19.png'
+10:38.997  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/19.png'
+10:55.219  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/20.png'
+11:10.916  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/20.png'
+11:27.146  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/21.png'
+11:42.779  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/21.png'
+11:58.998  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/22.png'
+12:14.637  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/22.png'
+12:30.880  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/23.png'
+12:46.434  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/23.png'
+13:02.595  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/24.png'
+13:18.052  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/24.png'
+13:34.236  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/25.png'
+13:49.747  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/25.png'
+14:05.954  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/26.png'
+14:21.473  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/26.png'
+14:37.715  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/27.png'
+14:53.356  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/27.png'
+15:09.560  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/28.png'
+15:25.120  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/28.png'
+15:41.274  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/29.png'
+15:56.785  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/29.png'
+16:12.954  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/30.png'
+16:28.445  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/30.png'
+16:44.595  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/a/31.png'
+17:00.108  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jumping_jack_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 14.96 ms
+OBJ import of 'high-poly.obj' took 2.01 ms
+OBJ import of 'eyebrow010.obj' took 0.30 ms
+OBJ import of 'eyelashes02.obj' took 0.41 ms
+OBJ import of 'ponytail01.obj' took 2.49 ms
+OBJ import of 'female_sportsuit01.obj' took 1.81 ms
+OBJ import of 'shoes06.obj' took 1.67 ms
+frames/jumping_jack_f:
+a
+b
+
+frames/jumping_jack_f/a:

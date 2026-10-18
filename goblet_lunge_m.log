@@ -1,0 +1,89 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:14.063  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/00.png'
+00:26.349  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/00.png'
+00:38.582  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/01.png'
+00:50.842  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/01.png'
+01:03.062  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/02.png'
+01:15.350  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/02.png'
+01:27.594  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/03.png'
+01:39.931  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/03.png'
+01:52.165  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/04.png'
+02:04.437  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/04.png'
+02:16.644  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/05.png'
+02:28.906  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/05.png'
+02:41.096  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/06.png'
+02:53.376  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/06.png'
+03:05.603  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/07.png'
+03:17.919  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/07.png'
+03:30.108  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/08.png'
+03:42.367  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/08.png'
+03:54.543  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/09.png'
+04:06.752  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/09.png'
+04:18.909  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/10.png'
+04:31.056  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/10.png'
+04:43.216  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/11.png'
+04:55.407  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/11.png'
+05:07.568  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/12.png'
+05:19.707  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/12.png'
+05:31.871  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/13.png'
+05:43.874  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/13.png'
+05:55.971  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/14.png'
+06:08.015  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/14.png'
+06:20.115  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/15.png'
+06:32.117  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/15.png'
+06:44.214  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/16.png'
+06:56.205  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/16.png'
+07:08.252  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/17.png'
+07:20.217  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/17.png'
+07:32.275  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/18.png'
+07:44.260  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/18.png'
+07:56.304  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/19.png'
+08:08.233  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/19.png'
+08:20.293  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/20.png'
+08:32.287  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/20.png'
+08:44.342  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/21.png'
+08:56.355  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/21.png'
+09:08.429  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/22.png'
+09:20.475  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/22.png'
+09:32.528  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/23.png'
+09:44.616  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/23.png'
+09:56.654  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/24.png'
+10:08.790  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/24.png'
+10:20.877  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/25.png'
+10:33.004  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/25.png'
+10:45.070  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/26.png'
+10:57.217  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/26.png'
+11:09.273  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/27.png'
+11:21.478  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/27.png'
+11:33.598  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/28.png'
+11:45.733  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/28.png'
+11:57.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/29.png'
+12:09.967  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/29.png'
+12:22.038  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/30.png'
+12:34.195  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/30.png'
+12:46.278  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/a/31.png'
+12:58.483  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/goblet_lunge_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 11.92 ms
+OBJ import of 'high-poly.obj' took 1.40 ms
+OBJ import of 'eyebrow001.obj' took 0.22 ms
+OBJ import of 'eyelashes01.obj' took 0.30 ms
+OBJ import of 'short02.obj' took 1.29 ms
+OBJ import of 'crude_male_shirt.obj' took 0.84 ms
+OBJ import of 'jean_shorts.obj' took 0.41 ms
+OBJ import of 'shoes06.obj' took 1.26 ms
+frames/goblet_lunge_m:
+a
+b
+
+frames/goblet_lunge_m/a:

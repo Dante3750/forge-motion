@@ -1,0 +1,89 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:10.329  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/00.png'
+00:20.102  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/00.png'
+00:29.241  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/01.png'
+00:38.945  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/01.png'
+00:47.928  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/02.png'
+00:57.615  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/02.png'
+01:06.571  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/03.png'
+01:16.227  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/03.png'
+01:25.236  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/04.png'
+01:34.925  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/04.png'
+01:44.062  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/05.png'
+01:53.883  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/05.png'
+02:02.935  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/06.png'
+02:12.825  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/06.png'
+02:22.147  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/07.png'
+02:32.244  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/07.png'
+02:41.317  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/08.png'
+02:50.994  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/08.png'
+02:59.962  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/09.png'
+03:09.687  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/09.png'
+03:18.747  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/10.png'
+03:28.561  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/10.png'
+03:37.628  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/11.png'
+03:47.366  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/11.png'
+03:56.420  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/12.png'
+04:06.085  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/12.png'
+04:15.037  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/13.png'
+04:24.692  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/13.png'
+04:33.699  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/14.png'
+04:43.273  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/14.png'
+04:52.288  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/15.png'
+05:02.036  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/15.png'
+05:11.255  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/16.png'
+05:21.235  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/16.png'
+05:30.388  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/17.png'
+05:40.193  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/17.png'
+05:49.323  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/18.png'
+05:59.220  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/18.png'
+06:08.410  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/19.png'
+06:18.441  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/19.png'
+06:27.727  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/20.png'
+06:37.869  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/20.png'
+06:47.243  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/21.png'
+06:57.394  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/21.png'
+07:06.735  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/22.png'
+07:16.700  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/22.png'
+07:25.976  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/23.png'
+07:36.017  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/23.png'
+07:45.321  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/24.png'
+07:55.273  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/24.png'
+08:04.718  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/25.png'
+08:14.973  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/25.png'
+08:24.575  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/26.png'
+08:34.847  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/26.png'
+08:44.203  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/27.png'
+08:54.239  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/27.png'
+09:03.678  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/28.png'
+09:13.803  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/28.png'
+09:23.351  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/29.png'
+09:33.701  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/29.png'
+09:43.299  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/30.png'
+09:53.587  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/30.png'
+10:02.766  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/a/31.png'
+10:12.733  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/wall_sit_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.35 ms
+OBJ import of 'high-poly.obj' took 1.12 ms
+OBJ import of 'eyebrow001.obj' took 0.22 ms
+OBJ import of 'eyelashes01.obj' took 0.27 ms
+OBJ import of 'short02.obj' took 1.04 ms
+OBJ import of 'crude_male_shirt.obj' took 0.68 ms
+OBJ import of 'jean_shorts.obj' took 0.34 ms
+OBJ import of 'shoes06.obj' took 1.03 ms
+frames/wall_sit_m:
+a
+b
+
+frames/wall_sit_m/a:

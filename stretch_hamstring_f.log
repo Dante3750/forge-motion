@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:16.427  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/00.png'
+00:30.085  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/00.png'
+00:44.424  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/01.png'
+00:58.203  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/01.png'
+01:12.527  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/02.png'
+01:26.158  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/02.png'
+01:40.425  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/03.png'
+01:54.075  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/03.png'
+02:08.389  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/04.png'
+02:22.002  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/04.png'
+02:36.332  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/05.png'
+02:50.032  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/05.png'
+03:04.320  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/06.png'
+03:18.004  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/06.png'
+03:32.233  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/07.png'
+03:45.956  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/07.png'
+04:00.188  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/08.png'
+04:13.784  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/08.png'
+04:28.100  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/09.png'
+04:41.676  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/09.png'
+04:55.932  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/10.png'
+05:09.559  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/10.png'
+05:23.888  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/11.png'
+05:37.554  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/11.png'
+05:51.897  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/12.png'
+06:05.624  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/12.png'
+06:19.962  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/13.png'
+06:33.665  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/13.png'
+06:48.167  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/14.png'
+07:01.930  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/14.png'
+07:16.262  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/15.png'
+07:29.844  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/15.png'
+07:44.164  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/16.png'
+07:57.761  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/16.png'
+08:12.134  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/17.png'
+08:25.733  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/17.png'
+08:39.962  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/18.png'
+08:53.480  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/18.png'
+09:07.656  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/19.png'
+09:21.218  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/19.png'
+09:35.361  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/20.png'
+09:48.881  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/20.png'
+10:03.037  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/21.png'
+10:16.522  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/21.png'
+10:30.783  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/22.png'
+10:44.318  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/22.png'
+10:58.528  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/23.png'
+11:12.168  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/23.png'
+11:26.334  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/24.png'
+11:39.897  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/24.png'
+11:54.047  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/25.png'
+12:07.633  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/25.png'
+12:21.778  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/26.png'
+12:35.459  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/26.png'
+12:49.605  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/27.png'
+13:03.195  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/27.png'
+13:17.313  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/28.png'
+13:30.919  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/28.png'
+13:44.994  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/29.png'
+13:58.520  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/29.png'
+14:12.604  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/30.png'
+14:26.170  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/30.png'
+14:40.225  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/a/31.png'
+14:53.773  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_hamstring_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 12.28 ms
+OBJ import of 'high-poly.obj' took 1.41 ms
+OBJ import of 'eyebrow010.obj' took 0.24 ms
+OBJ import of 'eyelashes02.obj' took 0.30 ms
+OBJ import of 'ponytail01.obj' took 2.02 ms
+OBJ import of 'female_sportsuit01.obj' took 1.37 ms
+OBJ import of 'shoes06.obj' took 1.26 ms
+frames/stretch_hamstring_f:
+a
+b
+
+frames/stretch_hamstring_f/a:

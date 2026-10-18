@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:14.455  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/00.png'
+00:26.343  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/00.png'
+00:38.555  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/01.png'
+00:50.387  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/01.png'
+01:02.565  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/02.png'
+01:14.276  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/02.png'
+01:26.545  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/03.png'
+01:38.344  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/03.png'
+01:50.496  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/04.png'
+02:02.299  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/04.png'
+02:14.507  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/05.png'
+02:26.252  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/05.png'
+02:38.370  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/06.png'
+02:50.138  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/06.png'
+03:02.316  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/07.png'
+03:14.056  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/07.png'
+03:26.225  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/08.png'
+03:37.966  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/08.png'
+03:50.045  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/09.png'
+04:01.872  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/09.png'
+04:13.978  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/10.png'
+04:25.779  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/10.png'
+04:37.959  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/11.png'
+04:49.719  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/11.png'
+05:01.790  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/12.png'
+05:13.561  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/12.png'
+05:25.661  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/13.png'
+05:37.372  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/13.png'
+05:49.431  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/14.png'
+06:01.154  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/14.png'
+06:13.158  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/15.png'
+06:24.914  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/15.png'
+06:37.013  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/16.png'
+06:48.746  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/16.png'
+07:00.888  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/17.png'
+07:12.645  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/17.png'
+07:24.623  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/18.png'
+07:36.317  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/18.png'
+07:48.282  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/19.png'
+08:00.052  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/19.png'
+08:12.094  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/20.png'
+08:23.941  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/20.png'
+08:35.947  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/21.png'
+08:47.704  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/21.png'
+08:59.825  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/22.png'
+09:11.509  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/22.png'
+09:23.638  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/23.png'
+09:35.683  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/23.png'
+09:47.741  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/24.png'
+09:59.600  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/24.png'
+10:11.788  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/25.png'
+10:23.610  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/25.png'
+10:35.810  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/26.png'
+10:47.732  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/26.png'
+10:59.807  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/27.png'
+11:11.512  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/27.png'
+11:23.588  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/28.png'
+11:35.383  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/28.png'
+11:47.548  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/29.png'
+11:59.315  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/29.png'
+12:11.449  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/30.png'
+12:23.174  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/30.png'
+12:35.266  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/a/31.png'
+12:46.983  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/dips_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 12.13 ms
+OBJ import of 'high-poly.obj' took 1.42 ms
+OBJ import of 'eyebrow010.obj' took 0.23 ms
+OBJ import of 'eyelashes02.obj' took 0.30 ms
+OBJ import of 'ponytail01.obj' took 2.00 ms
+OBJ import of 'female_sportsuit01.obj' took 1.36 ms
+OBJ import of 'shoes06.obj' took 1.23 ms
+frames/dips_f:
+a
+b
+
+frames/dips_f/a:

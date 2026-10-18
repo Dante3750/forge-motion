@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:14.364  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/00.png'
+00:26.493  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/00.png'
+00:38.991  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/01.png'
+00:51.082  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/01.png'
+01:03.628  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/02.png'
+01:15.703  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/02.png'
+01:28.250  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/03.png'
+01:40.426  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/03.png'
+01:53.002  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/04.png'
+02:05.101  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/04.png'
+02:17.645  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/05.png'
+02:29.743  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/05.png'
+02:42.281  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/06.png'
+02:54.409  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/06.png'
+03:06.953  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/07.png'
+03:19.024  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/07.png'
+03:31.665  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/08.png'
+03:43.754  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/08.png'
+03:56.315  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/09.png'
+04:08.393  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/09.png'
+04:20.959  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/10.png'
+04:33.077  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/10.png'
+04:45.693  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/11.png'
+04:57.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/11.png'
+05:10.415  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/12.png'
+05:22.520  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/12.png'
+05:35.114  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/13.png'
+05:47.275  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/13.png'
+05:59.882  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/14.png'
+06:12.016  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/14.png'
+06:24.584  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/15.png'
+06:36.705  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/15.png'
+06:49.274  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/16.png'
+07:01.369  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/16.png'
+07:14.027  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/17.png'
+07:26.143  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/17.png'
+07:38.749  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/18.png'
+07:50.839  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/18.png'
+08:03.413  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/19.png'
+08:15.573  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/19.png'
+08:28.158  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/20.png'
+08:40.302  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/20.png'
+08:52.858  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/21.png'
+09:04.956  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/21.png'
+09:17.541  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/22.png'
+09:29.673  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/22.png'
+09:42.317  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/23.png'
+09:54.441  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/23.png'
+10:06.992  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/24.png'
+10:19.031  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/24.png'
+10:31.604  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/25.png'
+10:43.716  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/25.png'
+10:56.246  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/26.png'
+11:08.304  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/26.png'
+11:20.866  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/27.png'
+11:32.960  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/27.png'
+11:45.515  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/28.png'
+11:57.540  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/28.png'
+12:10.105  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/29.png'
+12:22.155  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/29.png'
+12:34.792  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/30.png'
+12:46.814  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/30.png'
+12:59.359  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/a/31.png'
+13:11.405  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/jump_rope_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 11.98 ms
+OBJ import of 'high-poly.obj' took 1.44 ms
+OBJ import of 'eyebrow001.obj' took 0.22 ms
+OBJ import of 'eyelashes01.obj' took 0.28 ms
+OBJ import of 'short02.obj' took 1.30 ms
+OBJ import of 'crude_male_shirt.obj' took 0.86 ms
+OBJ import of 'jean_shorts.obj' took 0.38 ms
+OBJ import of 'shoes06.obj' took 1.18 ms
+frames/jump_rope_m:
+a
+b
+
+frames/jump_rope_m/a:

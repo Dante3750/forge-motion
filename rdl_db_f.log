@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:18.752  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/00.png'
+00:35.261  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/00.png'
+00:51.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/01.png'
+01:07.820  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/01.png'
+01:23.731  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/02.png'
+01:40.271  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/02.png'
+01:56.160  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/03.png'
+02:12.716  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/03.png'
+02:28.624  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/04.png'
+02:45.196  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/04.png'
+03:01.124  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/05.png'
+03:17.667  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/05.png'
+03:33.553  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/06.png'
+03:50.234  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/06.png'
+04:06.084  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/07.png'
+04:22.670  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/07.png'
+04:38.588  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/08.png'
+04:55.270  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/08.png'
+05:11.200  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/09.png'
+05:27.948  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/09.png'
+05:43.887  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/10.png'
+06:00.549  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/10.png'
+06:16.507  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/11.png'
+06:33.086  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/11.png'
+06:49.085  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/12.png'
+07:05.645  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/12.png'
+07:21.637  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/13.png'
+07:38.072  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/13.png'
+07:54.170  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/14.png'
+08:10.505  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/14.png'
+08:26.536  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/15.png'
+08:42.842  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/15.png'
+08:58.884  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/16.png'
+09:15.094  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/16.png'
+09:31.083  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/17.png'
+09:47.234  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/17.png'
+10:03.289  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/18.png'
+10:19.428  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/18.png'
+10:35.431  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/19.png'
+10:51.614  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/19.png'
+11:07.671  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/20.png'
+11:23.913  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/20.png'
+11:40.011  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/21.png'
+11:56.422  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/21.png'
+12:12.428  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/22.png'
+12:28.870  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/22.png'
+12:44.858  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/23.png'
+13:01.412  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/23.png'
+13:17.337  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/24.png'
+13:33.970  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/24.png'
+13:49.779  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/25.png'
+14:06.423  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/25.png'
+14:22.251  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/26.png'
+14:38.852  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/26.png'
+14:54.688  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/27.png'
+15:11.215  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/27.png'
+15:27.054  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/28.png'
+15:43.613  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/28.png'
+15:59.473  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/29.png'
+16:15.922  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/29.png'
+16:31.780  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/30.png'
+16:48.289  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/30.png'
+17:04.215  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/a/31.png'
+17:20.722  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/rdl_db_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.34 ms
+OBJ import of 'high-poly.obj' took 1.86 ms
+OBJ import of 'eyebrow010.obj' took 0.31 ms
+OBJ import of 'eyelashes02.obj' took 0.41 ms
+OBJ import of 'ponytail01.obj' took 2.45 ms
+OBJ import of 'female_sportsuit01.obj' took 1.90 ms
+OBJ import of 'shoes06.obj' took 1.63 ms
+frames/rdl_db_f:
+a
+b
+
+frames/rdl_db_f/a:

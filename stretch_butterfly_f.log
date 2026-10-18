@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:14.798  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/00.png'
+00:27.221  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/00.png'
+00:39.748  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/01.png'
+00:52.110  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/01.png'
+01:04.552  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/02.png'
+01:16.857  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/02.png'
+01:29.263  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/03.png'
+01:41.611  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/03.png'
+01:54.106  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/04.png'
+02:06.530  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/04.png'
+02:19.076  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/05.png'
+02:31.497  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/05.png'
+02:44.060  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/06.png'
+02:56.453  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/06.png'
+03:09.077  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/07.png'
+03:21.494  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/07.png'
+03:34.190  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/08.png'
+03:46.568  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/08.png'
+03:59.218  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/09.png'
+04:11.700  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/09.png'
+04:24.287  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/10.png'
+04:36.712  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/10.png'
+04:49.361  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/11.png'
+05:01.749  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/11.png'
+05:14.328  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/12.png'
+05:26.713  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/12.png'
+05:39.349  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/13.png'
+05:51.704  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/13.png'
+06:04.487  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/14.png'
+06:16.910  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/14.png'
+06:29.606  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/15.png'
+06:42.050  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/15.png'
+06:54.722  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/16.png'
+07:07.140  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/16.png'
+07:19.764  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/17.png'
+07:32.144  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/17.png'
+07:44.775  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/18.png'
+07:57.153  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/18.png'
+08:09.907  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/19.png'
+08:22.243  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/19.png'
+08:34.872  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/20.png'
+08:47.238  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/20.png'
+08:59.856  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/21.png'
+09:12.235  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/21.png'
+09:24.868  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/22.png'
+09:37.318  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/22.png'
+09:49.876  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/23.png'
+10:02.221  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/23.png'
+10:14.678  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/24.png'
+10:27.005  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/24.png'
+10:39.567  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/25.png'
+10:51.961  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/25.png'
+11:04.384  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/26.png'
+11:16.738  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/26.png'
+11:29.163  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/27.png'
+11:41.526  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/27.png'
+11:53.970  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/28.png'
+12:06.361  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/28.png'
+12:18.735  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/29.png'
+12:31.033  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/29.png'
+12:43.409  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/30.png'
+12:55.731  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/30.png'
+13:08.156  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/a/31.png'
+13:20.483  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_butterfly_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 11.91 ms
+OBJ import of 'high-poly.obj' took 1.41 ms
+OBJ import of 'eyebrow010.obj' took 0.23 ms
+OBJ import of 'eyelashes02.obj' took 0.31 ms
+OBJ import of 'ponytail01.obj' took 1.98 ms
+OBJ import of 'female_sportsuit01.obj' took 1.34 ms
+OBJ import of 'shoes06.obj' took 1.23 ms
+frames/stretch_butterfly_f:
+a
+b
+
+frames/stretch_butterfly_f/a:

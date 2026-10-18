@@ -1,0 +1,89 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:23.134  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/00.png'
+00:44.171  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/00.png'
+01:04.958  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/01.png'
+01:25.929  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/01.png'
+01:46.875  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/02.png'
+02:07.917  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/02.png'
+02:28.864  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/03.png'
+02:49.931  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/03.png'
+03:10.999  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/04.png'
+03:32.206  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/04.png'
+03:53.124  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/05.png'
+04:14.172  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/05.png'
+04:35.072  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/06.png'
+04:56.011  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/06.png'
+05:16.623  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/07.png'
+05:37.528  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/07.png'
+05:57.928  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/08.png'
+06:18.658  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/08.png'
+06:39.222  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/09.png'
+07:00.003  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/09.png'
+07:20.481  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/10.png'
+07:41.166  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/10.png'
+08:01.627  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/11.png'
+08:22.203  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/11.png'
+08:42.529  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/12.png'
+09:02.984  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/12.png'
+09:23.305  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/13.png'
+09:43.668  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/13.png'
+10:03.851  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/14.png'
+10:24.383  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/14.png'
+10:44.588  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/15.png'
+11:05.073  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/15.png'
+11:25.272  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/16.png'
+11:45.740  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/16.png'
+12:05.998  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/17.png'
+12:26.494  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/17.png'
+12:46.763  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/18.png'
+13:07.289  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/18.png'
+13:27.414  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/19.png'
+13:48.012  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/19.png'
+14:08.222  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/20.png'
+14:28.782  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/20.png'
+14:48.920  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/21.png'
+15:09.537  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/21.png'
+15:29.653  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/22.png'
+15:50.331  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/22.png'
+16:10.564  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/23.png'
+16:31.149  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/23.png'
+16:51.480  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/24.png'
+17:12.140  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/24.png'
+17:32.705  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/25.png'
+17:53.554  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/25.png'
+18:14.238  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/26.png'
+18:34.974  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/26.png'
+18:55.428  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/27.png'
+19:16.256  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/27.png'
+19:36.959  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/28.png'
+19:57.841  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/28.png'
+20:18.535  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/29.png'
+20:39.486  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/29.png'
+21:00.270  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/30.png'
+21:21.231  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/30.png'
+21:41.976  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/a/31.png'
+22:02.847  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/row_db_single_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.03 ms
+OBJ import of 'high-poly.obj' took 1.92 ms
+OBJ import of 'eyebrow001.obj' took 0.33 ms
+OBJ import of 'eyelashes01.obj' took 0.38 ms
+OBJ import of 'short02.obj' took 1.80 ms
+OBJ import of 'crude_male_shirt.obj' took 1.15 ms
+OBJ import of 'jean_shorts.obj' took 0.47 ms
+OBJ import of 'shoes06.obj' took 1.60 ms
+frames/row_db_single_m:
+a
+b
+
+frames/row_db_single_m/a:

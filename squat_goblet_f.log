@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:18.813  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/00.png'
+00:35.366  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/00.png'
+00:51.516  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/01.png'
+01:08.059  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/01.png'
+01:24.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/02.png'
+01:40.667  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/02.png'
+01:56.715  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/03.png'
+02:13.292  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/03.png'
+02:29.468  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/04.png'
+02:46.046  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/04.png'
+03:02.136  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/05.png'
+03:18.657  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/05.png'
+03:34.712  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/06.png'
+03:51.171  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/06.png'
+04:07.202  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/07.png'
+04:23.810  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/07.png'
+04:39.859  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/08.png'
+04:56.391  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/08.png'
+05:12.437  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/09.png'
+05:28.877  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/09.png'
+05:44.928  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/10.png'
+06:01.282  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/10.png'
+06:17.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/11.png'
+06:33.659  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/11.png'
+06:49.684  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/12.png'
+07:06.026  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/12.png'
+07:22.000  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/13.png'
+07:38.324  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/13.png'
+07:54.287  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/14.png'
+08:10.479  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/14.png'
+08:26.377  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/15.png'
+08:42.536  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/15.png'
+08:58.452  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/16.png'
+09:14.612  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/16.png'
+09:30.526  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/17.png'
+09:46.723  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/17.png'
+10:02.711  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/18.png'
+10:18.854  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/18.png'
+10:34.810  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/19.png'
+10:51.023  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/19.png'
+11:06.966  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/20.png'
+11:23.224  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/20.png'
+11:39.181  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/21.png'
+11:55.430  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/21.png'
+12:11.369  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/22.png'
+12:27.608  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/22.png'
+12:43.556  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/23.png'
+12:59.952  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/23.png'
+13:15.941  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/24.png'
+13:32.276  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/24.png'
+13:48.247  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/25.png'
+14:04.594  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/25.png'
+14:20.458  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/26.png'
+14:36.873  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/26.png'
+14:52.832  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/27.png'
+15:09.217  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/27.png'
+15:25.113  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/28.png'
+15:41.483  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/28.png'
+15:57.299  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/29.png'
+16:13.691  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/29.png'
+16:29.566  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/30.png'
+16:45.961  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/30.png'
+17:01.846  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/a/31.png'
+17:18.209  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_goblet_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 14.98 ms
+OBJ import of 'high-poly.obj' took 2.03 ms
+OBJ import of 'eyebrow010.obj' took 0.30 ms
+OBJ import of 'eyelashes02.obj' took 0.42 ms
+OBJ import of 'ponytail01.obj' took 2.49 ms
+OBJ import of 'female_sportsuit01.obj' took 1.79 ms
+OBJ import of 'shoes06.obj' took 1.70 ms
+frames/squat_goblet_f:
+a
+b
+
+frames/squat_goblet_f/a:

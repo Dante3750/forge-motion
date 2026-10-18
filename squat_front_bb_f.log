@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:17.178  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/00.png'
+00:30.494  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/00.png'
+00:45.161  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/01.png'
+00:58.513  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/01.png'
+01:13.217  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/02.png'
+01:26.559  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/02.png'
+01:41.414  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/03.png'
+01:54.917  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/03.png'
+02:09.781  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/04.png'
+02:23.163  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/04.png'
+02:37.847  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/05.png'
+02:51.227  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/05.png'
+03:05.902  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/06.png'
+03:19.144  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/06.png'
+03:33.780  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/07.png'
+03:47.032  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/07.png'
+04:01.513  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/08.png'
+04:14.656  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/08.png'
+04:29.039  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/09.png'
+04:42.090  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/09.png'
+04:56.382  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/10.png'
+05:09.356  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/10.png'
+05:23.588  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/11.png'
+05:36.586  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/11.png'
+05:50.706  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/12.png'
+06:03.583  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/12.png'
+06:17.625  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/13.png'
+06:30.533  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/13.png'
+06:44.586  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/14.png'
+06:57.362  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/14.png'
+07:11.278  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/15.png'
+07:23.974  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/15.png'
+07:37.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/16.png'
+07:50.407  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/16.png'
+08:04.194  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/17.png'
+08:16.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/17.png'
+08:30.633  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/18.png'
+08:43.249  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/18.png'
+08:57.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/19.png'
+09:09.751  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/19.png'
+09:23.701  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/20.png'
+09:36.467  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/20.png'
+09:50.581  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/21.png'
+10:03.494  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/21.png'
+10:17.701  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/22.png'
+10:30.659  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/22.png'
+10:45.055  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/23.png'
+10:58.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/23.png'
+11:12.573  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/24.png'
+11:25.677  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/24.png'
+11:40.224  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/25.png'
+11:53.411  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/25.png'
+12:07.953  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/26.png'
+12:21.203  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/26.png'
+12:35.847  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/27.png'
+12:49.153  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/27.png'
+13:03.672  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/28.png'
+13:16.974  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/28.png'
+13:31.594  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/29.png'
+13:44.900  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/29.png'
+13:59.592  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/30.png'
+14:12.885  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/30.png'
+14:27.476  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/a/31.png'
+14:40.684  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/squat_front_bb_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.07 ms
+OBJ import of 'high-poly.obj' took 1.82 ms
+OBJ import of 'eyebrow010.obj' took 0.34 ms
+OBJ import of 'eyelashes02.obj' took 0.44 ms
+OBJ import of 'ponytail01.obj' took 2.48 ms
+OBJ import of 'female_sportsuit01.obj' took 1.80 ms
+OBJ import of 'shoes06.obj' took 1.52 ms
+frames/squat_front_bb_f:
+a
+b
+
+frames/squat_front_bb_f/a:

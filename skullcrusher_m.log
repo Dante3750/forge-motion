@@ -1,0 +1,89 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:22.837  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/00.png'
+00:44.131  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/00.png'
+01:04.683  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/01.png'
+01:25.900  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/01.png'
+01:46.405  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/02.png'
+02:07.570  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/02.png'
+02:28.146  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/03.png'
+02:49.446  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/03.png'
+03:10.051  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/04.png'
+03:31.336  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/04.png'
+03:52.006  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/05.png'
+04:13.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/05.png'
+04:33.806  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/06.png'
+04:55.069  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/06.png'
+05:15.434  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/07.png'
+05:36.561  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/07.png'
+05:56.919  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/08.png'
+06:18.097  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/08.png'
+06:38.456  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/09.png'
+06:59.689  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/09.png'
+07:20.093  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/10.png'
+07:41.119  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/10.png'
+08:01.317  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/11.png'
+08:22.385  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/11.png'
+08:42.590  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/12.png'
+09:03.450  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/12.png'
+09:23.603  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/13.png'
+09:44.356  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/13.png'
+10:04.430  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/14.png'
+10:25.165  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/14.png'
+10:45.300  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/15.png'
+11:06.269  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/15.png'
+11:26.424  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/16.png'
+11:47.351  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/16.png'
+12:07.421  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/17.png'
+12:28.356  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/17.png'
+12:48.499  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/18.png'
+13:09.460  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/18.png'
+13:29.635  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/19.png'
+13:50.549  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/19.png'
+14:10.765  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/20.png'
+14:31.829  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/20.png'
+14:52.033  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/21.png'
+15:12.955  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/21.png'
+15:33.226  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/22.png'
+15:54.076  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/22.png'
+16:14.793  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/23.png'
+16:35.638  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/23.png'
+16:55.925  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/24.png'
+17:17.033  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/24.png'
+17:37.463  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/25.png'
+17:58.633  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/25.png'
+18:18.995  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/26.png'
+18:40.218  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/26.png'
+19:00.646  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/27.png'
+19:21.785  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/27.png'
+19:42.302  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/28.png'
+20:03.437  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/28.png'
+20:23.906  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/29.png'
+20:45.056  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/29.png'
+21:05.406  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/30.png'
+21:26.448  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/30.png'
+21:46.822  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/a/31.png'
+22:07.900  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/skullcrusher_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 14.96 ms
+OBJ import of 'high-poly.obj' took 1.90 ms
+OBJ import of 'eyebrow001.obj' took 0.27 ms
+OBJ import of 'eyelashes01.obj' took 0.40 ms
+OBJ import of 'short02.obj' took 1.79 ms
+OBJ import of 'crude_male_shirt.obj' took 1.15 ms
+OBJ import of 'jean_shorts.obj' took 0.51 ms
+OBJ import of 'shoes06.obj' took 1.62 ms
+frames/skullcrusher_m:
+a
+b
+
+frames/skullcrusher_m/a:

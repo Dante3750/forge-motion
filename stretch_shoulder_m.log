@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:18.288  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/00.png'
+00:33.711  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/00.png'
+00:49.736  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/01.png'
+01:05.139  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/01.png'
+01:21.162  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/02.png'
+01:36.613  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/02.png'
+01:52.609  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/03.png'
+02:08.012  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/03.png'
+02:24.096  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/04.png'
+02:39.540  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/04.png'
+02:55.559  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/05.png'
+03:10.982  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/05.png'
+03:27.057  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/06.png'
+03:42.492  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/06.png'
+03:58.456  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/07.png'
+04:13.807  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/07.png'
+04:29.825  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/08.png'
+04:45.150  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/08.png'
+05:01.115  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/09.png'
+05:16.427  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/09.png'
+05:32.291  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/10.png'
+05:47.541  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/10.png'
+06:03.352  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/11.png'
+06:18.603  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/11.png'
+06:34.437  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/12.png'
+06:49.665  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/12.png'
+07:05.465  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/13.png'
+07:20.682  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/13.png'
+07:36.499  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/14.png'
+07:51.737  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/14.png'
+08:07.565  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/15.png'
+08:22.750  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/15.png'
+08:38.577  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/16.png'
+08:53.749  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/16.png'
+09:09.522  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/17.png'
+09:24.688  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/17.png'
+09:40.533  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/18.png'
+09:55.724  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/18.png'
+10:11.564  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/19.png'
+10:26.748  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/19.png'
+10:42.560  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/20.png'
+10:57.740  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/20.png'
+11:13.562  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/21.png'
+11:28.756  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/21.png'
+11:44.573  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/22.png'
+11:59.757  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/22.png'
+12:15.560  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/23.png'
+12:30.767  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/23.png'
+12:46.594  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/24.png'
+13:01.841  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/24.png'
+13:17.685  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/25.png'
+13:33.021  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/25.png'
+13:48.866  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/26.png'
+14:04.173  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/26.png'
+14:20.016  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/27.png'
+14:35.372  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/27.png'
+14:51.221  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/28.png'
+15:06.529  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/28.png'
+15:22.442  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/29.png'
+15:37.764  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/29.png'
+15:53.668  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/30.png'
+16:08.978  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/30.png'
+16:24.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/a/31.png'
+16:40.132  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_shoulder_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.09 ms
+OBJ import of 'high-poly.obj' took 1.79 ms
+OBJ import of 'eyebrow001.obj' took 0.29 ms
+OBJ import of 'eyelashes01.obj' took 0.38 ms
+OBJ import of 'short02.obj' took 1.67 ms
+OBJ import of 'crude_male_shirt.obj' took 1.10 ms
+OBJ import of 'jean_shorts.obj' took 0.49 ms
+OBJ import of 'shoes06.obj' took 1.55 ms
+frames/stretch_shoulder_m:
+a
+b
+
+frames/stretch_shoulder_m/a:

@@ -1,0 +1,89 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:09.772  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/00.png'
+00:17.192  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/00.png'
+00:25.279  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/01.png'
+00:32.648  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/01.png'
+00:40.545  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/02.png'
+00:47.826  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/02.png'
+00:55.730  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/03.png'
+01:03.053  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/03.png'
+01:11.008  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/04.png'
+01:18.402  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/04.png'
+01:26.404  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/05.png'
+01:33.701  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/05.png'
+01:41.819  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/06.png'
+01:49.267  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/06.png'
+01:57.243  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/07.png'
+02:04.583  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/07.png'
+02:12.597  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/08.png'
+02:19.938  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/08.png'
+02:27.896  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/09.png'
+02:35.219  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/09.png'
+02:43.204  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/10.png'
+02:50.627  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/10.png'
+02:58.712  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/11.png'
+03:06.516  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/11.png'
+03:14.952  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/12.png'
+03:22.565  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/12.png'
+03:30.665  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/13.png'
+03:38.507  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/13.png'
+03:46.945  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/14.png'
+03:54.500  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/14.png'
+04:02.720  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/15.png'
+04:10.306  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/15.png'
+04:18.390  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/16.png'
+04:25.933  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/16.png'
+04:34.015  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/17.png'
+04:41.554  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/17.png'
+04:49.608  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/18.png'
+04:57.108  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/18.png'
+05:05.110  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/19.png'
+05:12.581  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/19.png'
+05:20.635  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/20.png'
+05:28.106  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/20.png'
+05:36.173  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/21.png'
+05:43.753  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/21.png'
+05:52.017  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/22.png'
+05:59.646  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/22.png'
+06:07.845  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/23.png'
+06:15.539  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/23.png'
+06:23.834  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/24.png'
+06:31.626  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/24.png'
+06:40.116  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/25.png'
+06:47.948  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/25.png'
+06:56.429  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/26.png'
+07:04.241  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/26.png'
+07:12.634  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/27.png'
+07:20.402  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/27.png'
+07:28.848  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/28.png'
+07:36.667  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/28.png'
+07:45.208  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/29.png'
+07:53.039  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/29.png'
+08:01.499  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/30.png'
+08:09.387  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/30.png'
+08:18.114  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/a/31.png'
+08:25.893  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/deadlift_bb_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.50 ms
+OBJ import of 'high-poly.obj' took 1.13 ms
+OBJ import of 'eyebrow001.obj' took 0.29 ms
+OBJ import of 'eyelashes01.obj' took 0.36 ms
+OBJ import of 'short02.obj' took 1.18 ms
+OBJ import of 'crude_male_shirt.obj' took 0.81 ms
+OBJ import of 'jean_shorts.obj' took 0.44 ms
+OBJ import of 'shoes06.obj' took 1.12 ms
+frames/deadlift_bb_m:
+a
+b
+
+frames/deadlift_bb_m/a:

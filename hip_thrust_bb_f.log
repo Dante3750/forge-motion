@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:20.908  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/00.png'
+00:38.272  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/00.png'
+00:56.329  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/01.png'
+01:13.704  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/01.png'
+01:31.679  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/02.png'
+01:49.063  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/02.png'
+02:07.111  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/03.png'
+02:24.480  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/03.png'
+02:42.489  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/04.png'
+02:59.862  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/04.png'
+03:17.924  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/05.png'
+03:35.310  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/05.png'
+03:53.346  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/06.png'
+04:10.736  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/06.png'
+04:28.697  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/07.png'
+04:46.145  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/07.png'
+05:04.052  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/08.png'
+05:21.494  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/08.png'
+05:39.326  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/09.png'
+05:56.744  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/09.png'
+06:14.573  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/10.png'
+06:32.014  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/10.png'
+06:49.935  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/11.png'
+07:07.584  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/11.png'
+07:25.510  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/12.png'
+07:43.224  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/12.png'
+08:01.124  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/13.png'
+08:18.898  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/13.png'
+08:36.769  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/14.png'
+08:54.458  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/14.png'
+09:12.269  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/15.png'
+09:29.949  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/15.png'
+09:47.831  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/16.png'
+10:05.440  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/16.png'
+10:23.380  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/17.png'
+10:41.104  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/17.png'
+10:58.971  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/18.png'
+11:16.507  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/18.png'
+11:34.359  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/19.png'
+11:51.862  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/19.png'
+12:09.741  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/20.png'
+12:27.078  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/20.png'
+12:45.103  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/21.png'
+13:02.531  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/21.png'
+13:20.607  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/22.png'
+13:38.001  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/22.png'
+13:56.115  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/23.png'
+14:13.519  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/23.png'
+14:31.561  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/24.png'
+14:48.874  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/24.png'
+15:06.951  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/25.png'
+15:24.328  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/25.png'
+15:42.303  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/26.png'
+15:59.635  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/26.png'
+16:17.578  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/27.png'
+16:34.940  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/27.png'
+16:52.963  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/28.png'
+17:10.365  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/28.png'
+17:28.331  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/29.png'
+17:45.682  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/29.png'
+18:03.721  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/30.png'
+18:20.989  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/30.png'
+18:38.977  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/a/31.png'
+18:56.261  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/hip_thrust_bb_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.21 ms
+OBJ import of 'high-poly.obj' took 1.84 ms
+OBJ import of 'eyebrow010.obj' took 0.32 ms
+OBJ import of 'eyelashes02.obj' took 0.43 ms
+OBJ import of 'ponytail01.obj' took 2.40 ms
+OBJ import of 'female_sportsuit01.obj' took 1.80 ms
+OBJ import of 'shoes06.obj' took 1.68 ms
+frames/hip_thrust_bb_f:
+a
+b
+
+frames/hip_thrust_bb_f/a:

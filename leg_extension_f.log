@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:12.959  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/00.png'
+00:24.088  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/00.png'
+00:34.881  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/01.png'
+00:45.927  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/01.png'
+00:56.707  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/02.png'
+01:07.697  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/02.png'
+01:18.553  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/03.png'
+01:29.581  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/03.png'
+01:40.452  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/04.png'
+01:51.546  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/04.png'
+02:02.375  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/05.png'
+02:13.420  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/05.png'
+02:24.186  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/06.png'
+02:35.219  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/06.png'
+02:45.918  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/07.png'
+02:56.803  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/07.png'
+03:07.434  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/08.png'
+03:18.262  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/08.png'
+03:28.856  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/09.png'
+03:39.755  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/09.png'
+03:50.329  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/10.png'
+04:01.282  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/10.png'
+04:11.826  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/11.png'
+04:22.700  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/11.png'
+04:33.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/12.png'
+04:44.032  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/12.png'
+04:54.692  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/13.png'
+05:05.637  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/13.png'
+05:16.252  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/14.png'
+05:27.198  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/14.png'
+05:38.011  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/15.png'
+05:49.017  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/15.png'
+05:59.623  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/16.png'
+06:10.492  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/16.png'
+06:21.440  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/17.png'
+06:32.797  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/17.png'
+06:43.841  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/18.png'
+06:55.206  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/18.png'
+07:06.243  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/19.png'
+07:17.616  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/19.png'
+07:28.700  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/20.png'
+07:40.120  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/20.png'
+07:51.114  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/21.png'
+08:02.352  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/21.png'
+08:13.278  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/22.png'
+08:24.511  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/22.png'
+08:35.526  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/23.png'
+08:46.768  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/23.png'
+08:57.736  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/24.png'
+09:08.864  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/24.png'
+09:19.524  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/25.png'
+09:30.476  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/25.png'
+09:41.178  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/26.png'
+09:52.135  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/26.png'
+10:02.791  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/27.png'
+10:13.678  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/27.png'
+10:24.346  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/28.png'
+10:35.220  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/28.png'
+10:45.812  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/29.png'
+10:56.656  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/29.png'
+11:07.185  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/30.png'
+11:18.105  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/30.png'
+11:28.731  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/a/31.png'
+11:39.578  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/leg_extension_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 13.19 ms
+OBJ import of 'high-poly.obj' took 1.59 ms
+OBJ import of 'eyebrow010.obj' took 0.34 ms
+OBJ import of 'eyelashes02.obj' took 0.37 ms
+OBJ import of 'ponytail01.obj' took 2.14 ms
+OBJ import of 'female_sportsuit01.obj' took 1.72 ms
+OBJ import of 'shoes06.obj' took 1.38 ms
+frames/leg_extension_f:
+a
+b
+
+frames/leg_extension_f/a:

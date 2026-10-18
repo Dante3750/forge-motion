@@ -1,0 +1,89 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:15.496  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/00.png'
+00:29.119  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/00.png'
+00:42.900  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/01.png'
+00:56.512  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/01.png'
+01:10.264  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/02.png'
+01:23.902  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/02.png'
+01:37.627  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/03.png'
+01:51.264  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/03.png'
+02:05.051  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/04.png'
+02:18.660  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/04.png'
+02:32.364  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/05.png'
+02:45.966  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/05.png'
+02:59.641  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/06.png'
+03:13.202  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/06.png'
+03:26.899  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/07.png'
+03:40.373  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/07.png'
+03:54.037  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/08.png'
+04:07.532  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/08.png'
+04:21.128  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/09.png'
+04:34.603  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/09.png'
+04:48.203  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/10.png'
+05:01.570  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/10.png'
+05:15.048  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/11.png'
+05:28.347  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/11.png'
+05:41.821  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/12.png'
+05:55.032  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/12.png'
+06:08.412  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/13.png'
+06:21.527  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/13.png'
+06:34.814  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/14.png'
+06:47.876  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/14.png'
+07:01.161  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/15.png'
+07:14.186  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/15.png'
+07:27.369  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/16.png'
+07:40.267  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/16.png'
+07:53.452  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/17.png'
+08:06.357  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/17.png'
+08:19.467  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/18.png'
+08:32.342  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/18.png'
+08:45.338  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/19.png'
+08:58.138  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/19.png'
+09:11.209  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/20.png'
+09:24.147  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/20.png'
+09:37.280  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/21.png'
+09:50.239  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/21.png'
+10:03.453  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/22.png'
+10:16.516  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/22.png'
+10:29.793  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/23.png'
+10:42.954  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/23.png'
+10:56.334  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/24.png'
+11:09.604  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/24.png'
+11:23.038  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/25.png'
+11:36.382  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/25.png'
+11:49.888  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/26.png'
+12:03.282  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/26.png'
+12:16.844  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/27.png'
+12:30.260  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/27.png'
+12:43.860  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/28.png'
+12:57.364  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/28.png'
+13:10.957  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/29.png'
+13:24.427  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/29.png'
+13:38.029  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/30.png'
+13:51.528  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/30.png'
+14:05.123  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/a/31.png'
+14:18.671  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_knee_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 11.89 ms
+OBJ import of 'high-poly.obj' took 1.45 ms
+OBJ import of 'eyebrow001.obj' took 0.25 ms
+OBJ import of 'eyelashes01.obj' took 0.28 ms
+OBJ import of 'short02.obj' took 1.31 ms
+OBJ import of 'crude_male_shirt.obj' took 0.86 ms
+OBJ import of 'jean_shorts.obj' took 0.41 ms
+OBJ import of 'shoes06.obj' took 1.20 ms
+frames/pushup_knee_m:
+a
+b
+
+frames/pushup_knee_m/a:

@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:15.861  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/00.png'
+00:29.439  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/00.png'
+00:43.210  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/01.png'
+00:57.111  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/01.png'
+01:11.193  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/02.png'
+01:25.095  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/02.png'
+01:38.915  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/03.png'
+01:52.769  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/03.png'
+02:06.583  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/04.png'
+02:20.259  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/04.png'
+02:34.034  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/05.png'
+02:47.749  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/05.png'
+03:01.522  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/06.png'
+03:15.293  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/06.png'
+03:29.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/07.png'
+03:42.963  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/07.png'
+03:56.765  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/08.png'
+04:10.600  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/08.png'
+04:24.412  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/09.png'
+04:38.079  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/09.png'
+04:51.727  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/10.png'
+05:05.322  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/10.png'
+05:19.003  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/11.png'
+05:32.601  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/11.png'
+05:46.347  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/12.png'
+06:00.061  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/12.png'
+06:13.774  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/13.png'
+06:27.434  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/13.png'
+06:41.098  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/14.png'
+06:54.696  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/14.png'
+07:08.425  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/15.png'
+07:22.113  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/15.png'
+07:35.752  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/16.png'
+07:49.376  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/16.png'
+08:03.093  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/17.png'
+08:16.830  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/17.png'
+08:30.503  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/18.png'
+08:44.232  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/18.png'
+08:57.884  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/19.png'
+09:11.542  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/19.png'
+09:25.119  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/20.png'
+09:38.749  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/20.png'
+09:52.431  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/21.png'
+10:06.077  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/21.png'
+10:19.760  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/22.png'
+10:33.389  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/22.png'
+10:47.101  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/23.png'
+11:00.683  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/23.png'
+11:14.403  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/24.png'
+11:27.975  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/24.png'
+11:41.592  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/25.png'
+11:55.141  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/25.png'
+12:08.755  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/26.png'
+12:22.281  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/26.png'
+12:35.922  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/27.png'
+12:49.418  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/27.png'
+13:03.026  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/28.png'
+13:16.790  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/28.png'
+13:30.396  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/29.png'
+13:43.807  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/29.png'
+13:57.356  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/30.png'
+14:10.828  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/30.png'
+14:24.391  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/a/31.png'
+14:37.801  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pike_pushup_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 12.16 ms
+OBJ import of 'high-poly.obj' took 1.41 ms
+OBJ import of 'eyebrow010.obj' took 0.23 ms
+OBJ import of 'eyelashes02.obj' took 0.28 ms
+OBJ import of 'ponytail01.obj' took 2.02 ms
+OBJ import of 'female_sportsuit01.obj' took 1.35 ms
+OBJ import of 'shoes06.obj' took 1.22 ms
+frames/pike_pushup_f:
+a
+b
+
+frames/pike_pushup_f/a:
