@@ -31,25 +31,97 @@ def lerp(a, b, t, key=None):
 
 def ease(t): return 0.5 - 0.5 * math.cos(math.pi * t)
 
-def pose_at(keys, t, tempo=None, hold=0.06):
-    """keys: poses visited in order and back to the first (loop). t in [0,1).
-    tempo: relative duration of each segment (e.g. slow lowering, faster lifting). A short hold sits at each key."""
+def bezier_ease(x, x1, x2):
+    """CSS-style cubic-bezier(x1, 0, x2, 1): x1/x2 set how gently the move leaves / arrives."""
+    if x <= 0: return 0.0
+    if x >= 1: return 1.0
+    u = x
+    for _ in range(8):
+        bx = 3 * (1 - u) ** 2 * u * x1 + 3 * (1 - u) * u * u * x2 + u ** 3
+        dx = 3 * (1 - u) ** 2 * x1 + 6 * (1 - u) * u * (x2 - x1) + 3 * u * u * (1 - x2)
+        if abs(dx) < 1e-6: break
+        u = min(max(u - (bx - x) / dx, 0.0), 1.0)
+    return 3 * (1 - u) * u * u + u ** 3
+
+# How each kind of key is passed through. A lockout (standing tall, arms straight) is a real stop:
+# the body settles and pauses. A turnaround (bottom of a squat, top of a curl) is a quick reversal:
+# no dead stop, the muscles load and change direction - that rhythm is what reads as "human".
+FEEL = {
+    "lift":    {"lock": (0.58, 0.10), "turn": (0.30, 0.025)},
+    "rhythm":  {"lock": (0.30, 0.0), "turn": (0.30, 0.0)},
+    "stretch": {"lock": (0.62, 0.16), "turn": (0.62, 0.16)},
+}
+
+def pose_at(keys, t, tempo=None, hold=None, style="lift"):
+    """keys: poses visited in order and back to the first (loop). t in [0,1). keys[0] is the start/lockout
+    position, the others are turnarounds. tempo: relative duration of each segment."""
     n = len(keys)
     if n == 1: return keys[0]
     seq = keys + [keys[0]] if n > 2 else [keys[0], keys[1], keys[0]]
     segs = len(seq) - 1
     w = list(tempo) if tempo and len(tempo) == segs else [1.0] * segs
+    feel = FEEL.get(style, FEEL["lift"])
+    def kind(i): return "lock" if i % (segs) == 0 else "turn"
     tot = sum(w); acc = 0.0
     for i in range(segs):
         d = w[i] / tot
         if t < acc + d or i == segs - 1:
             x = min(max((t - acc) / d, 0.0), 1.0)
-            # hold briefly at the start of each segment, then a smooth, slightly front-loaded move
-            x = min(max((x - hold) / (1 - 2 * hold), 0.0), 1.0)
-            f = x * x * x * (x * (6 * x - 15) + 10)
-            return lerp(seq[i], seq[i + 1], f)
+            s0, h0 = feel[kind(i)]; s1, h1 = feel[kind(i + 1)]
+            if hold is not None: h0 = h1 = hold
+            x = min(max((x - h0) / (1 - h0 - h1), 0.0), 1.0)
+            return lerp(seq[i], seq[i + 1], bezier_ease(x, s0, 1 - s1))
         acc += d
     return seq[-1]
+
+# Overlapping action: in a real body the hips start the movement, the trunk follows, and the loose ends
+# (hands, head) arrive a beat later. Fractions of the loop; negative = later.
+PHASE = {"pelvis": 0.022, "pelvis_tilt": 0.018, "torso": 0.008, "torso_side": 0.008,
+         "head": -0.03, "head_side": -0.03,
+         "hands": -0.018, "elbow": -0.018, "palm": -0.018, "wrist_dir": -0.018, "grip": -0.012, "shrug": -0.01,
+         "feet": -0.01, "knee": -0.01, "foot_pitch": -0.01}
+NO_BAL = ("pullbar", "dipbars", "cable", "bench", "swissball", "roller")
+LOAD = {"barbell": 0.55, "ezbar": 0.25, "dumbbells": 0.2, "dumbbells_R": 0.1, "dumbbell": 0.18,
+        "kettlebell": 0.18, "kettlebells": 0.3, "medball": 0.06}
+
+def frame_pose(spec, t):
+    """The pose at loop time t with the human layer on top: staggered body parts, a slightly unequal
+    left/right side, breathing, small postural sway and (via _bal) centre-of-mass balance."""
+    keys, tempo = spec["keys"], spec.get("tempo")
+    style = spec.get("style", "lift")
+    planted = any(k.get("plant") for k in keys)
+    props = spec.get("props", [])
+    rigid = planted or any(k.get("pelvis_tilt", 0) <= -60 or k.get("lie") for k in keys)
+    cache = {}
+    def at(dt):
+        if dt not in cache: cache[dt] = pose_at(keys, (t + dt) % 1.0, tempo, style=style)
+        return cache[dt]
+    P = dict(at(0.0))
+    for key, dt in PHASE.items():
+        if key not in P: continue
+        if rigid and key in ("pelvis", "pelvis_tilt", "torso", "hands", "elbow", "feet", "knee", "foot_pitch"): continue
+        src = at(round(dt, 4))
+        if key in src: P[key] = src[key]
+    # the two sides of a body never move in perfect lockstep (only when the hands are not tied by one bar)
+    if not rigid and "hands" in P and not ({"barbell", "ezbar", "dumbbell", "kettlebell", "medball"} & set(props)):
+        lagL = at(round(PHASE["hands"] - 0.012, 4))
+        P["hands"] = dict(P["hands"]); P["hands"]["L"] = lagL["hands"]["L"]
+        if "elbow" in P and "elbow" in lagL: P["elbow"] = dict(P["elbow"]); P["elbow"]["L"] = lagL["elbow"]["L"]
+    br = math.sin(2 * math.pi * t)
+    P["torso"] = P.get("torso", 0.0) + 0.8 * br
+    P["head"] = P.get("head", 0.0) + 0.7 * math.sin(2 * math.pi * t + 1.0) + 0.4 * math.sin(4 * math.pi * t + 0.3)
+    if not rigid and "pelvis" in P and not spec.get("nobal"):
+        p = P["pelvis"]
+        if not (isinstance(p, tuple) and isinstance(p[0], str)):
+            P["pelvis"] = (p[0] + 0.004 * math.sin(2 * math.pi * t + 0.7), p[1], p[2])
+    if spec.get("air"):
+        # airborne moves: a ballistic hop between the two landings (whole body leaves the floor)
+        segs = 2 if len(keys) == 2 else len(keys)
+        ph = (t * segs) % 1.0
+        P["_lift"] = spec["air"] * max(0.0, math.sin(math.pi * min(max((ph - 0.12) / 0.76, 0), 1)))
+    if not planted and not spec.get("nobal") and not (set(NO_BAL) & set(props)) and not spec.get("benches") and not spec.get("follow"):
+        P["_bal"] = max([LOAD.get(p, 0.0) for p in props] + [0.0])
+    return P
 
 # ---------- props ----------
 def pmat(name, col, rough=0.35, metal=0.0):
@@ -262,8 +334,7 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
     # sample the whole loop to frame it tightly
     pts = []
     for f in range(0, frames, 2):
-        Pf = dict(pose_at(spec["keys"], f / frames, spec.get("tempo")))
-        pose_body(poser, Pf)
+        pose_body(poser, frame_pose(spec, f / frames))
         for b in FRAME_BONES:
             M = poser.posed[b]; pts.append(M.translation.copy())
         hb = poser.posed["head"]; pts.append(hb.translation + (hb.to_3x3() @ Vector((0, 1, 0))).normalized() * 0.26)
@@ -283,10 +354,7 @@ def render_pattern(name, spec, female, outdir, frames=24, res=400, samples=24, o
     pts = [p for p in pts if p.length < 6]
     for f in range(frames):
         if only is not None and f not in only: continue
-        P = dict(pose_at(spec["keys"], f / frames, spec.get("tempo")))
-        br = math.sin(2 * math.pi * f / frames)
-        P["torso"] = P.get("torso", 0.0) + 0.8 * br
-        P["head"] = P.get("head", 0.0) + 1.2 * math.sin(2 * math.pi * f / frames + 1.0)
+        P = frame_pose(spec, f / frames)
         pose_body(poser, P)
         gl, gr = grip_point(poser, "L"), grip_point(poser, "R")
         for o in (bar, ez):

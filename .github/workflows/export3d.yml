@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["render/export.py", "render/patterns.py", "render/body.py", "render/look.py", ".github/workflows/export3d.yml"]
+    paths: ["render/export.py", "render/patterns.py", "render/body.py", "render/anim.py", "render/poser.py", "render/look.py", ".github/workflows/export3d.yml"]
 
 permissions:
   contents: write

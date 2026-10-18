@@ -12,7 +12,7 @@ def st(**kw):
 def mk(base, **kw):
     d = dict(base); d.update(kw); return d
 
-SIDES = tor(0.22, 0.0, -0.58)          # arms hanging, weights at sides
+SIDES = {"L": ("hang", (0.045, 0.0, -0.53)), "R": ("hang", (-0.045, 0.0, -0.53))}  # weights hang straight down under the shoulders
 HIPS = pel(0.17, -0.03, 0.10)          # hands on hips
 BACKBAR = tor(0.32, 0.07, -0.05)       # bar on traps
 P = {}
@@ -402,3 +402,10 @@ P["superman"] = dict(cam="side", props=["mat"], tempo=[0.45, 0.55], keys=[
 P["side_bend"] = dict(cam="front", props=["dumbbells_R"], keys=[
     mk(OH, torso_side=0, hands={"L": ("torso", (0.10, 0.05, 0.16)), "R": ("torso", (-0.22, -0.02, -0.58))}, elbow={"L": (1, 0, 0.5), "R": (-0.3, 0.3, -1)}, db_axis=(0, 1, 0), grip=LR(0.85)),
     mk(OH, torso_side=-45, hands={"L": ("torso", (0.10, 0.05, 0.16)), "R": ("torso", (-0.22, -0.02, -0.58))}, elbow={"L": (1, 0, 0.5), "R": (-0.3, 0.3, -1)}, db_axis=(0, 1, 0), grip=LR(0.85))])
+
+# ---------------- movement feel ----------------
+for _n in ("jumping_jack", "jump_rope", "mountain_climber", "high_knees", "russian_twist", "burpee", "skater", "butt_kick", "box_jump"):
+    if _n in P: P[_n]["style"] = "rhythm"
+for _n, _s in P.items():
+    if _n.startswith("stretch") or _n in ("foam_roll",): _s["style"] = "stretch"
+P["jumping_jack"]["air"] = 0.07
