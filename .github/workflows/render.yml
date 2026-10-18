@@ -9,7 +9,7 @@ on:
         default: ""
   push:
     branches: [main]
-    paths: ["render/**", "assets/**", ".github/workflows/render.yml"]
+    paths: ["render/**", "!render/export.py", "assets/**", ".github/workflows/render.yml"]
 
 permissions:
   contents: write

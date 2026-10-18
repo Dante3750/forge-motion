@@ -54,9 +54,22 @@ def plain(name, base=None, color=(0.8, 0.8, 0.8), normal=None, rough=0.6, metal=
         except Exception: pass
     return m
 
+def eye_materials(o):
+    """Eyes: glossy white sclera with a dark brown iris on the front of each eyeball."""
+    white = plain("eye_white_gl", color=(0.82, 0.8, 0.78), rough=0.15)
+    iris = plain("eye_iris_gl", color=(0.03, 0.015, 0.008), rough=0.1)
+    o.data.materials.clear(); o.data.materials.append(white); o.data.materials.append(iris)
+    co = [v.co for v in o.data.vertices]
+    cy = min(v.y for v in co)
+    for p in o.data.polygons:
+        vy = sum(co[i].y for i in p.vertices) / len(p.vertices)
+        p.material_index = 1 if vy < cy + 0.006 else 0
+
 def convert_materials(human_objs):
     for o in human_objs:
         if o.type != "MESH": continue
+        if "high-poly" in o.name or "low-poly" in o.name:
+            eye_materials(o); continue
         for i, m in enumerate(list(o.data.materials)):
             if m is None: continue
             if "fx" in m.keys():
