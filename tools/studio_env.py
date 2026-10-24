@@ -27,7 +27,7 @@ def box(theta, phi, w, h, lum, col=(1, 1, 1), soft=0.35):
 box(-35, 32, 26, 20, 14.0, (1.0, 0.97, 0.92))   # key softbox, front-left above
 box(140, 18, 9, 30, 9.0, (0.92, 0.96, 1.0))     # rim strip, behind-right
 box(40, 8, 30, 14, 2.2, (0.95, 0.97, 1.0))      # fill, front-right
-box(0, 75, 60, 12, 1.2)                          # overhead bounce
+box(0, 75, 60, 12, 0.25)                         # faint overhead bounce
 # Radiance RGBE
 def write_hdr(path, a):
     a = np.maximum(a, 0)
