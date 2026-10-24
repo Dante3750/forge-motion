@@ -144,7 +144,7 @@ if MODE == "model":
     gp = os.path.join(TEXDIR, "floor_grad.jpg")
     if not os.path.exists(gp):
         n = 512; yy, xx = np.mgrid[0:n, 0:n]; r = np.hypot(xx - n / 2 + 0.5, yy - n / 2 + 0.5) / (n / 2)
-        lum = 0.012 + 0.16 * np.clip(1 - r, 0, 1) ** 1.6
+        lum = 0.010 + 0.12 * np.clip(1 - r, 0, 1) ** 1.5
         Image.fromarray((_srgb(np.stack([lum, lum * 1.01, lum * 1.05], -1)) * 255).astype(np.uint8)).save(gp, quality=92)
     bpy.ops.mesh.primitive_circle_add(radius=4.5, vertices=128, fill_type="NGON", location=(0, 0, 0.0))
     fl = bpy.context.object; fl.name = "floor"
@@ -153,7 +153,7 @@ if MODE == "model":
         for li in poly.loop_indices:
             co = fl.data.vertices[fl.data.loops[li].vertex_index].co
             fl.data.uv_layers.active.data[li].uv = (co.x / 9.0 + 0.5, co.y / 9.0 + 0.5)
-    fl.data.materials.append(plain("floor_gl", gp, rough=0.55, spec=0.3))
+    fl.data.materials.append(plain("floor_gl", gp, rough=0.95, spec=0.05))
 else:
     # skeleton + equipment + motion only: tiny, loaded per exercise
     for o in list(sc.objects):
