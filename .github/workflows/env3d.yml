@@ -29,6 +29,6 @@ jobs:
         run: |
           git config user.name "github-actions"; git config user.email "actions@github.com"
           git fetch origin media --depth 1 && git checkout -q -B media origin/media
-          mkdir -p v3d && cp out/* v3d/
-          git add v3d/studio_ibl.ktx v3d/studio_sh.txt 2>/dev/null || git add v3d/studio_ibl.ktx
+          mkdir -p v3d && cp out/* v3d/ && date -u +%Y%m%d%H%M%S > v3d/rev.txt
+          git add v3d/studio_ibl.ktx v3d/studio_sh.txt v3d/rev.txt
           git commit -qm "3D studio lighting" && git push origin media || echo nothing
