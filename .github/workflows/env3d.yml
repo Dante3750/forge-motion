@@ -1,0 +1,34 @@
+name: 3D studio lighting
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/studio_env.py", ".github/workflows/env3d.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: env3d
+  cancel-in-progress: false
+jobs:
+  env:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Studio environment -> image-based lighting (Filament cmgen)
+        run: |
+          pip install numpy > /dev/null
+          python3 tools/studio_env.py studio.hdr
+          curl -sSL -o fil.tgz https://github.com/google/filament/releases/download/v1.56.0/filament-v1.56.0-linux.tgz
+          tar xzf fil.tgz filament/bin/cmgen
+          mkdir -p env
+          ./filament/bin/cmgen -x env --format=ktx --size=256 --extract-blur=0.08 studio.hdr
+          find env -type f | xargs ls -la
+          mkdir -p out && cp "$(find env -name '*_ibl.ktx' | head -1)" out/studio_ibl.ktx
+          cp "$(find env -name 'sh.txt' | head -1)" out/studio_sh.txt || true
+      - name: Publish
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git fetch origin media --depth 1 && git checkout -q -B media origin/media
+          mkdir -p v3d && cp out/* v3d/
+          git add v3d/studio_ibl.ktx v3d/studio_sh.txt 2>/dev/null || git add v3d/studio_ibl.ktx
+          git commit -qm "3D studio lighting" && git push origin media || echo nothing

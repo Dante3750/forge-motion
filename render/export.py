@@ -34,10 +34,11 @@ def bake(fx, key, size):
     img.save(path, quality=88) if path.endswith(".jpg") else img.save(path)
     return path
 
-def plain(name, base=None, color=(0.8, 0.8, 0.8), normal=None, rough=0.6, metal=0.0, alpha=False):
+def plain(name, base=None, color=(0.8, 0.8, 0.8), normal=None, rough=0.6, metal=0.0, alpha=False, spec=None):
     m = bpy.data.materials.new(name); m.use_nodes = True
     N = m.node_tree.nodes; L = m.node_tree.links; p = N["Principled BSDF"]
     p.inputs["Roughness"].default_value = rough; p.inputs["Metallic"].default_value = metal
+    if spec is not None and "Specular IOR Level" in p.inputs: p.inputs["Specular IOR Level"].default_value = spec
     if base:
         t = N.new("ShaderNodeTexImage"); t.image = bpy.data.images.load(base, check_existing=True)
         L.new(t.outputs["Color"], p.inputs["Base Color"])
@@ -79,8 +80,8 @@ def convert_materials(human_objs):
                     size = 2048 if fx["kind"] == "skin" else 1024
                     key = m.name.replace(".", "_")
                     base = bake(fx, key, size)
-                    nm = plain(m.name + "_gl", base, normal=fx.get("normal"), rough=0.5 if fx["kind"] == "skin" else fx.get("rough", 0.75),
-                               alpha=fx["kind"] == "hair")
+                    nm = plain(m.name + "_gl", base, normal=fx.get("normal"), rough=0.62 if fx["kind"] == "skin" else fx.get("rough", 0.75),
+                               alpha=fx["kind"] == "hair", spec=0.32 if fx["kind"] == "skin" else None)
                 else:
                     nm = plain(m.name + "_gl", color=tuple(fx.get("col", (0.5, 0.5, 0.5))), rough=fx.get("rough", 0.75))
                 o.data.materials[i] = nm
@@ -139,8 +140,20 @@ if MODE == "model":
     for o in list(sc.objects):
         if o.name not in human_set: bpy.data.objects.remove(o, do_unlink=True)
     convert_materials([o for o in sc.objects if o.name in human_set])
-    bpy.ops.mesh.primitive_cylinder_add(radius=1.6, depth=0.02, vertices=96, location=(0, 0, -0.01))
-    fl = bpy.context.object; fl.name = "floor"; fl.data.materials.append(plain("floor_gl", color=(0.02, 0.022, 0.026), rough=0.85))
+    # studio floor: a wide disc whose colour falls off from a lit centre into the dark background (like a spotlit set)
+    gp = os.path.join(TEXDIR, "floor_grad.jpg")
+    if not os.path.exists(gp):
+        n = 512; yy, xx = np.mgrid[0:n, 0:n]; r = np.hypot(xx - n / 2 + 0.5, yy - n / 2 + 0.5) / (n / 2)
+        lum = 0.012 + 0.16 * np.clip(1 - r, 0, 1) ** 1.6
+        Image.fromarray((_srgb(np.stack([lum, lum * 1.01, lum * 1.05], -1)) * 255).astype(np.uint8)).save(gp, quality=92)
+    bpy.ops.mesh.primitive_circle_add(radius=4.5, vertices=128, fill_type="NGON", location=(0, 0, 0.0))
+    fl = bpy.context.object; fl.name = "floor"
+    bpy.ops.object.mode_set(mode="EDIT"); bpy.ops.uv.cylinder_project(); bpy.ops.object.mode_set(mode="OBJECT")
+    for poly in fl.data.polygons:
+        for li in poly.loop_indices:
+            co = fl.data.vertices[fl.data.loops[li].vertex_index].co
+            fl.data.uv_layers.active.data[li].uv = (co.x / 9.0 + 0.5, co.y / 9.0 + 0.5)
+    fl.data.materials.append(plain("floor_gl", gp, rough=0.55, spec=0.3))
 else:
     # skeleton + equipment + motion only: tiny, loaded per exercise
     for o in list(sc.objects):
