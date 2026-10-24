@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["tools/**", ".github/workflows/showcase.yml"]
+    paths: ["tools/**", "!tools/studio_env.py", ".github/workflows/showcase.yml"]
 
 permissions:
   contents: write
