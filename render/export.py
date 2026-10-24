@@ -144,7 +144,7 @@ if MODE == "model":
     gp = os.path.join(TEXDIR, "floor_grad.jpg")
     if not os.path.exists(gp):
         n = 512; yy, xx = np.mgrid[0:n, 0:n]; r = np.hypot(xx - n / 2 + 0.5, yy - n / 2 + 0.5) / (n / 2)
-        lum = 0.010 + 0.12 * np.clip(1 - r, 0, 1) ** 1.5
+        lum = 0.006 + 0.11 * np.exp(-(r / 0.28) ** 2)
         Image.fromarray((_srgb(np.stack([lum, lum * 1.01, lum * 1.05], -1)) * 255).astype(np.uint8)).save(gp, quality=92)
     bpy.ops.mesh.primitive_circle_add(radius=4.5, vertices=128, fill_type="NGON", location=(0, 0, 0.0))
     fl = bpy.context.object; fl.name = "floor"
