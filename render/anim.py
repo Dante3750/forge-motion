@@ -223,8 +223,15 @@ def make_dipbars():
     return parts
 
 def make_cable(z=1.9, y=-0.9, x=0.0):
-    y = y + (-0.08 if y <= 0 else 0.08)
     fr = pmat("frame", (0.08, 0.085, 0.09), 0.35, 0.8)
+    py = y + (0.08 if y <= 0 else -0.08)   # the pulley point itself
+    if abs(py) < 0.3 and z > 1.9:
+        # overhead pulley (lat pulldown): the tower stands behind the seat, an arm reaches over to the pulley
+        top = z + 0.08
+        post = box((0.12, 0.12, top), (x, 0.62, top / 2), fr)
+        box((0.10, 0.62 - py + 0.06, 0.10), (x, (0.62 + py) / 2, top - 0.05), fr)
+        return post
+    y = y + (-0.08 if y <= 0 else 0.08)
     post = box((0.12, 0.12, 2.2), (x, y, 1.1), fr)
     return post
 

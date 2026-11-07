@@ -99,11 +99,11 @@ def scap_dirs(poser, posed, P, dirs, hands_w):
             elev = math.degrees(math.acos(max(-1.0, min(1.0, -dn.z))))  # 0 = arm hanging, 180 = straight overhead
             up = min(max((elev - 50) / 120, 0.0), 1.0)
             up = up * up * (3 - 2 * up)
-            base.z += 0.045 * up
+            base.z += 0.035 * up
             fwd = max(0.0, -dn.y) * ext * min(elev / 90, 1.0)
-            base.y -= 0.03 * fwd                      # protraction on a reach / press lockout
+            base.y -= 0.014 * fwd                      # protraction on a reach / press lockout
             back = max(0.0, dn.y) * (1 - ext)
-            base.y += 0.02 * back                     # retraction when the elbow drives back (rows)
+            base.y += 0.012 * back                     # retraction when the elbow drives back (rows)
         dirs["clavicle." + s] = qt @ base
 
 def pose_body(poser, P):
@@ -139,6 +139,10 @@ def pose_body(poser, P):
     if P.get("plant") and "hands" in P:
         # hands must reach their target (floor, bench): lower the body until the arms are long enough
         for _ in range(4):
+            # measure with the shoulder blades where they will end up
+            hw = {s: resolve(P["hands"][s], posed, P, posed["upperarm01." + s].translation) for s in ("L", "R")}
+            scap_dirs(poser, posed, P, dirs, hw)
+            posed = poser.apply(root_loc, dirs, root_rot=rr)
             worst = 0.0
             for s in ("L", "R"):
                 shp = posed["upperarm01." + s].translation

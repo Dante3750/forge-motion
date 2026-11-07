@@ -330,10 +330,10 @@ P["floor_press_db"] = dict(cam="floor", props=["mat", "dumbbells"], keys=[
     mk(SUP, hands=LR((0.30, 0.36, 0.34)), elbow=LR((1, 0, -0.6)), grip=LR(0.85), db_axis=(1, 0, 0))])
 PI = dict(pelvis=(0, 0.32, 0.70), pelvis_tilt=58, torso=56, head=8, feet=LR((0.12, 0.98, 0.10)), toes=LR(0), foot_pitch=LR(70),
           knee=LR((0, 0, -1)), hands=LR((0.25, -0.46, 0.48)), elbow=LR((0.6, 0.6, 0.4)), grip=LR(0.05), wrist_dir=LR((0, -1, 0.2)))
-P["pushup_incline"] = dict(cam="side", props=[], benches=[dict(y0=-0.55, length=0.42, height=0.45)], keys=[PI, mk(PI, pelvis=(0, 0.30, 0.55), pelvis_tilt=66, torso=66, elbow=LR((0.8, 0.6, 0.6)))])
+P["pushup_incline"] = dict(cam="side", props=[], benches=[dict(y0=-0.55, length=0.42, height=0.45)], keys=[PI, mk(PI, pelvis=(0, 0.27, 0.47), pelvis_tilt=68, torso=68, elbow=LR((0.8, 0.6, 0.6)))])
 PK = dict(pelvis=(0, 0.20, 0.98), pelvis_tilt=110, torso=140, head=10, feet=LR((0.14, 0.62, 0.10)), toes=LR(0), foot_pitch=LR(60),
           knee=LR((0, -1, 0)), hands=LR((0.22, -0.38, 0.06)), elbow=LR((0.6, 0.6, 0.4)), grip=LR(0.05), wrist_dir=LR((0, -1, 0)))
-P["pike_pushup"] = dict(cam="side", props=["mat"], keys=[PK, mk(PK, pelvis=(0, 0.16, 0.86), torso=152, elbow=LR((0.8, 0.6, 0.3)))])
+P["pike_pushup"] = dict(cam="side", props=["mat"], keys=[PK, mk(PK, pelvis=(0, 0.08, 0.74), pelvis_tilt=118, torso=166, head=14, elbow=LR((0.8, 0.6, 0.3)))])
 PU = P["pushup"]["keys"]
 P["diamond_pushup"] = dict(cam="front34", props=["mat"], keys=[mk(PU[0], pelvis=(0, 0.30, 0.42), hands=LR((0.06, -0.36, 0.06)), elbow=LR((0.3, 1, 0.4))),
     mk(PU[1], hands=LR((0.06, -0.36, 0.06)), elbow=LR((0.3, 1, 0.5)))])
