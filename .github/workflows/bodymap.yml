@@ -50,4 +50,5 @@ jobs:
           cp "$(ls art/*/bodymap.json | head -1)" v3d/bodymap.json
           date -u +%Y%m%d%H%M%S > v3d/rev.txt
           git config user.name "github-actions"; git config user.email "actions@github.com"
-          git add v3d && git commit -qm "Body map" && git push origin media || echo nothing
+          git add v3d && git commit -qm "Body map" || exit 0
+          for i in 1 2 3 4 5; do git push origin media && exit 0; git pull --rebase origin media; sleep 5; done; exit 1
