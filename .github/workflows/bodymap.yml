@@ -1,0 +1,53 @@
+name: Body map
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["render/bodymap.py", "render/look.py", ".github/workflows/bodymap.yml"]
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      matrix:
+        g: [m, f]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Blender + MPFB + assets
+        run: ./setup.sh && pip install numpy
+      - name: Render the turning muscle map
+        run: python3 render/bodymap.py ${{ matrix.g }} out 64 2>&1 | grep -E "FRAME|DONE|Error|Traceback|line [0-9]" || true
+      - run: ls -la out/bodymap_${{ matrix.g }}.webp out/bodymask_${{ matrix.g }}.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bodymap-${{ matrix.g }}
+          path: |
+            out/bodymap_${{ matrix.g }}.webp
+            out/bodymask_${{ matrix.g }}.png
+            out/bodymap.json
+  publish:
+    needs: render
+    runs-on: ubuntu-latest
+    concurrency:
+      group: env3d
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: media
+      - uses: actions/download-artifact@v4
+        with:
+          path: art
+      - name: Publish
+        run: |
+          mkdir -p v3d
+          cp art/*/bodymap_*.webp art/*/bodymask_*.png v3d/
+          cp "$(ls art/*/bodymap.json | head -1)" v3d/bodymap.json
+          date -u +%Y%m%d%H%M%S > v3d/rev.txt
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add v3d && git commit -qm "Body map" && git push origin media || echo nothing

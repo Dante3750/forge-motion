@@ -83,10 +83,11 @@ def dress(h, rig, female, tone="medium"):
     add_item(h, "eyebrow010" if female else "eyebrow001", "Eyebrows")
     add_item(h, "eyelashes02" if female else "eyelashes01", "Eyelashes")
     if female:
-        add_item(h, "ponytail01", "Hair", col=(0.035, 0.025, 0.02), keep=0.2, rough=0.55, sheen=0.3)
+        add_item(h, "ponytail01", "Hair", col=(0.40, 0.36, 0.34), keep=0.85, rough=0.45, sheen=0.08)
         add_item(h, "female_sportsuit01", "Clothes", col=(0.018, 0.02, 0.024), keep=0.0, rough=0.72, sheen=0.2)
     else:
-        add_item(h, "short02", "Hair", col=(0.03, 0.022, 0.018), keep=0.2, rough=0.6, sheen=0.3)
-        add_item(h, "elvs_crude_t-shirt_male", "Clothes", col=(0.16, 0.17, 0.19), keep=0.0, rough=0.8, sheen=0.2)
+        add_item(h, "short02", "Hair", col=(0.50, 0.46, 0.44), keep=0.9, rough=0.5, sheen=0.08)
+        if not os.environ.get("FORGE_BODYMAP"):  # the muscle map shows the bare upper body
+            add_item(h, "elvs_crude_t-shirt_male", "Clothes", col=(0.16, 0.17, 0.19), keep=0.0, rough=0.8, sheen=0.2)
         add_item(h, "cortu_jeans_shorts", "Clothes", col=(0.012, 0.013, 0.015), keep=0.0, rough=0.8, sheen=0.2)
     add_item(h, "shoes06", "Clothes", col=(0.75, 0.78, 0.8), keep=0.15, rough=0.6, sheen=0.2)
