@@ -64,4 +64,5 @@ jobs:
           ls media/v3d | wc -l
           cd media
           git config user.name "forge-bot"; git config user.email "forge-bot@users.noreply.github.com"
-          git add -A v3d && git commit -qm "3D models" && git push origin HEAD:media
+          git add -A v3d && git commit -qm "3D models" || exit 0
+          for i in 1 2 3 4 5; do git push origin HEAD:media && exit 0; git pull --rebase origin media; sleep 5; done; exit 1
