@@ -34,11 +34,42 @@ def bake(fx, key, size):
     img.save(path, quality=88) if path.endswith(".jpg") else img.save(path)
     return path
 
-def plain(name, base=None, color=(0.8, 0.8, 0.8), normal=None, rough=0.6, metal=0.0, alpha=False, spec=None):
+def weave_maps():
+    """Tiny tileable knit: a heathered colour and a fine normal map, repeated many times across a garment."""
+    cp, npth = os.path.join(TEXDIR, "knit_col.jpg"), os.path.join(TEXDIR, "knit_nrm.png")
+    if not os.path.exists(npth):
+        n = 256; rng = np.random.default_rng(7)
+        yy, xx = np.mgrid[0:n, 0:n] * (2 * np.pi / n)
+        hgt = 0.5 * np.sin(xx * 32) * np.sin(yy * 32 + np.sin(xx * 32) * 0.8) + 0.5 * np.sin(yy * 64)      # interlocked loops
+        f = np.fft.fft2(rng.standard_normal((n, n))); ky, kx = np.meshgrid(np.fft.fftfreq(n), np.fft.fftfreq(n), indexing="ij")
+        soft = np.real(np.fft.ifft2(f * np.exp(-(kx ** 2 + ky ** 2) * 900))); soft /= np.abs(soft).max()      # tileable mottling
+        hgt = hgt + 0.6 * soft
+        dx = (np.roll(hgt, -1, 1) - np.roll(hgt, 1, 1)) * 0.9; dy = (np.roll(hgt, -1, 0) - np.roll(hgt, 1, 0)) * 0.9
+        nz = 1 / np.sqrt(dx * dx + dy * dy + 1)
+        Image.fromarray((np.stack([-dx * nz, -dy * nz, nz], -1) * 127.5 + 127.5).round().astype(np.uint8)).save(npth)
+        lum = np.clip(0.94 + 0.06 * soft + 0.03 * hgt, 0, 1)
+        Image.fromarray((np.stack([lum] * 3, -1) * 255).astype(np.uint8)).save(cp, quality=90)
+    return cp, npth
+
+def plain(name, base=None, color=(0.8, 0.8, 0.8), normal=None, rough=0.6, metal=0.0, alpha=False, spec=None, sheen=None, weave=0):
     m = bpy.data.materials.new(name); m.use_nodes = True
     N = m.node_tree.nodes; L = m.node_tree.links; p = N["Principled BSDF"]
     p.inputs["Roughness"].default_value = rough; p.inputs["Metallic"].default_value = metal
     if spec is not None and "Specular IOR Level" in p.inputs: p.inputs["Specular IOR Level"].default_value = spec
+    if sheen:   # (weight, tint, roughness): the soft glow at grazing angles that skin and cloth have
+        p.inputs["Sheen Weight"].default_value = 1.0; p.inputs["Sheen Tint"].default_value = (*[c * sheen[0] for c in sheen[1]], 1); p.inputs["Sheen Roughness"].default_value = sheen[2]
+    if weave:
+        cp, npth = weave_maps()
+        uv = N.new("ShaderNodeTexCoord"); mp = N.new("ShaderNodeMapping"); mp.inputs["Scale"].default_value = (weave, weave, 1)
+        L.new(uv.outputs["UV"], mp.inputs["Vector"])
+        tc = N.new("ShaderNodeTexImage"); tc.image = bpy.data.images.load(cp, check_existing=True); L.new(mp.outputs["Vector"], tc.inputs["Vector"])
+        mul = N.new("ShaderNodeMix"); mul.data_type = "RGBA"; mul.blend_type = "MULTIPLY"; mul.inputs["Factor"].default_value = 1.0
+        L.new(tc.outputs["Color"], mul.inputs[6]); mul.inputs[7].default_value = (*color, 1); L.new(mul.outputs[2], p.inputs["Base Color"])
+        tn = N.new("ShaderNodeTexImage"); tn.image = bpy.data.images.load(npth, check_existing=True); tn.image.colorspace_settings.name = "Non-Color"
+        L.new(mp.outputs["Vector"], tn.inputs["Vector"])
+        nm = N.new("ShaderNodeNormalMap"); nm.inputs["Strength"].default_value = 0.6
+        L.new(tn.outputs["Color"], nm.inputs["Color"]); L.new(nm.outputs["Normal"], p.inputs["Normal"])
+        return m
     if base:
         t = N.new("ShaderNodeTexImage"); t.image = bpy.data.images.load(base, check_existing=True)
         L.new(t.outputs["Color"], p.inputs["Base Color"])
@@ -70,7 +101,20 @@ def convert_materials(human_objs):
     for o in human_objs:
         if o.type != "MESH": continue
         if "high-poly" in o.name or "low-poly" in o.name:
-            eye_materials(o); continue
+            # real eye texture (white, veins, iris); the clear outer cornea shell is cut away
+            src = os.path.join(os.path.dirname(os.path.abspath("scene.py")), "..", ".mhassets", "eyes", "materials", "brown_eye.png")
+            if not os.path.exists(src): eye_materials(o); continue
+            dst = os.path.join(TEXDIR, "eye.png")
+            if not os.path.exists(dst):
+                a = np.asarray(Image.open(src).convert("RGBA").resize((512, 512), Image.LANCZOS)).astype(np.float32) / 255
+                rgb = a[..., :3]; lum = rgb.mean(2, keepdims=True)
+                iris = np.clip((rgb[..., :1] - rgb[..., 2:3]) * 5, 0, 1)                      # the coloured part is much redder than the white
+                rgb = (lum + (rgb - lum) * (1 - 0.45 * iris)) * (1.12 - 0.62 * iris)         # deep brown iris, brighter whites
+                rgb = np.clip(rgb, 0, 1)
+                Image.fromarray((np.concatenate([rgb, a[..., 3:]], 2) * 255).round().astype(np.uint8), "RGBA").save(dst)
+            o.data.materials.clear(); o.data.materials.append(plain("eye_gl", dst, rough=0.08, alpha=True, spec=0.5))
+            for pl in o.data.polygons: pl.material_index = 0
+            continue
         for i, m in enumerate(list(o.data.materials)):
             if m is None: continue
             if "fx" in m.keys():
@@ -80,10 +124,13 @@ def convert_materials(human_objs):
                     size = 2048 if fx["kind"] == "skin" else 1024
                     key = m.name.replace(".", "_")
                     base = bake(fx, key, size)
-                    nm = plain(m.name + "_gl", base, normal=fx.get("normal"), rough=0.62 if fx["kind"] == "skin" else fx.get("rough", 0.75),
-                               alpha=fx["kind"] == "hair", spec=0.32 if fx["kind"] == "skin" else None)
+                    kd = fx["kind"]
+                    nm = plain(m.name + "_gl", base, normal=fx.get("normal"), rough={"skin": 0.58, "hair": 0.72}.get(kd, fx.get("rough", 0.75)),
+                               alpha=kd == "hair", spec={"skin": 0.3, "hair": 0.15}.get(kd),
+                               sheen={"skin": (0.3, (1.0, 0.62, 0.5), 0.45), "hair": None}.get(kd, (min(0.5, 0.1 + 2.2 * max(fx.get("col", (0.5,) * 3))), (0.8, 0.84, 0.9), 0.5)))
                 else:
-                    nm = plain(m.name + "_gl", color=tuple(fx.get("col", (0.5, 0.5, 0.5))), rough=fx.get("rough", 0.75))
+                    nm = plain(m.name + "_gl", color=tuple(fx.get("col", (0.5, 0.5, 0.5))), rough=fx.get("rough", 0.75),
+                               sheen=(min(0.5, 0.1 + 2.2 * max(fx.get("col", (0.5,) * 3))), (0.75, 0.8, 0.9), 0.5), weave=fx.get("weave", 0))
                 o.data.materials[i] = nm
                 continue
             # MakeHuman materials (brows, lashes, eyes): keep their diffuse image, with alpha
@@ -94,6 +141,11 @@ def convert_materials(human_objs):
                 dst = os.path.join(TEXDIR, os.path.splitext(os.path.basename(src))[0] + (".png" if cut else ".jpg"))
                 if not os.path.exists(dst):
                     im = im.resize((min(im.width, 1024), min(im.height, 1024)), Image.LANCZOS)
+                    if cut:   # fine hairs: dark brown, fuller, drawn with soft (blended) edges
+                        a = np.asarray(im.convert("RGBA")).astype(np.float32) / 255
+                        al = np.clip(a[..., 3:] * 1.6, 0, 1) ** 0.8
+                        colr = np.array((0.13, 0.085, 0.06) if "eyebrow" in m.name.lower() else (0.05, 0.035, 0.03), dtype=np.float32)
+                        im = Image.fromarray((np.concatenate([np.broadcast_to(colr, a[..., :3].shape), al], 2) * 255).round().astype(np.uint8), "RGBA")
                     (im.save(dst) if cut else im.convert("RGB").save(dst, quality=88))
                 o.data.materials[i] = plain(m.name + "_gl", dst, rough=0.6, alpha=cut)
 
@@ -154,6 +206,9 @@ if MODE == "model":
             co = fl.data.vertices[fl.data.loops[li].vertex_index].co
             fl.data.uv_layers.active.data[li].uv = (co.x / 9.0 + 0.5, co.y / 9.0 + 0.5)
     fl.data.materials.append(plain("floor_gl", gp, rough=0.95, spec=0.05))
+elif MODE == "full":
+    # everything in one file (for checking a movement outside the app)
+    convert_materials([o for o in sc.objects if o.name in human_set])
 else:
     # skeleton + equipment + motion only: tiny, loaded per exercise
     for o in list(sc.objects):
@@ -173,9 +228,13 @@ with open(out, "rb") as fh: data = fh.read()
 jl = struct.unpack("<I", data[12:16])[0]
 js = json.loads(data[20:20 + jl])
 for m in js.get("materials", []):
-    if m.get("alphaMode") == "BLEND" or any(k in m.get("name", "").lower() for k in ("eyebrow", "eyelash", "short0", "ponytail", "hair")):
-        if m.get("alphaMode"): m["alphaMode"] = "MASK"; m["alphaCutoff"] = 0.4
-        m["doubleSided"] = True
+    nm_ = m.get("name", "").lower()
+    if any(k in nm_ for k in ("eyebrow", "eyelash")):
+        m["alphaMode"] = "BLEND"; m.pop("alphaCutoff", None); m["doubleSided"] = True
+    elif m.get("alphaMode") == "BLEND" or any(k in nm_ for k in ("short0", "ponytail", "hair")) or nm_ == "eye_gl":
+        if m.get("alphaMode") or nm_ == "eye_gl": m["alphaMode"] = "MASK"; m["alphaCutoff"] = 0.5 if nm_ == "eye_gl" else 0.22
+        m["doubleSided"] = nm_ != "eye_gl"
+        if "normalTexture" in m: m["normalTexture"]["scale"] = 0.45      # hair strands, not lumps
 nj = json.dumps(js, separators=(",", ":")).encode()
 nj += b" " * ((4 - len(nj) % 4) % 4)
 rest = data[20 + jl:]
