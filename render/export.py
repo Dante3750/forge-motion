@@ -171,6 +171,7 @@ def hook(f, rig):
         if pb.rotation_mode != "QUATERNION":
             mb = pb.matrix_basis.copy(); pb.rotation_mode = "QUATERNION"; pb.matrix_basis = mb
         pb.keyframe_insert("location", frame=f + 1); pb.keyframe_insert("rotation_quaternion", frame=f + 1)
+    bpy.context.view_layer.update()      # so each prop's size and place are current (a just-made mat was exporting as a 1 m cube)
     for o in bpy.context.scene.objects:
         if o.type != "MESH" or o.name in human_set or o.parent is not None: continue
         mw = o.matrix_world.copy()
