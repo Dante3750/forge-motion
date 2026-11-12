@@ -34,6 +34,20 @@ def bake(fx, key, size):
     img.save(path, quality=88) if path.endswith(".jpg") else img.save(path)
     return path
 
+def skin_detail(base, key):
+    """Fine skin relief (pores, creases, veins) worked out from the skin photo's own light and dark detail."""
+    path = os.path.join(TEXDIR, key + "_nrm.jpg")
+    if os.path.exists(path): return path
+    from PIL import ImageFilter
+    g = Image.open(base).convert("L")
+    f = np.asarray(g).astype(np.float32) / 255
+    lo = np.asarray(g.filter(ImageFilter.GaussianBlur(5))).astype(np.float32) / 255
+    hgt = np.asarray(Image.fromarray(((f - lo) * 0.5 + 0.5).clip(0, 1) * 255).convert("L").filter(ImageFilter.GaussianBlur(0.7))).astype(np.float32) / 255
+    dx = (np.roll(hgt, -1, 1) - np.roll(hgt, 1, 1)) * 9.0; dy = (np.roll(hgt, -1, 0) - np.roll(hgt, 1, 0)) * 9.0
+    nz = 1 / np.sqrt(dx * dx + dy * dy + 1)
+    Image.fromarray((np.stack([-dx * nz, dy * nz, nz], -1) * 127.5 + 127.5).round().astype(np.uint8)).save(path, quality=90)
+    return path
+
 def weave_maps():
     """Tiny tileable knit: a heathered colour and a fine normal map, repeated many times across a garment."""
     cp, npth = os.path.join(TEXDIR, "knit_col.jpg"), os.path.join(TEXDIR, "knit_nrm.png")
@@ -79,6 +93,7 @@ def plain(name, base=None, color=(0.8, 0.8, 0.8), normal=None, rough=0.6, metal=
     if normal and os.path.exists(normal):
         nim = os.path.join(TEXDIR, os.path.basename(normal))
         if not os.path.exists(nim): Image.open(normal).convert("RGB").resize((1024, 1024), Image.LANCZOS).save(nim)
+        if normal.startswith(TEXDIR): nim = normal
         tn = N.new("ShaderNodeTexImage"); tn.image = bpy.data.images.load(nim, check_existing=True); tn.image.colorspace_settings.name = "Non-Color"
         nm = N.new("ShaderNodeNormalMap"); L.new(tn.outputs["Color"], nm.inputs["Color"]); L.new(nm.outputs["Normal"], p.inputs["Normal"])
     if alpha:
@@ -123,8 +138,8 @@ def convert_materials(human_objs):
                 if fx.get("tex") and os.path.exists(fx["tex"]):
                     size = 2048 if fx["kind"] == "skin" else 1024
                     key = m.name.replace(".", "_")
-                    base = bake(fx, key, size)
-                    kd = fx["kind"]
+                    base = bake(fx, key, size); kd = fx["kind"]
+                    if kd == "skin": fx["normal"] = skin_detail(base, key)
                     nm = plain(m.name + "_gl", base, normal=fx.get("normal"), rough={"skin": 0.58, "hair": 0.72}.get(kd, fx.get("rough", 0.75)),
                                alpha=kd == "hair", spec={"skin": 0.3, "hair": 0.15}.get(kd),
                                sheen={"skin": (0.3, (1.0, 0.62, 0.5), 0.45), "hair": None}.get(kd, (min(0.5, 0.1 + 2.2 * max(fx.get("col", (0.5,) * 3))), (0.8, 0.84, 0.9), 0.5)))
