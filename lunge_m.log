@@ -1,0 +1,86 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:10.030  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/00.png'
+00:18.159  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/00.png'
+00:26.083  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/01.png'
+00:34.218  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/01.png'
+00:42.192  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/02.png'
+00:50.321  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/02.png'
+00:58.399  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/03.png'
+01:06.455  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/03.png'
+01:14.502  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/04.png'
+01:22.630  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/04.png'
+01:30.830  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/05.png'
+01:39.085  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/05.png'
+01:47.208  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/06.png'
+01:55.521  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/06.png'
+02:03.629  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/07.png'
+02:11.754  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/07.png'
+02:19.758  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/08.png'
+02:27.780  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/08.png'
+02:35.938  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/09.png'
+02:44.081  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/09.png'
+02:52.117  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/10.png'
+03:00.117  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/10.png'
+03:08.187  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/11.png'
+03:16.083  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/11.png'
+03:23.970  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/12.png'
+03:31.790  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/12.png'
+03:39.678  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/13.png'
+03:47.413  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/13.png'
+03:55.238  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/14.png'
+04:03.021  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/14.png'
+04:10.731  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/15.png'
+04:18.527  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/15.png'
+04:26.458  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/16.png'
+04:34.355  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/16.png'
+04:42.147  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/17.png'
+04:50.049  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/17.png'
+04:57.783  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/18.png'
+05:05.514  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/18.png'
+05:13.280  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/19.png'
+05:21.118  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/19.png'
+05:28.974  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/20.png'
+05:36.835  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/20.png'
+05:44.675  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/21.png'
+05:52.502  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/21.png'
+06:00.362  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/22.png'
+06:08.302  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/22.png'
+06:16.297  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/23.png'
+06:24.356  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/23.png'
+06:32.331  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/24.png'
+06:40.445  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/24.png'
+06:48.293  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/25.png'
+06:56.260  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/25.png'
+07:04.420  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/26.png'
+07:12.687  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/26.png'
+07:20.965  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/27.png'
+07:29.257  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/27.png'
+07:37.498  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/28.png'
+07:45.843  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/28.png'
+07:54.169  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/29.png'
+08:02.591  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/29.png'
+08:10.845  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/30.png'
+08:19.206  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/30.png'
+08:27.600  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/a/31.png'
+08:36.037  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/lunge_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.85 ms
+OBJ import of 'high-poly.obj' took 1.14 ms
+OBJ import of 'eyebrow001.obj' took 0.25 ms
+OBJ import of 'eyelashes01.obj' took 0.33 ms
+OBJ import of 'short02.obj' took 1.13 ms
+OBJ import of 'shoes06.obj' took 1.09 ms
+frames/lunge_m:
+a
+b
+
+frames/lunge_m/a:

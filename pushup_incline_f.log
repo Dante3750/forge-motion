@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:16.743  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/00.png'
+00:31.664  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/00.png'
+00:45.890  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/01.png'
+01:00.932  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/01.png'
+01:15.208  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/02.png'
+01:30.091  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/02.png'
+01:44.335  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/03.png'
+01:59.287  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/03.png'
+02:13.488  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/04.png'
+02:28.371  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/04.png'
+02:42.587  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/05.png'
+02:57.583  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/05.png'
+03:11.797  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/06.png'
+03:26.729  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/06.png'
+03:41.001  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/07.png'
+03:55.986  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/07.png'
+04:10.239  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/08.png'
+04:25.175  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/08.png'
+04:39.435  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/09.png'
+04:54.523  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/09.png'
+05:08.828  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/10.png'
+05:23.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/10.png'
+05:38.153  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/11.png'
+05:53.254  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/11.png'
+06:07.568  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/12.png'
+06:22.543  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/12.png'
+06:36.815  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/13.png'
+06:51.794  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/13.png'
+07:05.982  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/14.png'
+07:20.866  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/14.png'
+07:34.991  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/15.png'
+07:49.831  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/15.png'
+08:03.910  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/16.png'
+08:18.671  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/16.png'
+08:32.757  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/17.png'
+08:47.453  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/17.png'
+09:01.576  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/18.png'
+09:16.276  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/18.png'
+09:30.366  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/19.png'
+09:45.043  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/19.png'
+09:59.173  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/20.png'
+10:13.829  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/20.png'
+10:27.933  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/21.png'
+10:42.718  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/21.png'
+10:56.975  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/22.png'
+11:11.839  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/22.png'
+11:26.078  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/23.png'
+11:40.998  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/23.png'
+11:55.277  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/24.png'
+12:10.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/24.png'
+12:24.222  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/25.png'
+12:39.047  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/25.png'
+12:53.295  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/26.png'
+13:08.112  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/26.png'
+13:22.258  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/27.png'
+13:37.109  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/27.png'
+13:51.358  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/28.png'
+14:06.306  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/28.png'
+14:20.524  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/29.png'
+14:35.525  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/29.png'
+14:49.836  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/30.png'
+15:04.745  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/30.png'
+15:18.916  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/a/31.png'
+15:33.854  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pushup_incline_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.12 ms
+OBJ import of 'high-poly.obj' took 1.90 ms
+OBJ import of 'eyebrow010.obj' took 0.37 ms
+OBJ import of 'eyelashes02.obj' took 0.46 ms
+OBJ import of 'ponytail01.obj' took 2.55 ms
+OBJ import of 'female_sportsuit01.obj' took 1.83 ms
+OBJ import of 'shoes06.obj' took 1.53 ms
+frames/pushup_incline_f:
+a
+b
+
+frames/pushup_incline_f/a:

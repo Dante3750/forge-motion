@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:22.786  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/00.png'
+00:41.424  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/00.png'
+01:01.229  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/01.png'
+01:20.086  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/01.png'
+01:39.991  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/02.png'
+01:58.569  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/02.png'
+02:18.733  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/03.png'
+02:37.317  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/03.png'
+02:57.050  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/04.png'
+03:15.955  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/04.png'
+03:35.712  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/05.png'
+03:54.352  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/05.png'
+04:14.581  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/06.png'
+04:33.334  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/06.png'
+04:53.226  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/07.png'
+05:12.273  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/07.png'
+05:32.296  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/08.png'
+05:51.094  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/08.png'
+06:11.403  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/09.png'
+06:30.127  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/09.png'
+06:49.953  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/10.png'
+07:08.889  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/10.png'
+07:29.052  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/11.png'
+07:47.870  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/11.png'
+08:08.529  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/12.png'
+08:27.550  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/12.png'
+08:47.759  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/13.png'
+09:06.876  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/13.png'
+09:26.935  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/14.png'
+09:45.739  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/14.png'
+10:05.990  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/15.png'
+10:24.681  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/15.png'
+10:44.877  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/16.png'
+11:03.911  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/16.png'
+11:24.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/17.png'
+11:43.241  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/17.png'
+12:03.775  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/18.png'
+12:22.758  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/18.png'
+12:43.037  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/19.png'
+13:02.049  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/19.png'
+13:22.070  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/20.png'
+13:40.740  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/20.png'
+14:00.705  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/21.png'
+14:19.827  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/21.png'
+14:39.926  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/22.png'
+14:58.801  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/22.png'
+15:19.089  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/23.png'
+15:37.876  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/23.png'
+15:57.964  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/24.png'
+16:17.131  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/24.png'
+16:37.073  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/25.png'
+16:55.796  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/25.png'
+17:15.968  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/26.png'
+17:34.699  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/26.png'
+17:54.616  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/27.png'
+18:13.650  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/27.png'
+18:33.506  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/28.png'
+18:52.177  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/28.png'
+19:12.337  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/29.png'
+19:30.976  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/29.png'
+19:50.792  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/30.png'
+20:09.737  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/30.png'
+20:29.587  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/a/31.png'
+20:48.184  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/cable_lateral_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.04 ms
+OBJ import of 'high-poly.obj' took 1.83 ms
+OBJ import of 'eyebrow010.obj' took 0.32 ms
+OBJ import of 'eyelashes02.obj' took 0.41 ms
+OBJ import of 'ponytail01.obj' took 3.11 ms
+OBJ import of 'female_sportsuit01.obj' took 1.89 ms
+OBJ import of 'shoes06.obj' took 1.72 ms
+frames/cable_lateral_f:
+a
+b
+
+frames/cable_lateral_f/a:

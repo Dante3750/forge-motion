@@ -1,0 +1,87 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:10.070  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/00.png'
+00:18.019  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/00.png'
+00:26.628  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/01.png'
+00:35.175  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/01.png'
+00:44.182  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/02.png'
+00:52.764  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/02.png'
+01:01.717  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/03.png'
+01:10.289  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/03.png'
+01:19.405  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/04.png'
+01:28.167  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/04.png'
+01:37.369  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/05.png'
+01:45.873  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/05.png'
+01:54.842  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/06.png'
+02:03.320  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/06.png'
+02:12.106  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/07.png'
+02:20.698  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/07.png'
+02:29.714  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/08.png'
+02:38.370  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/08.png'
+02:47.436  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/09.png'
+02:56.032  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/09.png'
+03:05.086  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/10.png'
+03:13.669  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/10.png'
+03:22.781  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/11.png'
+03:31.227  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/11.png'
+03:40.275  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/12.png'
+03:48.703  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/12.png'
+03:57.607  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/13.png'
+04:05.786  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/13.png'
+04:14.599  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/14.png'
+04:22.974  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/14.png'
+04:32.030  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/15.png'
+04:40.305  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/15.png'
+04:49.042  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/16.png'
+04:57.324  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/16.png'
+05:06.004  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/17.png'
+05:14.298  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/17.png'
+05:23.110  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/18.png'
+05:31.366  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/18.png'
+05:40.140  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/19.png'
+05:48.463  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/19.png'
+05:57.226  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/20.png'
+06:05.395  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/20.png'
+06:14.277  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/21.png'
+06:22.565  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/21.png'
+06:31.687  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/22.png'
+06:40.097  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/22.png'
+06:49.267  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/23.png'
+06:57.908  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/23.png'
+07:07.139  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/24.png'
+07:15.823  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/24.png'
+07:25.127  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/25.png'
+07:33.816  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/25.png'
+07:42.989  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/26.png'
+07:51.631  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/26.png'
+08:00.804  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/27.png'
+08:09.356  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/27.png'
+08:18.405  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/28.png'
+08:27.057  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/28.png'
+08:36.251  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/29.png'
+08:45.097  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/29.png'
+08:54.303  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/30.png'
+09:03.044  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/30.png'
+09:12.344  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/a/31.png'
+09:21.126  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/good_morning_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.63 ms
+OBJ import of 'high-poly.obj' took 1.09 ms
+OBJ import of 'eyebrow001.obj' took 0.19 ms
+OBJ import of 'eyelashes01.obj' took 0.24 ms
+OBJ import of 'short02.obj' took 1.01 ms
+OBJ import of 'shoes06.obj' took 0.96 ms
+frames/good_morning_m:
+a
+b
+
+frames/good_morning_m/a:

@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:20.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/00.png'
+00:36.361  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/00.png'
+00:53.240  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/01.png'
+01:09.425  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/01.png'
+01:26.603  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/02.png'
+01:42.924  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/02.png'
+01:59.791  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/03.png'
+02:16.055  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/03.png'
+02:33.211  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/04.png'
+02:49.418  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/04.png'
+03:06.237  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/05.png'
+03:22.616  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/05.png'
+03:39.360  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/06.png'
+03:55.419  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/06.png'
+04:12.276  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/07.png'
+04:28.596  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/07.png'
+04:45.431  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/08.png'
+05:01.438  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/08.png'
+05:18.347  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/09.png'
+05:34.577  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/09.png'
+05:51.426  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/10.png'
+06:07.491  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/10.png'
+06:24.738  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/11.png'
+06:40.828  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/11.png'
+06:57.734  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/12.png'
+07:13.899  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/12.png'
+07:31.128  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/13.png'
+07:47.341  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/13.png'
+08:04.237  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/14.png'
+08:20.706  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/14.png'
+08:37.634  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/15.png'
+08:53.969  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/15.png'
+09:10.869  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/16.png'
+09:27.515  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/16.png'
+09:44.442  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/17.png'
+10:00.757  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/17.png'
+10:17.649  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/18.png'
+10:34.202  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/18.png'
+10:51.058  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/19.png'
+11:07.378  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/19.png'
+11:24.568  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/20.png'
+11:40.854  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/20.png'
+11:57.833  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/21.png'
+12:14.218  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/21.png'
+12:31.524  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/22.png'
+12:47.946  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/22.png'
+13:04.971  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/23.png'
+13:21.521  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/23.png'
+13:38.525  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/24.png'
+13:55.011  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/24.png'
+14:11.918  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/25.png'
+14:28.670  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/25.png'
+14:45.636  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/26.png'
+15:01.946  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/26.png'
+15:19.044  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/27.png'
+15:35.323  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/27.png'
+15:52.251  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/28.png'
+16:08.596  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/28.png'
+16:25.752  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/29.png'
+16:41.954  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/29.png'
+16:58.781  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/30.png'
+17:14.968  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/30.png'
+17:32.103  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/a/31.png'
+17:48.380  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/farmer_walk_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.34 ms
+OBJ import of 'high-poly.obj' took 2.07 ms
+OBJ import of 'eyebrow010.obj' took 0.33 ms
+OBJ import of 'eyelashes02.obj' took 0.43 ms
+OBJ import of 'ponytail01.obj' took 2.53 ms
+OBJ import of 'female_sportsuit01.obj' took 1.83 ms
+OBJ import of 'shoes06.obj' took 1.72 ms
+frames/farmer_walk_f:
+a
+b
+
+frames/farmer_walk_f/a:

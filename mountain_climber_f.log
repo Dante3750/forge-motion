@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:10.707  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/00.png'
+00:19.543  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/00.png'
+00:28.409  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/01.png'
+00:37.279  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/01.png'
+00:46.226  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/02.png'
+00:55.160  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/02.png'
+01:04.072  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/03.png'
+01:12.871  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/03.png'
+01:21.771  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/04.png'
+01:30.575  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/04.png'
+01:39.469  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/05.png'
+01:48.405  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/05.png'
+01:57.308  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/06.png'
+02:06.252  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/06.png'
+02:15.049  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/07.png'
+02:23.965  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/07.png'
+02:32.857  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/08.png'
+02:41.745  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/08.png'
+02:50.665  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/09.png'
+02:59.861  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/09.png'
+03:08.966  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/10.png'
+03:18.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/10.png'
+03:27.227  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/11.png'
+03:36.377  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/11.png'
+03:45.607  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/12.png'
+03:54.766  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/12.png'
+04:03.966  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/13.png'
+04:13.130  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/13.png'
+04:22.370  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/14.png'
+04:31.525  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/14.png'
+04:40.816  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/15.png'
+04:49.977  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/15.png'
+04:59.350  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/16.png'
+05:08.331  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/16.png'
+05:17.548  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/17.png'
+05:26.527  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/17.png'
+05:35.712  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/18.png'
+05:44.834  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/18.png'
+05:54.142  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/19.png'
+06:03.290  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/19.png'
+06:12.393  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/20.png'
+06:21.363  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/20.png'
+06:30.367  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/21.png'
+06:39.207  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/21.png'
+06:48.056  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/22.png'
+06:56.880  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/22.png'
+07:05.785  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/23.png'
+07:14.678  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/23.png'
+07:23.549  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/24.png'
+07:32.357  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/24.png'
+07:41.147  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/25.png'
+07:49.972  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/25.png'
+07:58.769  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/26.png'
+08:07.584  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/26.png'
+08:16.448  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/27.png'
+08:25.294  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/27.png'
+08:34.152  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/28.png'
+08:42.925  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/28.png'
+08:51.707  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/29.png'
+09:00.517  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/29.png'
+09:09.383  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/30.png'
+09:18.411  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/30.png'
+09:27.441  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/a/31.png'
+09:36.368  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/mountain_climber_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.65 ms
+OBJ import of 'high-poly.obj' took 1.19 ms
+OBJ import of 'eyebrow010.obj' took 0.20 ms
+OBJ import of 'eyelashes02.obj' took 0.24 ms
+OBJ import of 'ponytail01.obj' took 1.65 ms
+OBJ import of 'female_sportsuit01.obj' took 1.07 ms
+OBJ import of 'shoes06.obj' took 1.03 ms
+frames/mountain_climber_f:
+a
+b
+
+frames/mountain_climber_f/a:

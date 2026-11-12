@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:15.960  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/00.png'
+00:28.805  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/00.png'
+00:42.512  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/01.png'
+00:55.364  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/01.png'
+01:09.060  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/02.png'
+01:21.907  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/02.png'
+01:35.656  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/03.png'
+01:48.518  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/03.png'
+02:02.258  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/04.png'
+02:15.008  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/04.png'
+02:28.944  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/05.png'
+02:41.841  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/05.png'
+02:55.748  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/06.png'
+03:08.692  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/06.png'
+03:22.783  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/07.png'
+03:35.772  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/07.png'
+03:50.307  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/08.png'
+04:03.680  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/08.png'
+04:17.955  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/09.png'
+04:31.213  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/09.png'
+04:45.509  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/10.png'
+04:58.760  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/10.png'
+05:12.898  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/11.png'
+05:26.206  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/11.png'
+05:40.339  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/12.png'
+05:53.658  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/12.png'
+06:07.761  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/13.png'
+06:21.103  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/13.png'
+06:35.266  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/14.png'
+06:48.572  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/14.png'
+07:02.636  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/15.png'
+07:15.973  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/15.png'
+07:30.095  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/16.png'
+07:43.460  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/16.png'
+07:57.615  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/17.png'
+08:10.872  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/17.png'
+08:24.953  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/18.png'
+08:38.100  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/18.png'
+08:52.410  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/19.png'
+09:05.600  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/19.png'
+09:19.832  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/20.png'
+09:32.987  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/20.png'
+09:47.409  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/21.png'
+10:00.739  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/21.png'
+10:14.847  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/22.png'
+10:27.878  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/22.png'
+10:41.886  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/23.png'
+10:54.878  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/23.png'
+11:08.899  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/24.png'
+11:21.856  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/24.png'
+11:35.677  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/25.png'
+11:48.622  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/25.png'
+12:02.380  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/26.png'
+12:15.213  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/26.png'
+12:28.913  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/27.png'
+12:41.633  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/27.png'
+12:55.424  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/28.png'
+13:08.203  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/28.png'
+13:21.880  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/29.png'
+13:34.651  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/29.png'
+13:48.435  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/30.png'
+14:01.227  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/30.png'
+14:14.921  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/a/31.png'
+14:27.672  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/situp_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 11.58 ms
+OBJ import of 'high-poly.obj' took 1.39 ms
+OBJ import of 'eyebrow010.obj' took 0.22 ms
+OBJ import of 'eyelashes02.obj' took 0.28 ms
+OBJ import of 'ponytail01.obj' took 1.98 ms
+OBJ import of 'female_sportsuit01.obj' took 1.43 ms
+OBJ import of 'shoes06.obj' took 1.20 ms
+frames/situp_f:
+a
+b
+
+frames/situp_f/a:

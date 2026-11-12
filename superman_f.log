@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:19.918  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/00.png'
+00:37.570  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/00.png'
+00:54.870  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/01.png'
+01:12.497  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/01.png'
+01:29.492  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/02.png'
+01:47.230  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/02.png'
+02:04.576  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/03.png'
+02:22.261  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/03.png'
+02:39.261  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/04.png'
+02:57.288  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/04.png'
+03:14.289  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/05.png'
+03:31.866  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/05.png'
+03:48.909  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/06.png'
+04:06.679  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/06.png'
+04:23.757  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/07.png'
+04:41.453  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/07.png'
+04:58.837  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/08.png'
+05:16.496  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/08.png'
+05:33.553  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/09.png'
+05:51.492  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/09.png'
+06:08.647  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/10.png'
+06:26.424  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/10.png'
+06:43.652  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/11.png'
+07:01.700  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/11.png'
+07:18.959  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/12.png'
+07:36.803  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/12.png'
+07:54.431  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/13.png'
+08:12.316  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/13.png'
+08:29.612  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/14.png'
+08:47.576  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/14.png'
+09:05.173  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/15.png'
+09:23.129  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/15.png'
+09:40.485  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/16.png'
+09:58.818  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/16.png'
+10:16.098  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/17.png'
+10:34.100  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/17.png'
+10:51.628  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/18.png'
+11:09.528  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/18.png'
+11:26.893  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/19.png'
+11:44.676  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/19.png'
+12:02.181  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/20.png'
+12:19.962  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/20.png'
+12:37.071  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/21.png'
+12:55.077  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/21.png'
+13:12.189  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/22.png'
+13:29.826  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/22.png'
+13:46.887  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/23.png'
+14:04.815  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/23.png'
+14:21.856  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/24.png'
+14:39.482  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/24.png'
+14:56.799  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/25.png'
+15:14.450  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/25.png'
+15:31.525  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/26.png'
+15:49.336  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/26.png'
+16:06.344  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/27.png'
+16:23.991  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/27.png'
+16:40.987  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/28.png'
+16:59.021  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/28.png'
+17:16.099  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/29.png'
+17:33.834  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/29.png'
+17:51.086  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/30.png'
+18:08.769  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/30.png'
+18:25.802  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/a/31.png'
+18:43.468  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/superman_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 15.24 ms
+OBJ import of 'high-poly.obj' took 1.86 ms
+OBJ import of 'eyebrow010.obj' took 0.34 ms
+OBJ import of 'eyelashes02.obj' took 0.39 ms
+OBJ import of 'ponytail01.obj' took 2.46 ms
+OBJ import of 'female_sportsuit01.obj' took 1.78 ms
+OBJ import of 'shoes06.obj' took 1.67 ms
+frames/superman_f:
+a
+b
+
+frames/superman_f/a:

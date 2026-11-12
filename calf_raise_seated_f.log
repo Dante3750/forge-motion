@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:15.150  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/00.png'
+00:28.045  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/00.png'
+00:40.653  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/01.png'
+00:53.580  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/01.png'
+01:06.125  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/02.png'
+01:19.015  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/02.png'
+01:31.733  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/03.png'
+01:44.684  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/03.png'
+01:57.461  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/04.png'
+02:10.418  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/04.png'
+02:23.064  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/05.png'
+02:35.949  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/05.png'
+02:48.642  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/06.png'
+03:01.567  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/06.png'
+03:14.222  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/07.png'
+03:27.112  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/07.png'
+03:39.777  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/08.png'
+03:52.764  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/08.png'
+04:05.432  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/09.png'
+04:18.354  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/09.png'
+04:31.083  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/10.png'
+04:44.065  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/10.png'
+04:56.888  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/11.png'
+05:09.836  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/11.png'
+05:22.594  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/12.png'
+05:35.546  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/12.png'
+05:48.269  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/13.png'
+06:01.296  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/13.png'
+06:14.013  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/14.png'
+06:26.950  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/14.png'
+06:39.726  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/15.png'
+06:52.745  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/15.png'
+07:05.442  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/16.png'
+07:18.361  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/16.png'
+07:31.096  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/17.png'
+07:44.020  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/17.png'
+07:56.862  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/18.png'
+08:09.824  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/18.png'
+08:22.555  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/19.png'
+08:35.506  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/19.png'
+08:48.192  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/20.png'
+09:01.183  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/20.png'
+09:13.881  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/21.png'
+09:26.763  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/21.png'
+09:39.401  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/22.png'
+09:52.333  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/22.png'
+10:04.942  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/23.png'
+10:17.776  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/23.png'
+10:30.404  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/24.png'
+10:43.290  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/24.png'
+10:55.999  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/25.png'
+11:08.920  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/25.png'
+11:21.559  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/26.png'
+11:34.450  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/26.png'
+11:47.094  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/27.png'
+12:00.084  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/27.png'
+12:12.705  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/28.png'
+12:25.570  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/28.png'
+12:38.221  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/29.png'
+12:51.170  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/29.png'
+13:03.853  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/30.png'
+13:16.722  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/30.png'
+13:29.312  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/a/31.png'
+13:42.190  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/calf_raise_seated_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 14.85 ms
+OBJ import of 'high-poly.obj' took 1.90 ms
+OBJ import of 'eyebrow010.obj' took 0.39 ms
+OBJ import of 'eyelashes02.obj' took 0.49 ms
+OBJ import of 'ponytail01.obj' took 2.57 ms
+OBJ import of 'female_sportsuit01.obj' took 1.70 ms
+OBJ import of 'shoes06.obj' took 1.71 ms
+frames/calf_raise_seated_f:
+a
+b
+
+frames/calf_raise_seated_f/a:

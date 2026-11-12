@@ -1,0 +1,86 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:16.802  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/00.png'
+00:31.191  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/00.png'
+00:45.270  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/01.png'
+00:59.648  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/01.png'
+01:13.789  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/02.png'
+01:28.189  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/02.png'
+01:42.250  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/03.png'
+01:56.642  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/03.png'
+02:10.791  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/04.png'
+02:25.194  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/04.png'
+02:39.268  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/05.png'
+02:53.658  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/05.png'
+03:07.716  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/06.png'
+03:22.194  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/06.png'
+03:36.254  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/07.png'
+03:50.650  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/07.png'
+04:04.727  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/08.png'
+04:19.195  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/08.png'
+04:33.238  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/09.png'
+04:47.599  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/09.png'
+05:01.616  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/10.png'
+05:16.143  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/10.png'
+05:30.161  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/11.png'
+05:44.632  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/11.png'
+05:58.776  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/12.png'
+06:13.219  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/12.png'
+06:27.272  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/13.png'
+06:41.670  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/13.png'
+06:55.720  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/14.png'
+07:10.202  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/14.png'
+07:24.264  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/15.png'
+07:38.616  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/15.png'
+07:52.664  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/16.png'
+08:07.164  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/16.png'
+08:21.314  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/17.png'
+08:35.690  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/17.png'
+08:49.672  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/18.png'
+09:04.011  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/18.png'
+09:18.100  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/19.png'
+09:32.445  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/19.png'
+09:46.472  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/20.png'
+10:00.808  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/20.png'
+10:14.926  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/21.png'
+10:29.275  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/21.png'
+10:43.320  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/22.png'
+10:57.684  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/22.png'
+11:11.856  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/23.png'
+11:26.242  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/23.png'
+11:40.304  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/24.png'
+11:54.675  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/24.png'
+12:08.721  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/25.png'
+12:23.131  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/25.png'
+12:37.221  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/26.png'
+12:51.575  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/26.png'
+13:05.656  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/27.png'
+13:20.097  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/27.png'
+13:34.159  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/28.png'
+13:48.521  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/28.png'
+14:02.592  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/29.png'
+14:17.050  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/29.png'
+14:31.085  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/30.png'
+14:45.459  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/30.png'
+14:59.509  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/a/31.png'
+15:13.927  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/stretch_quad_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 14.46 ms
+OBJ import of 'high-poly.obj' took 2.09 ms
+OBJ import of 'eyebrow001.obj' took 0.38 ms
+OBJ import of 'eyelashes01.obj' took 0.51 ms
+OBJ import of 'short02.obj' took 1.88 ms
+OBJ import of 'shoes06.obj' took 1.78 ms
+frames/stretch_quad_m:
+a
+b
+
+frames/stretch_quad_m/a:

@@ -1,0 +1,87 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:11.495  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/00.png'
+00:20.719  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/00.png'
+00:30.869  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/01.png'
+00:40.028  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/01.png'
+00:49.922  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/02.png'
+00:58.827  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/02.png'
+01:08.651  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/03.png'
+01:17.791  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/03.png'
+01:27.719  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/04.png'
+01:36.873  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/04.png'
+01:46.882  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/05.png'
+01:56.019  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/05.png'
+02:06.023  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/06.png'
+02:15.246  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/06.png'
+02:25.357  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/07.png'
+02:34.580  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/07.png'
+02:44.596  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/08.png'
+02:53.895  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/08.png'
+03:03.933  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/09.png'
+03:13.302  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/09.png'
+03:23.381  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/10.png'
+03:32.814  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/10.png'
+03:42.912  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/11.png'
+03:52.418  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/11.png'
+04:02.716  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/12.png'
+04:12.197  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/12.png'
+04:22.315  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/13.png'
+04:31.764  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/13.png'
+04:41.791  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/14.png'
+04:51.193  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/14.png'
+05:01.304  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/15.png'
+05:10.883  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/15.png'
+05:20.917  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/16.png'
+05:30.449  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/16.png'
+05:40.754  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/17.png'
+05:50.332  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/17.png'
+06:00.624  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/18.png'
+06:10.221  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/18.png'
+06:20.559  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/19.png'
+06:30.172  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/19.png'
+06:40.430  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/20.png'
+06:49.989  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/20.png'
+07:00.303  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/21.png'
+07:09.715  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/21.png'
+07:19.948  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/22.png'
+07:29.220  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/22.png'
+07:39.351  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/23.png'
+07:48.722  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/23.png'
+07:58.731  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/24.png'
+08:08.022  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/24.png'
+08:18.084  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/25.png'
+08:27.259  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/25.png'
+08:37.317  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/26.png'
+08:46.445  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/26.png'
+08:56.400  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/27.png'
+09:05.538  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/27.png'
+09:15.394  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/28.png'
+09:24.468  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/28.png'
+09:34.265  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/29.png'
+09:43.005  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/29.png'
+09:52.558  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/30.png'
+10:01.297  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/30.png'
+10:11.147  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/a/31.png'
+10:20.048  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/glute_bridge_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.79 ms
+OBJ import of 'high-poly.obj' took 1.18 ms
+OBJ import of 'eyebrow001.obj' took 0.26 ms
+OBJ import of 'eyelashes01.obj' took 0.31 ms
+OBJ import of 'short02.obj' took 1.13 ms
+OBJ import of 'shoes06.obj' took 1.11 ms
+frames/glute_bridge_m:
+a
+b
+
+frames/glute_bridge_m/a:

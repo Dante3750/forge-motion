@@ -1,0 +1,88 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:09.984  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/00.png'
+00:17.670  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/00.png'
+00:25.733  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/01.png'
+00:33.427  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/01.png'
+00:41.641  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/02.png'
+00:49.519  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/02.png'
+00:57.833  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/03.png'
+01:05.686  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/03.png'
+01:14.099  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/04.png'
+01:21.946  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/04.png'
+01:30.171  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/05.png'
+01:38.071  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/05.png'
+01:46.387  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/06.png'
+01:54.193  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/06.png'
+02:02.475  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/07.png'
+02:10.353  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/07.png'
+02:18.667  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/08.png'
+02:26.439  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/08.png'
+02:34.603  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/09.png'
+02:42.378  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/09.png'
+02:50.544  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/10.png'
+02:58.355  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/10.png'
+03:06.634  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/11.png'
+03:14.300  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/11.png'
+03:22.663  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/12.png'
+03:30.166  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/12.png'
+03:38.279  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/13.png'
+03:46.058  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/13.png'
+03:54.281  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/14.png'
+04:02.101  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/14.png'
+04:10.363  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/15.png'
+04:18.293  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/15.png'
+04:26.668  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/16.png'
+04:34.451  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/16.png'
+04:42.692  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/17.png'
+04:50.628  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/17.png'
+04:58.857  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/18.png'
+05:06.748  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/18.png'
+05:15.144  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/19.png'
+05:22.936  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/19.png'
+05:31.095  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/20.png'
+05:38.837  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/20.png'
+05:46.987  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/21.png'
+05:54.754  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/21.png'
+06:02.978  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/22.png'
+06:10.711  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/22.png'
+06:18.893  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/23.png'
+06:26.598  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/23.png'
+06:34.825  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/24.png'
+06:42.476  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/24.png'
+06:50.702  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/25.png'
+06:58.414  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/25.png'
+07:06.613  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/26.png'
+07:14.368  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/26.png'
+07:22.631  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/27.png'
+07:30.416  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/27.png'
+07:38.595  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/28.png'
+07:46.310  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/28.png'
+07:54.472  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/29.png'
+08:02.169  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/29.png'
+08:10.223  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/30.png'
+08:17.905  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/30.png'
+08:26.082  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/a/31.png'
+08:33.779  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/pullup_f/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.82 ms
+OBJ import of 'high-poly.obj' took 1.14 ms
+OBJ import of 'eyebrow010.obj' took 0.20 ms
+OBJ import of 'eyelashes02.obj' took 0.26 ms
+OBJ import of 'ponytail01.obj' took 1.61 ms
+OBJ import of 'female_sportsuit01.obj' took 1.36 ms
+OBJ import of 'shoes06.obj' took 1.02 ms
+frames/pullup_f:
+a
+b
+
+frames/pullup_f/a:

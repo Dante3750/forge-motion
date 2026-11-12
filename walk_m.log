@@ -1,0 +1,86 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:10.214  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/00.png'
+00:18.588  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/00.png'
+00:26.827  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/01.png'
+00:35.107  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/01.png'
+00:43.427  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/02.png'
+00:51.857  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/02.png'
+01:00.225  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/03.png'
+01:08.712  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/03.png'
+01:17.095  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/04.png'
+01:25.686  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/04.png'
+01:33.965  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/05.png'
+01:42.420  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/05.png'
+01:50.794  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/06.png'
+01:59.380  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/06.png'
+02:07.460  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/07.png'
+02:15.994  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/07.png'
+02:23.993  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/08.png'
+02:32.365  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/08.png'
+02:40.396  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/09.png'
+02:48.807  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/09.png'
+02:56.771  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/10.png'
+03:05.193  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/10.png'
+03:13.369  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/11.png'
+03:21.919  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/11.png'
+03:30.072  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/12.png'
+03:38.501  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/12.png'
+03:46.735  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/13.png'
+03:55.242  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/13.png'
+04:03.437  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/14.png'
+04:11.989  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/14.png'
+04:20.346  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/15.png'
+04:28.917  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/15.png'
+04:37.225  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/16.png'
+04:45.788  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/16.png'
+04:54.184  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/17.png'
+05:02.722  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/17.png'
+05:11.048  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/18.png'
+05:19.537  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/18.png'
+05:27.912  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/19.png'
+05:36.455  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/19.png'
+05:44.615  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/20.png'
+05:53.210  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/20.png'
+06:01.516  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/21.png'
+06:10.084  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/21.png'
+06:18.319  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/22.png'
+06:26.887  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/22.png'
+06:35.308  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/23.png'
+06:44.012  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/23.png'
+06:52.436  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/24.png'
+07:01.139  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/24.png'
+07:09.582  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/25.png'
+07:18.273  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/25.png'
+07:26.808  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/26.png'
+07:35.551  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/26.png'
+07:44.042  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/27.png'
+07:52.938  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/27.png'
+08:01.473  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/28.png'
+08:10.306  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/28.png'
+08:18.759  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/29.png'
+08:27.402  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/29.png'
+08:35.976  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/30.png'
+08:44.632  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/30.png'
+08:53.065  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/a/31.png'
+09:01.613  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/walk_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 10.36 ms
+OBJ import of 'high-poly.obj' took 1.30 ms
+OBJ import of 'eyebrow001.obj' took 0.30 ms
+OBJ import of 'eyelashes01.obj' took 0.34 ms
+OBJ import of 'short02.obj' took 1.25 ms
+OBJ import of 'shoes06.obj' took 1.18 ms
+frames/walk_m:
+a
+b
+
+frames/walk_m/a:

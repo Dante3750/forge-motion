@@ -1,0 +1,87 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:11.230  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/00.png'
+00:20.590  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/00.png'
+00:30.179  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/01.png'
+00:39.583  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/01.png'
+00:49.072  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/02.png'
+00:58.432  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/02.png'
+01:08.000  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/03.png'
+01:17.345  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/03.png'
+01:26.935  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/04.png'
+01:36.194  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/04.png'
+01:45.587  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/05.png'
+01:54.856  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/05.png'
+02:04.307  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/06.png'
+02:13.536  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/06.png'
+02:22.800  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/07.png'
+02:31.931  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/07.png'
+02:41.106  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/08.png'
+02:50.233  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/08.png'
+02:59.625  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/09.png'
+03:08.879  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/09.png'
+03:18.112  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/10.png'
+03:27.267  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/10.png'
+03:36.648  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/11.png'
+03:45.668  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/11.png'
+03:55.024  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/12.png'
+04:03.937  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/12.png'
+04:13.315  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/13.png'
+04:22.042  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/13.png'
+04:31.406  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/14.png'
+04:40.512  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/14.png'
+04:49.958  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/15.png'
+04:58.961  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/15.png'
+05:08.394  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/16.png'
+05:17.312  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/16.png'
+05:26.539  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/17.png'
+05:35.614  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/17.png'
+05:44.990  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/18.png'
+05:54.108  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/18.png'
+06:03.433  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/19.png'
+06:12.480  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/19.png'
+06:21.799  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/20.png'
+06:30.818  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/20.png'
+06:40.270  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/21.png'
+06:49.311  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/21.png'
+06:58.715  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/22.png'
+07:07.846  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/22.png'
+07:17.279  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/23.png'
+07:26.511  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/23.png'
+07:35.979  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/24.png'
+07:45.376  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/24.png'
+07:54.994  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/25.png'
+08:04.273  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/25.png'
+08:13.891  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/26.png'
+08:23.291  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/26.png'
+08:32.688  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/27.png'
+08:41.736  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/27.png'
+08:50.970  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/28.png'
+08:59.991  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/28.png'
+09:09.207  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/29.png'
+09:18.039  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/29.png'
+09:27.336  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/30.png'
+09:36.811  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/30.png'
+09:46.031  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/a/31.png'
+09:54.999  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/flutter_kick_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 9.18 ms
+OBJ import of 'high-poly.obj' took 1.13 ms
+OBJ import of 'eyebrow001.obj' took 0.19 ms
+OBJ import of 'eyelashes01.obj' took 0.22 ms
+OBJ import of 'short02.obj' took 1.17 ms
+OBJ import of 'shoes06.obj' took 1.01 ms
+frames/flutter_kick_m:
+a
+b
+
+frames/flutter_kick_m/a:

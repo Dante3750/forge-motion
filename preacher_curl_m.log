@@ -1,0 +1,87 @@
+<string>:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:12: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:171: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+<string>:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+<string>:129: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+00:10.576  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/00.png'
+00:19.321  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/00.png'
+00:27.881  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/01.png'
+00:36.517  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/01.png'
+00:45.043  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/02.png'
+00:53.688  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/02.png'
+01:02.164  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/03.png'
+01:10.800  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/03.png'
+01:19.160  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/04.png'
+01:27.689  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/04.png'
+01:36.090  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/05.png'
+01:44.655  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/05.png'
+01:53.019  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/06.png'
+02:01.647  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/06.png'
+02:10.029  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/07.png'
+02:18.581  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/07.png'
+02:26.771  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/08.png'
+02:35.220  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/08.png'
+02:43.523  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/09.png'
+02:52.142  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/09.png'
+03:00.476  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/10.png'
+03:08.995  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/10.png'
+03:17.329  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/11.png'
+03:25.881  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/11.png'
+03:34.167  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/12.png'
+03:42.649  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/12.png'
+03:50.900  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/13.png'
+03:59.463  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/13.png'
+04:07.772  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/14.png'
+04:16.362  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/14.png'
+04:24.711  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/15.png'
+04:33.338  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/15.png'
+04:41.716  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/16.png'
+04:50.381  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/16.png'
+04:58.716  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/17.png'
+05:07.394  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/17.png'
+05:15.769  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/18.png'
+05:24.416  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/18.png'
+05:32.797  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/19.png'
+05:41.376  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/19.png'
+05:49.773  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/20.png'
+05:58.390  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/20.png'
+06:06.799  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/21.png'
+06:15.515  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/21.png'
+06:23.884  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/22.png'
+06:32.429  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/22.png'
+06:40.826  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/23.png'
+06:49.382  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/23.png'
+06:57.735  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/24.png'
+07:06.416  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/24.png'
+07:14.929  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/25.png'
+07:23.576  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/25.png'
+07:32.020  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/26.png'
+07:40.666  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/26.png'
+07:49.067  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/27.png'
+07:57.632  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/27.png'
+08:06.124  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/28.png'
+08:14.675  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/28.png'
+08:23.137  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/29.png'
+08:31.741  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/29.png'
+08:40.206  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/30.png'
+08:48.796  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/30.png'
+08:57.211  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/a/31.png'
+09:05.901  render           | Saved: '/home/runner/work/forge-motion/forge-motion/frames/preacher_curl_m/b/31.png'
+Warning: extensions.blender.org: [Errno 2] No such file or directory: '/home/runner/.config/blender/5.2/extensions/blender_org'
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info FROM_SOURCE
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+REALISTIC True
+[WARN ] material.mhmaterial ....................: Patching input material line to cater for non-normalized key ('bumpTexture', 'bumpmapTexture')
+OBJ import of 'base.obj' took 10.09 ms
+OBJ import of 'high-poly.obj' took 1.28 ms
+OBJ import of 'eyebrow001.obj' took 0.33 ms
+OBJ import of 'eyelashes01.obj' took 0.39 ms
+OBJ import of 'short02.obj' took 1.25 ms
+OBJ import of 'shoes06.obj' took 1.17 ms
+frames/preacher_curl_m:
+a
+b
+
+frames/preacher_curl_m/a:
